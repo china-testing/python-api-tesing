@@ -1,0 +1,27 @@
+NumPy Beginner's Guide
+
+Chapter 7 Peeking into special functions
+
+Execute the Python example scripts of this chapter
+with
+
+   python <name script>
+
+bessel0.py Demonstrates the i0 function.
+extracted.py Demonstrates the extract function.
+futurevalue.py Demonstrates the fv function.
+interestrate.py Demonstrates the rate function.
+internalratereturn.py Demonstrates the irr function.
+lex.py Demonstrates the lexsort function.
+netpresentvalue.py Demonstrates npv function.
+numberpayments.py Demonstrates the nper function.
+payment.py Demonstrates the pmt function.
+plot_bartlett.py Demonstrates the bartlett function.
+plot_blackman.py Demonstrates the blackman function.
+plot_hamming.py Demonstrates the hamming function.
+plot_kaiser.py Demonstrates the kaiser function.
+plot_sinc.py Demonstrates the sinc function.
+presentvalue.py Demonstrates the pv function.
+sinc2d.py Demonstrates the sinc function in 2D.
+sortcomplex.py Demonstrates the sort_complex function.
+sortedsearch.py Demonstrates the searchsorted function.

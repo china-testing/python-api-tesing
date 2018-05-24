@@ -1,0 +1,6 @@
+click
+tinydb
+six
+
+[mongo]
+pymongo

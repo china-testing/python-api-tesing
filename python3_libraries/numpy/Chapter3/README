@@ -1,0 +1,43 @@
+Chapter 3 Get into terms with commonly used functions
+
+atr.py Calculates the average true range. Run with for instance
+   python atr.py 5, where 5 is the number of days.
+
+bollingerbands.py Calculates and plots Bollinger bands. Run with for instance
+   python bollingerbands.py 5, where 5 is the number of days.
+
+ema.py Calculates and plots the exponential moving average. Run with for instance
+   python ema.py 5
+
+save.py Demonstrates the savetxt function. Run with 
+   python save.py
+   
+linearmodel.py Computes a linear model. Run with for instance
+   python linearmodel.py 5
+
+ndarraymethods.py Demonstrates the methods of ndarray. Run with 
+   python ndarraymethods.py
+
+range.py Calculates price ranges. Run with
+   python range.py
+
+returns.py Calculates simple returns and logarithmic returns. Run with
+   python returns.py
+
+simplestats.py Computes simple statistics. Run with
+   python simplestats.py
+
+sma.py Calculates and plots the simple moving average. Run with for instance
+   python sma.py 5
+
+trendline.py Calculates and plots trendlines. Run with for instance
+   python trendlines.py 5
+
+vwap.py Computes the VWAP. Run with
+   python vwap.py
+
+weekdays.py Analyzes prices based on weekdays. Run with
+   python weekdays.py
+
+weeksummary.py Summarizes historical data per week. Run with
+   python weeksummary.py

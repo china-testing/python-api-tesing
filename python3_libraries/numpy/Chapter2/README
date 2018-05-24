@@ -1,0 +1,27 @@
+Chapter 2 Beginning with NumPy fundamentals
+
+The scripts below demonstrate various aspects of
+NumPy arrays and data types.
+
+Run from the commandline with 
+
+python <name of script>
+
+where name of script is one of the following:
+
+arrayattributes.py
+arrayattributes2.py
+arrayconversion.py
+charcodes.py
+dtypeattributes.py
+dtypeattributes2.py
+dtypeconstructors.py
+elementselection.py
+numericaltypes.py
+record.py
+shapemanipulation.py
+slicing.py
+slicing1d.py
+splitting.py
+stacking.py
+

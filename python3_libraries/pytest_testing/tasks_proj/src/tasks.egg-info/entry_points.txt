@@ -1,0 +1,3 @@
+[console_scripts]
+tasks = tasks.cli:tasks_cli
+

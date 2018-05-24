@@ -1,0 +1,7 @@
+/opt/test_tools/base/faceunlock_test_general_meil/run: line 10: ./threshold: No such file or directory
+get liveness score
+cat: output/files.txt: No such file or directory
+split: cannot open 'output/files.txt' for reading: No such file or directory
+cat: 'tmp/17:04:21_out_*': No such file or directory
+rm: cannot remove 'tmp/17:04:21_imglist_*': No such file or directory
+rm: cannot remove 'tmp/17:04:21_out_*': No such file or directory

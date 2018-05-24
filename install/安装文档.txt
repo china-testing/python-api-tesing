@@ -1,0 +1,12 @@
+1，seaweedfs
+
+https://github.com/chrislusf/seaweedfs/wiki/Getting-Started
+
+先下载
+
+# apt-get install golang-go
+# mkdir -p /opt/weedfs
+# nohup ./weed server -master.port=9333 -volume.port=8080 -ip=172.20.15.200 -dir="/data/seaweedfs" >server.log 2>&1 &
+上传文件
+$ curl -F file=@/home/andrew/index.png http://172.20.15.200:9333/submit
+{"fid":"6,07f9a64026","fileName":"index.png","fileUrl":"172.20.15.200:8080/6,07f9a64026","size":4763}

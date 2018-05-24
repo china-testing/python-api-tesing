@@ -1,0 +1,31 @@
+NumPy Beginner's Guide
+
+Chapter 9 Plotting with Matplotlib
+
+
+candlesticks.py Demonstrates candlesticks on stock charts.
+   Run with python candlesticks.py <symbol>
+
+emalegend.py Demonstrates plot legends.
+   Run with python emalegend.py <symbol>
+
+fillbetween.py Demonstrates region shading.
+   Run with python fillbetween.py <symbol>
+
+logy.py Demonstrates logplots.
+   Run with python logy.py <symbol>
+
+polyplot.py Demonstrates simple plots.
+   Run with python polyplot.py <coefficients>
+
+polyplot2.py Demonstrates simple plots.
+   Run with python polyplot2.py <coefficients>
+
+polyplot3.py Demonstrates simple plots.
+   Run with python polyplot3.py <coefficients>
+
+scatterprice.py Demonstrates scatter plots.
+   Run with python scatterprice.py <symbol>
+
+stockhistogram.py Demonstrates histograms.
+   Run with python stockhistogram.py <symbol>

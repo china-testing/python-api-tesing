@@ -1,0 +1,17 @@
+# BBTravis CI configuration file
+
+language: python
+python:
+  - "2.7"
+  - "3.6"
+
+install:
+  - pip install -U pip
+  - |
+      # pip installs
+      set -e
+      pip install twisted
+      pip install -e .
+# Tests running commands
+script:
+  - trial hello

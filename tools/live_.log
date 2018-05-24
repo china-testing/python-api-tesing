@@ -1,0 +1,23 @@
+nohup: ignoring input
+/home/andrew/code/data/tof/base_test_data/vivo-liveness
+/home/andrew/code/data/tof/base_test_data/vivo-liveness
+liveness 3.10.0
+mkdir /opt/test_tools/faceunlock_test_general_meil/result/liveness-2018-05-04_00-05-21-base-3.10.0 .
+cd /opt/test_tools/faceunlock_test_general_meil && nohup ./run -l output/files.txt > live.log 2>&1 & 
+Please see result in /opt/test_tools/faceunlock_test_general_meil/result/liveness-2018-05-04_00-05-21-base-3.10.0
+Waiting sample_liveness
+Traceback (most recent call last):
+  File "run_server.py", line 184, in <module>
+    replace=replace, error_name=error_name, type_=options.data_type)
+  File "/home/andrew/code/mobile_data/servers.py", line 212, in get_liveness_server_result
+    result = get_live_frr_far(group, 'score', score, 'label')
+  File "/home/andrew/code/mobile_data/servers.py", line 23, in get_live_frr_far
+    frr_number = len(df.loc[((df[colomn1] > score) & (df[colomn2] == 0))])
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/ops.py", line 879, in wrapper
+    res = na_op(values, other)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/ops.py", line 783, in na_op
+    result = _comp_method_OBJECT_ARRAY(op, x, y)
+  File "/usr/local/lib/python3.5/dist-packages/pandas/core/ops.py", line 763, in _comp_method_OBJECT_ARRAY
+    result = lib.scalar_compare(x, y, op)
+  File "pandas/_libs/lib.pyx", line 706, in pandas._libs.lib.scalar_compare
+TypeError: unorderable types: str() > float()

@@ -1,0 +1,78 @@
+{% extends "base.html" %}
+
+{% block navbar %}
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="true" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Home</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <form class="navbar-form navbar-right" action="/login" method="POST">
+            <div class="form-group">
+              <input type="text" name="email" placeholder="Email" class="form-control" autofocus>
+            </div>
+            <div class="form-group">
+              <input type="password" name="password" placeholder="Password" class="form-control">
+            </div>
+            <input type="submit" value="Sign in" class="btn btn-success">
+          </form>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </nav>
+{% endblock %}
+
+
+{% block content %}
+    <div class="jumbotron">
+      <div class="container">
+        <h1>Waiter Caller</h1>
+        <p>Your patrons can call their waiter anytime, using only their phone</p>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h2>Simple</h2>
+          <p>Just print out the URLs and put them on the tables of your restaurant. No specialized hardware required. </p>
+        </div>
+        <div class="col-md-4">
+          <h2>Cost effective</h2>
+          <p>No need to buy hardware either for your tables or for your kitchen. Management and usage all directly from this page.</p>
+       </div>
+        <div class="col-md-4">
+          <h2>Register now</h2>
+             <form class="form-horizontal" action="/register" method="POST">
+                <div class="form-group">
+                    <div class="col-sm-9">
+                        <input type="email" name="email" id="email" placeholder="Email address" class="form-control">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-9">
+                        <input type="password" name="password" id="password" placeholder="Password" class="form-control">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-9">
+                        <input type="password" name="password2" id="password2" placeholder="Confirm password" class="form-control">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-sm-9">
+                        <input type="submit" value="Register" class="btn btn-primary btn-block">
+                    </div>
+                </div>
+            </form> <!-- /form -->
+        </div>
+      </div>
+    </div>
+{% endblock %}
+

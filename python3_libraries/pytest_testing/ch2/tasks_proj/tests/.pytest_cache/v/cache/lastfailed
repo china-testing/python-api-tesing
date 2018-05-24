@@ -1,0 +1,4 @@
+{
+  "unit/test_task_fail.py::test_dict_equality": true,
+  "unit/test_task_fail.py::test_task_equality": true
+}

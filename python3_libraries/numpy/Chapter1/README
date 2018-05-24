@@ -1,0 +1,17 @@
+Chapter 1 of NumPy Beginners Guide.
+
+Prerequisites:
+   You should have Python and NumPy installed on your system.
+
+There is one program in this chapter that demonstrates vector addition the Python way.
+Run from the command line as follows
+  
+python vectorsum.py n
+
+where n is an integer that specifies the size of the vectors. For example,
+
+python vectorsum.py 1000
+
+The first vector to be added contains the squares of 0 up to n. 
+The second vector contains the cubes of 0 up to n.
+The program prints the last 2 elements of the sum and the elapsed time.

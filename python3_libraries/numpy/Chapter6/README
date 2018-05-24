@@ -1,0 +1,47 @@
+NumPy Beginner's Guide
+Chapter 6 Move further with NumPy Modules
+
+The following scripts below are part of the example code. 
+Python and NumPy is required for most of the scripts,
+for some Matplotlib is also needed.
+
+
+Every script can be run with the command
+
+python <name of script>
+
+decomposition.py  
+   Demonstrates the svd function.
+
+determinant.py 
+   Demonstrates the det function.
+
+eigenvalues.py 
+   Demonstrates the eig and eigvals functions.
+
+fourier.py  
+   Demonstrates the fft and ifft functions.
+
+fouriershift.py   
+   Demonstrates the fftshift and ifftshift functions.
+
+headortail.py 
+   Demonstrates the binomial function.
+   
+inversion.py 
+   Demonstrates the inv function.
+
+lognormaldist.py 
+   Demonstrates the lognormal function.
+
+normaldist.py 
+   Demonstrates the normal function.
+
+pseudoinversion.py 
+   Demonstrates the pinv function.
+
+solution.py 
+   Demonstrates the solve function.
+
+urn.py 
+   Demonstrates the hypergeometric function.

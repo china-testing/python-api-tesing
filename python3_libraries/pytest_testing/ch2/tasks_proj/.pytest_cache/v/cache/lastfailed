@@ -1,0 +1,7 @@
+{
+  "tests/func/test_add_variety.py::TestAdd": true,
+  "tests/func/test_api_exceptions.py::TestUpdate": true,
+  "tests/func/test_unique_id_1.py::test_unique_id": true,
+  "tests/unit/test_task_fail.py::test_dict_equality": true,
+  "tests/unit/test_task_fail.py::test_task_equality": true
+}

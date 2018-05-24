@@ -1,0 +1,17 @@
+NumPy Beginner's Guide
+
+Chapter 8 Assuring quality with testing
+
+NumPy 1.3+ required. Run the scripts with 
+
+python <name of script>
+
+almostequal.py Demonstrates the assert_almost_equal function.
+approxequal.py Demonstrates the assert_approx_equal function.
+arrayalmostequal.py Demonstrates the assert_array_almost_equal function.
+arrayequal.py Demonstrates the assert_array_equal function.
+arrayless.py Demonstrates the assert_array_less function.
+equal.py Demonstrates the assert_equal function.
+maxulp.py Demonstrates the assert_array_max_ulp function.
+nulp.py Demonstrates the assert_almost_equal_nulp function.
+stringequal.py Demonstrates the assert_string_equal function.

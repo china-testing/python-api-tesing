@@ -1,0 +1,19 @@
+NumPy Beginner's Guide
+
+Chapter 10 When Numpy is not enough: Scipy and beyond
+
+The example code requires SciPy and Matplotlib.
+
+Run the code examples with
+
+python <name of script>
+
+frequencies.py Demonstrates FFT transforms.
+gaussquad.py Demonstrates numerical integration.
+images.py Demonstrates image manipulation.
+optfit.py Demonstrates optimization.
+pair.py Demonstrates two samples statistical tests.
+scipyio.py Demonstrates Matlab/Octave interoperability.
+sincinterp.py Demonstrates interpolation.
+statistics.py Demonstrates statistical functionality.
+trend.py Demonstrates the detrend function.

@@ -1,0 +1,40 @@
+Chapter 5 Working with matrices and ufuncs
+
+The accompanying code demonstrates NumPy matrices and universal functions.
+These are the Python scripts:
+
+answer42.py Returns 42.
+   Run with python answer42.py
+
+bittwiddling.py Demonstrates bitwise and comparison functions.
+   Run with python bittwiddling.py
+
+bmatcreation.py Demonstrates matrix creation with the bmat function.
+   Run with python bmatcreation.py
+
+dividing.py Demonstrates the NumPy division functions.
+   Run with python dividing.py
+
+fibonacci.py Shows calculation of Fibonacci numbers.
+   Run with python fibonacci.py
+
+lissajous.py Draws Lissajous figuresa and requires Matplotlib.
+   Run with python lissajous.py 9 8
+
+matrixcreation.py Demonstrates matrix creation.
+   Run with python matrixcreation.py
+
+modulo.py Demonstrates the modulo operation.
+   Run with python modulo.py
+
+sawtooth.py Draws a sawtooth wave and requires Matplotlib.
+   Run with python sawtooth.py 99
+
+squarewave.py Draws a square wave and requires Matplotlib.
+   Run with python squarewave.py 99
+
+ufuncattributes.py Demonstrates the attributes of universal functions.
+   Run with python ufuncattributes.py
+
+ufuncmethods.py Demonstrates universal functions methods.
+   Run with python ufuncmethods.py

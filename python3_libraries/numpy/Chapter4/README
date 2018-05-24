@@ -1,0 +1,21 @@
+Chapter 4 Convenience functions for your convenience
+
+The following scripts are part of the chapter 4 code:
+
+correlation.py 
+   Run with python correlation.py
+
+mode.py
+   Run with python mode.py
+
+obv.py
+   Run with python obv.py
+
+polynomials.py
+   Run with python polynomials.py 3
+
+simulation.py
+   Run with python simulation.py 0.999
+
+smoothing.py
+   Run with python smoothing.py 8

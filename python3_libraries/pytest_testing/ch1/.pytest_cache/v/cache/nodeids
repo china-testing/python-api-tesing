@@ -1,0 +1,6 @@
+[
+  "tasks/task1_test.py::test_defaults",
+  "tasks/task1_test.py::test_member_access",
+  "tasks/task2_test.py::test_asdict",
+  "tasks/task2_test.py::test_replace"
+]
