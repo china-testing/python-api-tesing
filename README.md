@@ -32,7 +32,7 @@ tools目录：
 
 [python、软件测试等海量书籍](books.md)
 
-[接口自动化性能测试线上培训大纲](https://xurongzhong.github.io/testing_training.html)
+[接口自动化性能测试线上培训大纲](https://china-testing.github.io/testing_training.html)
 
 Table of Contents
 =================
@@ -662,7 +662,7 @@ django-viewlet因为github星级太少而未收录
 
  * pyocr：Tesseract 和 Cuneiform 的包装库。[链接](https://github.com/openpaperwork/pyocr) 
 
- * pytesseract：Google Tesseract OCR 的另一包装库。[链接](https://github.com/madmaze/pytesseract) [文档](https://xurongzhong.github.io/python3_lib_pytesseract.html)
+ * pytesseract：Google Tesseract OCR 的另一包装库。[链接](https://github.com/madmaze/pytesseract) [文档](https://china-testing.github.io/python3_lib_pytesseract.html)
 
  * SimpleCV：一个用来创建计算机视觉应用的开源框架。[链接](https://github.com/sightmachine/SimpleCV) 
 
@@ -1904,7 +1904,7 @@ Archive
 
 ### 持续更新
 
-[接口自动化性能测试线上培训大纲](https://xurongzhong.github.io/testing_training.html)
+[接口自动化性能测试线上培训大纲](https://china-testing.github.io/testing_training.html)
 
 交流QQ群：python 测试开发自动化测试 144081101  Python数据分析pandas Excel 630011153 中医草药自学自救大数据 391441566 南方中医草药鉴别学习 184175668 中医草药湿热湿疹胃病 291184506 python高级人工智能视觉 6089740 
 
