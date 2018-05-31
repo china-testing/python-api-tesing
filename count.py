@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 # Author:    xurongzhong#126.com wechat:pythontesting qq:37391319
 # CreateDate: 2018-1-8
