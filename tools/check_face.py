@@ -51,8 +51,6 @@ if __name__ == '__main__':
     for i in range(number):
         process[i].start()
     
-    df = pd.read_excel('/opt/test_tools/base/faceunlock_test_general_meil/result/live_detect_error.xlsx')
-    
     for item  in df['ir']:
         queue.put(item)
         

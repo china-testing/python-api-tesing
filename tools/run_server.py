@@ -38,6 +38,11 @@ $ python3 run_server.py verify -w  -d /home/andrew/code/data/common/verify/china
 $ python3 run_server.py verify -w -t vivo-verify-100
 $ python3 run_server.py verify -w  -d /home/andrew/code/data/common/verify/india_32/ -e yuv
 
+检测示例：
+
+$ python3 run_server.py detect -w -d /home/andrew/code/data/test/检测
+
+
 测试工具的目录：
 活体：/opt/test_tools/faceunlock_test_general_meil
 其他：/opt/test_tools/base/faceunlock_test_general_meil，即默认目录。
@@ -101,6 +106,14 @@ types = {
         'batch1.7.6':'/home/andrew/code/data/tof/vivo3D_batch_test/liveness_batch/demo_1.7.6_test',
         'batch1.7.7':'/home/andrew/code/data/tof/vivo3D_batch_test/demo_1.7.7_test',
         'little':'/home/andrew/code/data/tof/little_test_data/little_hacker',                
+        },   
+    
+    "detect": {
+        'file_type':'ir',
+        'name': 'detect',
+        'process': 'sample_detect',
+        'flag':'photo/',
+        'cmd': "nohup ./run -d output/files.txt > detect.log 2>&1 & ",           
         },
     
     "landmark":{
@@ -174,12 +187,19 @@ if not options.w:
     
 
 # anlyse result
-result = "{0}{1}{2}{1}{2}_output%files.txt.csv".format(
+if options.test_type == 'detect':
+    result = "{0}{1}{2}{1}{2}_output%files.txt.txt".format(
     tool, os.sep, options.test_type)
+else:
+    result = "{0}{1}{2}{1}{2}_output%files.txt.csv".format(
+        tool, os.sep, options.test_type)
+    
 if options.test_type == 'verify':
     result = "{0}{1}{2}{1}{2}_score_output%i_enroll.txt.csv".format(
         tool, os.sep, options.test_type)    
     print(result)
+    
+time.sleep(3)       
 servers.wait_until_stop('sample')
 
 time.sleep(3)    
@@ -189,6 +209,20 @@ print(result)
 print(new_result)
 shutil.copyfile(result, new_result)
 error_name = "{0}{1}{2}----result.xlsx".format(directory, os.sep, version)
+
+if options.test_type == 'detect':
+    # 生成图片
+    names = data_common.file2list(result,basename=True)
+    data_common.output_file('/home/andrew/code/tmp/detection_results.txt', names)
+    subprocess.call("cd  /home/andrew/code/tmp/facedet-profile && rm -rf cache",
+                    shell=True)    
+    subprocess.check_output("cd /home/andrew/code/tmp/facedet-profile  && python3 get_roc.py > {}/log.txt".format(directory), 
+                            shell=True)       
+    print("copyinig")
+    src = "/home/andrew/code/tmp/facedet-profile/roc.png"
+    dst = "{}/{}-roc.png".format(directory, version)
+    time.sleep(0.5)
+    shutil.copyfile(src, dst)
 
 if options.test_type != 'verify':
     values = "{0}{1}{2}-values.csv".format(directory, os.sep, version)
