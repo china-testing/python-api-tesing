@@ -116,6 +116,14 @@ types = {
         'cmd': "nohup ./run -d output/files.txt > detect.log 2>&1 & ",           
         },
     
+    "eyestate": {
+        'file_type':'ir',
+        'name': 'eyestate',
+        'process': 'sample_eyestate',
+        'flag':'photo/',
+        'cmd': "nohup ./run -e output/files.txt > eyestate.log 2>&1 & ",           
+        },    
+    
     "landmark":{
         'file_type':'ir',
         'name': 'detect',

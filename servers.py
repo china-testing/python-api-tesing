@@ -30,11 +30,11 @@ def get_live_frr_far(df,colomn1,score,colomn2):
     # 2d假人识别为真人
     
     far_number_2d = far_number_3d = 0
-    #far_number_2d = len(df.loc[((df[colomn1] < score) & (df[colomn2] == 1) &
-                                #df['filename'].str.contains('/2D_photo/', regex=False))]) 
+    far_number_2d = len(df.loc[((df[colomn1] < score) & (df[colomn2] == 1) &
+                                df['filename'].str.contains('/2D_photo/', regex=False))]) 
     ## 3d假人识别为真人
-    #far_number_3d = len(df.loc[((df[colomn1] < score) & (df[colomn2] == 1) &
-                                #df['filename'].str.contains('/3D_photo/', regex=False))])      
+    far_number_3d = len(df.loc[((df[colomn1] < score) & (df[colomn2] == 1) &
+                                df['filename'].str.contains('/3D_photo/', regex=False))])      
     frr = 0 if not real_number else frr_number/float(real_number)
     far2d = 0 if not num_2d else far_number_2d/float(num_2d)
     far3d = 0 if not num_3d else far_number_3d/float(num_3d)
