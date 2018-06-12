@@ -42,6 +42,10 @@ $ python3 run_server.py verify -w  -d /home/andrew/code/data/common/verify/india
 
 $ python3 run_server.py detect -w -d /home/andrew/code/data/test/检测
 
+睁闭眼示例：
+
+$ python3 run_server.py eyestate -w -d /home/andrew/code/data/common/bug/Eye_state/FACEUNLOCK-1150
+
 
 测试工具的目录：
 活体：/opt/test_tools/faceunlock_test_general_meil
