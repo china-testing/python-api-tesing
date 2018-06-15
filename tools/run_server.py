@@ -58,7 +58,7 @@ parser.add_argument('test_type', action="store", help=u'测试类型')
 parser.add_argument('-d', action='store', dest='directory', default=None,
                     help='数据集目录') 
 parser.add_argument('-b', action='store', dest='base', 
-                    default='/opt/test_tools/base/faceunlock_test_general_meil',
+                    default='/opt/test_tools/faceunlock_test_general',
                     help='比对工具目录, 默认为/opt/test_tools/base/faceunlock_test_general_meil') 
 parser.add_argument('-e', action='store', dest='ext', default='',
                     help='文件扩展名，默认为ir')   
@@ -264,7 +264,10 @@ if options.test_type == 'gaze':
     roc = "{0}{1}{2}-roc.txt".format(directory, os.sep, version)
     count.roc(result, label_name, fprs=fprs, output=roc, ) 
     servers.get_gaze_server_result(new_result, file_name, label_name, 
-        error_name=error_name, type_=options.data_type)    
+        error_name=error_name, type_=options.data_type)   
+    
+if options.test_type == 'eyestate':       
+    servers.get_eye_server_result(values, error_name=error_name,)
     
     
 if options.test_type == 'verify':

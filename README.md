@@ -1268,7 +1268,7 @@ Python版本和环境管理
 *   scikit-image：一个用于(科学)图像处理的 Python 库。[官网](http://scikit-image.org/) --推荐
 *   thumbor：小型图像服务，具有剪裁，尺寸重设和翻转功能。[官网](https://github.com/thumbor/thumbor) --推荐
 *   wand：[MagickWand](http://www.imagemagick.org/script/magick-wand.php)的 Python 绑定。MagickWand 是 ImageMagick 的 C API 。[官网](https://github.com/dahlia/wand)
-*   face_recognition：简单易用的 python 人脸识别库。[官网](https://github.com/ageitgey/face_recognition)
+*   face_recognition：简单易用的 python 人脸识别库。[官网](https://github.com/ageitgey/face_recognition) --强烈推荐
 *  [pagan](https://github.com/daboth/pagan) - 基于输入字符串和散列的复古identicon(阿凡达)生成。
 
 ## 实现(Implementations)
