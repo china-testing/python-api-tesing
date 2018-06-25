@@ -84,7 +84,7 @@ def rotateImage(image, angle):
 def rotate(files, dst, value=90):
     for file_ in files:
         img = Image.open(file_)
-        img = img.rotate(value)
+        img = img.rotate(value, expand=True)
         name = "{}{}{}".format(dst, os.sep, os.path.basename(file_))
         img.save(name)
         
