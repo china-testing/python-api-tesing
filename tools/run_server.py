@@ -9,11 +9,20 @@ import os
 import subprocess
 import time
 import re
+from pathlib import Path
+import sys
+import shutil
+import json
+import pprint
+
+import numpy as np
+import zmail
 
 import data_common
 import servers
 import count
-import numpy as np
+import others
+
 
 description = '''
 
@@ -62,6 +71,11 @@ parser.add_argument('-b', action='store', dest='base',
                     help='比对工具目录, 默认为/opt/test_tools/base/faceunlock_test_general_meil') 
 parser.add_argument('-e', action='store', dest='ext', default='',
                     help='文件扩展名，默认为ir')   
+parser.add_argument('-r', action='store', dest='recipients', 
+                    default='lixiaoxue_vendor@sensetime.com;xurongzhong@sensetime.com',
+                    help='邮件接收者')    
+parser.add_argument('-s', action='store', dest='score', default=0.99, 
+                    type=float, help='分数阀值，默认0.99')   
 parser.add_argument('-t', action='store', dest='data_type', default='',
                     help='数据集类型')     
 parser.add_argument('-w', action="store_true", default=False, help=u'是否等待结束')
@@ -109,7 +123,7 @@ types = {
         'batch1.7.5':'/home/andrew/code/data/tof/vivo3D_batch_test/liveness_batch/demo_1.7.5_test',
         'batch1.7.6':'/home/andrew/code/data/tof/vivo3D_batch_test/liveness_batch/demo_1.7.6_test',
         'batch1.7.7':'/home/andrew/code/data/tof/vivo3D_batch_test/demo_1.7.7_test',
-        'little':'/home/andrew/code/data/tof/little_test_data/little_hacker',                
+        'little':'/home/andrew/code/data/data_set/2d/little/liveness',                
         },   
     
     "detect": {
@@ -137,6 +151,8 @@ types = {
         },
 }
 
+
+
 tool = options.base
 now = time.strftime("%Y-%m-%d_%H-%M-%S", time.localtime())    
 if options.directory is None:
@@ -148,6 +164,24 @@ if options.directory is None:
 file_name = "{}{}{}".format(tool, os.sep, "output/files.txt")
 label_name = "{}{}{}".format(tool, os.sep, "output/labels.txt")
 config_name = "{}{}{}".format(tool, os.sep, "config.json")
+
+data_version = Path(options.directory).name
+raw_config = Path(options.directory).parent / "config" / (data_version + ".json")
+if raw_config.is_file():
+    shutil.copy2(raw_config, config_name)
+    
+# 检查配置文件，确认模型都存在
+d = json.load(open(config_name))
+print('\n{}\n'.format(config_name))
+print('#'*80)
+print('\n')
+pprint.pprint(d)
+
+for item in d['model']:
+    path = d['model'][item]
+    if not Path(options.base.rstrip(os.sep) + os.sep + path).exists():
+        print("Path: {} not exist".format(path))       
+        sys.exit(0)
 
 
 if options.ext:
@@ -184,19 +218,6 @@ shutil.copyfile(label_name,
                 "{}{}{}".format(directory, os.sep,os.path.basename(label_name)))
 shutil.copyfile(config_name, 
                 "{}{}{}".format(directory, os.sep,os.path.basename(config_name)))
-   
-cmd = "{} && {}".format(cmd1,types[options.test_type]['cmd'])
-print(cmd)
-subprocess.call(cmd,shell=True)
-
-time.sleep(5)
-
-print("Please see result in {}".format(directory))
-
-# wait for result
-if not options.w:
-    exit(0)
-    
 
 # anlyse result
 if options.test_type == 'detect':
@@ -208,17 +229,31 @@ else:
     
 if options.test_type == 'verify':
     result = "{0}{1}{2}{1}{2}_score_output%i_enroll.txt.csv".format(
-        tool, os.sep, options.test_type)    
-    print(result)
+        tool, os.sep, options.test_type)   
     
-time.sleep(3)       
-servers.wait_until_stop('sample')
+if Path(result).exists():
+    os.remove(result)
 
-time.sleep(3)    
+cmd = "{} && {}".format(cmd1,types[options.test_type]['cmd'])
+print(cmd)
+subprocess.call(cmd,shell=True)
+
+print("Please see result in {}".format(directory))
+
+# wait for result
+if not options.w:
+    exit(0)
+
+print(result)       
+time.sleep(3)
+if not Path(result).exists():
+    servers.wait_until_stop('sample')
+
 
 new_result = "{0}{1}{2}-result.csv".format(directory, os.sep, version)
 print(result)
 print(new_result)
+time.sleep(1)
 shutil.copyfile(result, new_result)
 error_name = "{0}{1}{2}----result.xlsx".format(directory, os.sep, version)
 
@@ -252,12 +287,24 @@ if options.test_type == 'liveness':
         replace = '/home/andrew/code/data/tof/base_test_data/vivo-liveness/'
     else:
         replace = ''
-    servers.get_liveness_server_result(new_result, file_name, label_name, 
+        
+    df1, df2, df3, df4 = servers.get_liveness_server_result(
+        new_result, file_name, label_name, score=options.score,
         replace=replace, error_name=error_name, type_=options.data_type)
 
     roc = "{0}{1}{2}-roc.txt".format(directory, os.sep, version)
-    fprs = np.arange(0.10, 0, -0.01)    
-    count.roc(new_result_, label_name, output=roc, fprs=fprs)
+    fprs = [0.0+0.1*p for p in np.arange(1,10)] 
+    count.roc(new_result, label_name, output=roc, fprs=fprs)
+   
+    t1 = '参数：\n{}\n结果目录：\n{}\n配置文件：\n{}\nROC：\n{}\n'.format(
+        " ".join(sys.argv), directory, open(config_name).read(), open(roc).read())
+    
+    t2 = 'FAR_FRR：\n{}\n分类统计：\n{}'.format(df4.to_string(), df3.to_string())
+    
+    print("sending email")
+    recipients = options.recipients.split(';')
+    if others.send_mail(recipients,"活体比对测试结果", t1 + t2, files=[error_name]):
+        print("发送成功")
 
 if options.test_type == 'gaze':
     fprs = [0.3,0.25,0.2,0.15,0.1,0.05,0.02,0.01,0.001]

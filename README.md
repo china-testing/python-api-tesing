@@ -32,7 +32,9 @@ tools目录：
 
 [python、软件测试等海量书籍](books.md)
 
-[接口自动化性能测试线上培训大纲](https://china-testing.github.io/testing_training.html)
+[python测试开发自动化测试数据分析人工智能自学每周一练](https://www.jianshu.com/p/1873035ae75b)
+
+[接口自动化性能测试线上培训大纲](https://www.jianshu.com/p/4304156f323c)
 
 Table of Contents
 =================

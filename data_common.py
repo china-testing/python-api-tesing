@@ -106,6 +106,12 @@ def count(datas, values):
             percentage(success_number, test_number)]
 
 
+def file2html(name):
+    result = ''
+    for line in open(name):
+        result += line + "<br>"  
+    return result
+
 def percentage(number1, number2):
     value  = 0 if number2 == 0 else float(number1) / number2
     value = 0 if not value else "{0:.5f}%".format(value * 100)   
