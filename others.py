@@ -12,13 +12,7 @@ import smtplib
 
 
 def send_mail(recipients, sub, content, from_name='比对测试',server="smtp.126.com",
-    files=[]):
-    '''
-    to:发给谁
-    sub:主题
-    content:内容
-    send_mail("aaa@126.com","sub","content")
-    '''    
+    files=[]): 
     EMAIL_SEND_USER = os.environ.get('EMAIL_SEND_USER')
     EMAIL_SEND_PASSPORT = os.environ.get('EMAIL_SEND_PASSPORT')    
     msg =  MIMEMultipart()

@@ -1,7 +1,8 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# Author:    xurongzhong#126.com wechat:pythontesting qq group:630011153
-# CreateDate: 2018-3-14
+# Author:    xurongzhong#126.com wechat:pythontesting qq:37391319
+# qq群：144081101 591302926  567351477
+# CreateDate: 2018-06-07
 # series.py
 
 import pandas as pd
@@ -16,24 +17,26 @@ scientists = pd.DataFrame(
     columns=['Occupation', 'Born', 'Died', 'Age'])
 print(scientists)
 
-# 从数据帧(DataFrame)获取的行或者列为Series
+print("\n\n从数据帧(DataFrame)获取的行或者列为Series：")
 first_row = scientists.loc['William Gosset']
 print(type(first_row))
 print(first_row)
 
-# index和keys是一样的
+print("\n\nindex和keys是一样的：")
 print(first_row.index)
 print(first_row.keys())
-print(first_row.values)
 
+print("\n\nSeries取值：")
+print(first_row.values)
 print(first_row.index[0])
 print(first_row.keys()[0])
 
-# Pandas.Series和numpy.ndarray很类似
+print("\n\nPandas.Series和numpy.ndarray很类似：")
 ages = scientists['Age']
 print(ages)
 
 # 统计，更多参考http://pandas.pydata.org/pandas-docs/stable/basics.html#descriptive-statistics
+print("\n\n统计：平均值、最小值、最大值、方差")
 print(ages.mean())
 print(ages.min())
 print(ages.max())
@@ -57,8 +60,9 @@ print(ages + pd.Series([1, 100]))
 # print(ages + np.array([1, 100])) 会报错，不同类型相加，大小一定要一样
 print(ages + np.array([1, 100, 1, 100, 1, 100, 1, 100]))
 
-# 排序： 默认有自动排序
+print("\n\n排序： 默认有自动排序")
 print(ages)
+print("\n\n排序： ages.sort_index(ascending=False) 降序")
 rev_ages = ages.sort_index(ascending=False)
 print(rev_ages)
 print(ages * 2)

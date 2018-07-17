@@ -30,12 +30,25 @@ tools目录：
 
  * split_raw.py 切分raw图为ir,depth图
 
-[python、软件测试等海量书籍](books.md)
+[可爱的python测试开发库](https://github.com/china-testing/python-api-tesing)  请在github上点赞，谢谢！
 
-[python测试开发自动化测试数据分析人工智能自学每周一练](https://www.jianshu.com/p/1873035ae75b)
+[python中文库文档汇总](https://www.jianshu.com/p/7353375213ab)
+
+[[雪峰磁针石博客]python3标准库-中文版](https://www.jianshu.com/p/5a009aac9f59)
+
+[[雪峰磁针石博客]python3快速入门教程](https://www.jianshu.com/p/926869935071)
 
 [接口自动化性能测试线上培训大纲](https://www.jianshu.com/p/4304156f323c)
 
+[python测试开发自动化测试数据分析人工智能自学每周一练](https://www.jianshu.com/p/1873035ae75b)
+
+[软件自动化测试初学者忠告](https://www.jianshu.com/p/1be329b7bbc0)
+
+更多内容请关注 [雪峰磁针石：简书](https://www.jianshu.com/u/9bc194fde100) 
+
+* 技术支持qq群： 144081101(后期会录制视频存在该群群文件) 591302926 567351477 钉钉免费群：21745728 
+
+* 道家技术-手相手诊看相中医等钉钉群21734177 qq群：391441566 184175668 338228106 看手相、面相、舌相、抽签、体质识别。服务费50元每人次起。请联系钉钉或者微信pythontesting
 Table of Contents
 =================
 
@@ -61,6 +74,7 @@ Table of Contents
       * [音频(Audio)](#音频audio)
       * [认证(Authentication)](#认证authentication)
       * [内置类增强(Built-in Classes Enhancement)](#内置类增强built-in-classes-enhancement)
+	  * [区块链(Blockchain)](#区块链Blockchain)
       * [CMS(Content Management Systems)](#cmscontent-management-systems)
       * [缓存(Caching)](#缓存caching)
       * [自动聊天工具(ChatOps Tools)](#自动聊天工具chatops-tools)
@@ -238,13 +252,17 @@ autopy、WATSUP、winGuiAuto因为较长时间未更新未收录
 
  * funkload - 性能及功能测试工具。 [链接](http://funkload.nuxeo.org/) --推荐
 
- * multi-mechanize - python性能测试工具，基于多进程和多线程，是学习性能测试goon工具的佳品。 [链接](https://github.com/cgoldberg/multi-mechanize) --推荐
+ * [**Locust.io**](http://locust.io/) – 了解服务器端性能的好工具。 语言python3。[源码](https://github.com/locustio/locust) python3+ python2.7+ github上star和fork最多的性能测试工具。 --强烈推荐
 
- * locust - 强大的性能测试工具，使用了协程。 [链接](https://github.com/locustio/locustt) --推荐
+ * [**Bees with Machine Guns**](https://github.com/newsapps/beeswithmachineguns) – 进行负载测试的蜜蜂(微型EC2实例)。  语言python3+ python2.6+ --强烈推荐
+
+ * [**Multi-Mechanize**](https://github.com/cgoldberg/multi-mechanize) – 用于性能和负载测试的开源框架，它运行并发Python脚本以生成针对远程站点或服务的负载(复合事务)。它通常用于Web性能和扩展性测试，但您也可以使用Multi-Mechanize来测试任何远程API。 --基于python多进程和多线程实现，学习自行开发性能测试的佳品。 Python 2.6 or 2.7 较长时间没有更新，一般只建议改造使用。
 
  * ngrinder - 市面上最强大的性能测试工具之一，主要用jython书写脚本，性能在loadrunner和jmeter之上，扩展性好。 [链接](https://github.com/naver/ngrinder) --强烈推荐
 
  * boom - 类似ab(ApacheBench)的性能测试工具。 [链接](https://github.com/tarekziade/boom) 
+ 
+ 
 
 ## 测试框架
 
@@ -506,6 +524,12 @@ scikits.talkbox 因长时间未更新未收录
 ## 内置类增强(Built-in Classes Enhancement)
 
 * [attrs](https://github.com/python-attrs/attrs) - 替换类定义中的__init__，__eq__，__repr__等样板文件。
+* [bidict](https://github.com/jab/bidict) - 高效的双向字典。
+* [Box](https://github.com/cdgriffith/Box) - 点符号访问的Python字典
+
+## 区块链(Blockchain)
+
+* [blockchain](https://github.com/dvf/blockchain) - 简单的区块链。
 * [bidict](https://github.com/jab/bidict) - 高效的双向字典。
 * [Box](https://github.com/cdgriffith/Box) - 点符号访问的Python字典
 
