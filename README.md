@@ -1662,7 +1662,11 @@ Python版本和环境管理
 
 -- 实际pandas为第一数据处理库，支持所有excel格式, 不过会依赖上面的一些库。
 
-合并多个excel表，插件mergebooks.dll和vba可以搞定。多表统计求和VBA可以搞定，[参考资料](https://www.zhihu.com/question/20366713), 当然pandas会比它们更强大。PyXLL
+合并多个excel表，插件mergebooks.dll和vba可以搞定。多表统计求和VBA可以搞定，[参考资料](https://www.zhihu.com/question/20366713), 当然pandas会比它们更强大。
+
+[PyXLL](http://www.opentradingsystem.com/PythonForExcel/main.html)用于在excel中用python替代VBA.
+
+Pywin32  也可通过COM口连接excel。
         
 ### PDF
 

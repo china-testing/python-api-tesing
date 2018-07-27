@@ -6,7 +6,7 @@ class MockDBHelper:
     def add_crime(self, category, date, latitude, longitude, description):
         data = [category, date, latitude, longitude, description]
         for i in data:
-            print i, type(i)
+            print(i, type(i))
 
     def get_all_crimes(self):
         return [{'latitude': -33.301304,
