@@ -9,7 +9,6 @@ import traceback
 
 import cv2
 import numpy as np
-import face_recognition
 from PIL import Image, ImageDraw
 
 def mark_image(filename, dst, poses, angle=None, relative=False):
@@ -104,7 +103,7 @@ def find_face(filename, rotate=None, model=None):
     else:
         return face_recognition.face_locations(img)  
     
-def raw2jpg(filename, height=480, width=640):
+def raw2jpg(filename, height=400, width=640):
     try:
         img = np.fromfile(filename, dtype=np.uint16)
         img = img.reshape( (height, width) )

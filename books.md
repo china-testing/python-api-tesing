@@ -1,19 +1,241 @@
    * [书籍](#书籍)
-      * [python](#python)
+      * [c_c  ](#c_c)
+      * [网络安全](#网络安全)
+         * [综合](#综合)
+         * [backbox](#backbox)
+         * [Metasploit](#metasploit)
+         * [kali](#kali)
+         * [mobile](#mobile)
+         * [nessus](#nessus)
+         * [nmap](#nmap)
+         * [python](#python)
+         * [wireshark](#wireshark)
+      * [python](#python-1)
+         * [python performance](#python-performance)
          * [python_web](#python_web)
             * [flask](#flask)
             * [Django](#django)
             * [python_web其他](#python_web其他)
          * [数据分析](#数据分析)
             * [pandas](#pandas)
+            * [NumPy](#numpy)
             * [爬虫](#爬虫)
          * [机器学习](#机器学习)
          * [UI](#ui)
          * [PYTHON图像处理](#python图像处理)
             * [opencv](#opencv)
+            * [python图像其他](#python图像其他)
       * [测试](#测试)
+      * [数据库](#数据库)
+         * [PostgreSQL](#postgresql)
+         * [MySQL](#mysql)
+         * [oracle](#oracle)
+         * [Redis](#redis)
+         * [MongoDB](#mongodb)
+      * [分布式系统](#分布式系统)
+      * [人工智能机器学习](#人工智能机器学习)
+         * [Scikit-learn](#scikit-learn)
 
 # 书籍	
+
+
+## c_c++
+
+[c_c++书籍下载地址](https://u18113597.pipipan.com/u/18113597/29383236)
+
+Absolute C++ 5th - 2013.pdf
+
+A TourofC++ 2nd - 2018.pdf
+
+Autodesk Inventor Programming In C++ - 2016.pdf
+
+Beginning C++17 From Novice to Professional, 5th edition - 2018.pdf
+
+Beginning C++ Game Programming - 2016.pdf
+
+beginning c++ programming - 2017.pdf
+
+Boost.Asio C++ Network 2nd - 2015.pdf
+
+Boost.Asio C++ Network Programming Cookbook - 2016.pdf
+
+Boost C++ Application Development Cookbook - Second Edition - 2017.pdf
+
+C++17ByExample - 2018.pdf
+
+@C++17 Quick Syntax Reference A Pocket Guide to the Language, APIs and Library, 3rd edition - 2018.pdf
+
+C++17 STL Cookbook - 2017.pdf
+
+C++ Advanced Features and Programming Techniques - 2017.pdf
+
+C++ for Everyone, Second Edition - 2012 .pdf
+
+C++ for Financial Mathematics - 2017.pdf
+
+C++ HOW TO PROGRAM 10th - 2017.pdf
+
+Clean C++ Sustainable Software Development Patterns and Best Practices with C++ 17 - 2017.pdf
+
+[@C++](https://my.oschina.net/u/219872) Programming For Beginners Crash Course - 2016.pdf
+
+C++ ReactiveProgramming - 2018.pdf
+
+Cryptography in C and C++ 2nd - 2013.pdf
+
+Data Clustering in C++ - 2011.pdf
+
+Data Structures and Algorithms in C++ Pocket Primer - 2018.pdf
+
+Deep Belief Nets in C++ and CUDA C Volume 3 Convolutional Nets - 2018.pdf
+
+Effective C++ Digital Collection 140 Ways to Improve Your Programming - 2012.pdf
+
+ExploringC++11 2nd - 2013.pdf
+
+Game Programming in C++ Creating 3D Games - 2018.pdf
+
+Hands-On Design Patterns with C++ - 2018.pdf
+
+Introduction to Programming with C++ (3rd edition).pdf
+
+@Kickstart Coding C++ by Nathaniel Cannon - 2014.pdf
+
+Learn C++ for Game Development - 2014.pdf
+
+Learning C++ Functional Programming - 2017.pdf
+
+Mastering C++ Multithreading - 2017.pdf
+
+Mastering the C++17 STL - 2017.pdf
+
+Object -Oriented Programming C++ Simplified - 2015.pdf
+
+Object Oriented Programming with C++, 2nd edition - 2012.pdf
+
+Options and Derivatives Programming in C++ - 2016.pdf
+
+Practical C++ Metaprogramming - 2016.pdf
+
+Practice Guidebook for  Object Oriented C++ Language - 2016.pdf
+
+Problem Solving in Data Structures and Algorithms Using C  - 2017.pdf
+
+ProblemsSolvinginDataStructures&AlgorithmsUsingC++ - 2016.pdf
+
+Starting Out with C++ from Control Structures to Objects (9th Edition) - 2018.pdf
+
+The C++ Programming Language, 4th Edition - 2013.epub
+
+The Modern C++ Challenge - 2018.pdf
+
+## 网络安全
+
+### 综合
+
+ * [Anti-Hacker Tool Kit, 4th Edition- 2014.pdf](https://u18113597.pipipan.com/fs/18113597-302583318)
+ * [Applied Network Security - 2017.pdf](https://u18113597.pipipan.com/fs/18113597-302583336)
+ * [From Hacking to Report Writing - 2016.pdf](https://u18113597.pipipan.com/fs/18113597-302583345)
+ * [From_Police_to_Security_Professional 2015.pdf](https://u18113597.pipipan.com/fs/18113597-302583346)
+ * [Game Hacking - 2016.pdf](https://u18113597.pipipan.com/fs/18113597-302583354)
+ * [Hacking Basic Security, Penetration Testing and How to Hack - 2015.pdf](https://u18113597.pipipan.com/fs/18113597-302583357)
+ * [Hacking For Dummies, 6th Edition - 2018.pdf](https://u18113597.pipipan.com/fs/18113597-302583360)
+ * [黑客达人迷 - 2013.pdf](https://://u18113597.pipipan.com/fs/18113597-302845269) 系Hacking For Dummies 第3版的中文扫描版
+
+ * [Practical Linux Security Cookbook - 2016.pdf](https://u18113597.pipipan.com/fs/18113597-302583384)
+ * [The Antivirus Hacker-s Handbook - 2015.pdf](https://u18113597.pipipan.com/fs/18113597-302583387)
+ * [Hands-On Penetration Testing on Windows - 2018.pdf](https://itbooks.ctfile.com/fs/18113597-302639985)
+
+### backbox
+
+ * [backbox Penetration Testing with BackBox - 2014.pdf](https://u18113597.pipipan.com/fs/18113597-302583975)
+
+### Metasploit
+
+ * [Mastering Metasploit 2nd Edition - 2016.pdf](https://itbooks.ctfile.com/fs/18113597-302800779)
+
+ * [Metasploit Bootcamp - 2017.epub](https://itbooks.ctfile.com/fs/18113597-302800744)
+
+ * [Metasploit for Beginners - 2017.epub](https://itbooks.ctfile.com/fs/18113597-302800732)
+
+ * [Wireshark for Security Professionals Using Wireshark and the Metasploit Framework - 2017.pdf](https://itbooks.ctfile.com/fs/18113597-302800722)
+
+### kali
+
+ * [Basic Security Testing with Kali Linux 2 - 2016.pdf](https://u18113597.pipipan.com/fs/18113597-302586472)
+ * [Digital Forensics with Kali Linux - 2017.pdf](https://u18113597.pipipan.com/fs/18113597-302586481)
+ * [Hacking with Kali Practical Penetration Testing Techniques -2014.epub](https://u18113597.pipipan.com/fs/18113597-302586487)
+ * [Kali Linux 2 Windows Penetration Testing - 2016.pdf](https://u18113597.pipipan.com/fs/18113597-302586531)
+ * [Kali Linux 2 – Assuring Security by Penetration Testing 3rd - 2016.pdf](https://u18113597.pipipan.com/fs/18113597-302586520)
+ * [Kali Linux Cookbook  Second Edition - 2017.pdf](https://u18113597.pipipan.com/fs/18113597-302586535)
+ * [Kali Linux Intrusion and Exploitation Cookbook - 2017.pdf](https://u18113597.pipipan.com/fs/18113597-302586547)
+ * [Kali Linux Network Scanning Cookbook - 2014.pdf]()
+ * [Kali Linux Pentesting Cookbook - 2017.pdf](https://u18113597.pipipan.com/fs/18113597-302586552)
+ * [Kali Linux Web Penetration Testing Cookbook  - 2016.pdf](https://u18113597.pipipan.com/fs/18113597-302586552)
+ * [Mastering Kali Linux for Advanced Penetration Testing - Second Edition - 2017.pdf](https://u18113597.pipipan.com/fs/18113597-302586591)
+ * [Mastering Kali Linux for Web Penetration Testing - 2017.pdf](https://u18113597.pipipan.com/fs/18113597-302586603)
+ * [Mastering Kali Linux Wireless Pentesting - 2016.pdf](https://u18113597.pipipan.com/fs/18113597-302586619)
+ * [Offsec Press Kali Linux Revealed Mastering the Penetration Testing Distribution - 2017.pdf](https://u18113597.pipipan.com/fs/18113597-302586627)
+[Learning Kali Linux Security Testing, Penetration Testing, and Ethical Hacking - 2018.pdf](https://u18113597.pipipan.com/fs/18113597-302800347)
+
+
+### mobile
+
+ * [Babelcube Wireless Hacking 101 - 2017.pdf](https://u18113597.pipipan.com/fs/18113597-302542743)
+ * [Hacking Android - 2016.pdf](https://u18113597.pipipan.com/fs/18113597-302583498)
+ * [IGI Global Mobile Application Development Usability and Security - 2017.pdf](https://u18113597.pipipan.com/fs/18113597-302583513)
+ * [Kali Linux Wireless Penetration 3rd  - Cameron Buchanan - 2017.pdf ](https://u18113597.pipipan.com/fs/18113597-302542755)
+ * [Mastering Wireless Penetration Testing for Highly Secured Environments - 2015.pdf](https://u18113597.pipipan.com/fs/18113597-302583520)
+ * [Mobile Forensics Cookbook - 2018.pdf](https://u18113597.pipipan.com/fs/18113597-302583528)
+ * [Packt Mobile Application Penetration Testing - 2016.pdf](https://u18113597.pipipan.com/fs/18113597-302583537)
+ * [Practical Mobile Forensics, 3rd Edition - 2018.pdf](https://u18113597.pipipan.com/fs/18113597-302583696)
+ * [Take Control of Wi-Fi Networking and Security - 2018.pdf](https://u18113597.pipipan.com/fs/18113597-302583726)
+ * [The Mobile Application Hacker’s Handbook - 2015.pdf](https://u18113597.pipipan.com/fs/18113597-302583867)
+ * [Kali Linux Wireless Penetration Testing Cookbook - 2017.pdf](https://u18113597.pipipan.com/fs/18113597-302541198)
+
+### nessus
+
+ * [nessus\Learning Nessus for Penetration Testing - 2014.pdf](https://u18113597.pipipan.com/fs/18113597-302584096)
+
+### nmap
+
+ * [Mastering Nmap Scripting Engine - 2015.pdf](https://u18113597.pipipan.com/fs/18113597-302584110)
+ * [Nmap Essentials - 2015.pdf](https://u18113597.pipipan.com/fs/18113597-302584111)
+
+### python
+
+ * [Apress Beginning Ethical Hacking with Python - 2017.pdf](https://u18113597.pipipan.com/fs/18113597-302584152)
+
+ * [Black_Hat_Python_Python_Programming_for_Hackers_and_Pentesters-2015.pdf](https://u18113597.pipipan.com/fs/18113597-302584159)
+ * [Effective Python Penetration Testing - 2016.pdf](https://u18113597.pipipan.com/fs/18113597-302584170)
+ * [Hacking Secret Ciphers with Python-2013.pdf](https://u18113597.pipipan.com/fs/18113597-302584173)
+ * [Learning Penetration Testing with Python(PACKT,2015).pdf](https://u18113597.pipipan.com/fs/18113597-302584177)
+ * [Learning Python Web Penetration - Christian Martorella - 2018.pdf](https://u18113597.pipipan.com/fs/18113597-302584180)
+ * [Python For Offensive PenTest(conv) - 2018.pdf](https://u18113597.pipipan.com/fs/18113597-302584188)
+ * [Python Hacking Essentials - 2015.pdf](https://u18113597.pipipan.com/fs/18113597-302584200)
+ * [Python Penetration Testing Essentials - 2015.pdf](https://u18113597.pipipan.com/fs/18113597-302584204)
+ * [Python Penetration Testing for Developers - 2016.pdf](https://u18113597.pipipan.com/fs/18113597-302584209)
+ * [Python Web Penetration Testing Cookbook(PACKT,2015).pdf](https://u18113597.pipipan.com/fs/18113597-302584212)
+ * [Cracking Codes with Python - 2018.epub](https://u18113597.pipipan.com/fs/18113597-302799390)
+
+
+### wireshark
+
+ * [Mastering Wireshark - 2016.pdf](https://u18113597.pipipan.com/fs/18113597-302584273)
+ * [Mastering Wireshark2 2018.pdf](https://u18113597.pipipan.com/fs/18113597-302584294)
+ * [Network Analysis using Wireshark 2 Cookbook 2nd Edition - 2018.epub](https://u18113597.pipipan.com/fs/18113597-302584341)
+ * [No Starch Press Practical Packet Analysis 3rd Edition - 2017.pdf](https://u18113597.pipipan.com/fs/18113597-302584350)
+ * [Packet Analysis with Wireshark - 2015.pdf](https://u18113597.pipipan.com/fs/18113597-302584362)
+ * [Practical Packet Analysis Using Wireshark to Solve Real-World Network Problems - 2017.azw3](https://u18113597.pipipan.com/fs/18113597-302584375)
+ * [Troubleshooting with Wireshark - Analyzing Slow Web Servers.rar](https://u18113597.pipipan.com/fs/18113597-302584386)
+ * [Wiley Wireshark for Security Professionals Using Wireshark and the Metasploit Framework - 2017.pdf](https://u18113597.pipipan.com/fs/18113597-302584395)
+ * [Wireshark 101 Essential Skills for Network Analysis 2nd Edition  - 2017.pdf](https://u18113597.pipipan.com/fs/18113597-302584419)
+ * [Wireshark 2 Quick Start Guide   2018.epub](https://u18113597.pipipan.com/fs/18113597-302584396)
+ * [Wireshark Essentials - 2014.pdf](https://u18113597.pipipan.com/fs/18113597-302584425)
+ * [Wireshark使用教程详解_带实例.doc.tar.gz](https://u18113597.pipipan.com/fs/18113597-302584260)
+ * [Wireshark数据抓包分析(网络协议篇).pdf](https://u18113597.pipipan.com/fs/18113597-302584431)
+ * [Wireshark网络分析实例集锦.rar](https://u18113597.pipipan.com/fs/18113597-302584435)
+ * [利用Wireshark软件对微信协议的分析---qpic.pdf](https://u18113597.pipipan.com/fs/18113597-302584440)
 
 ## python
 

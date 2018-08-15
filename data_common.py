@@ -344,14 +344,16 @@ def concat_excel(files, usecols=None, index_col=None, strips={}):
     return df
 
 
-def file2dict(filename, change=False, multi=False, basename=False):
+def file2dict(filename, change=False, multi=False, basename=False, sep='\s'):
     result = {}
     for line in open(filename):
         if line.strip():   
             if change:
-                value, key = line.split()
+                value, key = line.split(sep)
             else:
-                key, value = line.split()
+                key, value = line.split(sep)
+            key = key.strip()
+            value = value.strip()
             if basename:
                 key = os.path.basename(key)            
             if multi:   

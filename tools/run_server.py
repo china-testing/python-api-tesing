@@ -89,7 +89,7 @@ types = {
     "verify": {
         'name': 'verify',
         'process': 'sample_verify',        
-        'cmd':"nohup ./run -r output/i_enroll.txt output/i_real.txt > verify.log 2>&1 &",
+        'cmd':"nohup ./run -r output/i_enroll.txt output/i_real.txt > {}.log 2>&1 &".format(options.test_type),
         'vivo-verify-100':'/home/andrew/code/data/tof/base_test_data/vivo-verify-100',
         'vivo-verify-452':'/home/andrew/code/data/tof/base_test_data/vivo-verify-452',      
         'vivo-verify-611':'/home/andrew/code/data/tof/base_test_data/vivo-verify-611',
@@ -102,7 +102,7 @@ types = {
         'name': 'gaze_mn',
         'process': 'sample_gaze_mn',        
         'flag':'/gaze/',
-        'cmd':"nohup ./run -f output/files.txt > gaze.log 2>&1 &",
+        'cmd':"nohup ./run -f output/files.txt > {}.log 2>&1 &".format(options.test_type),
         #'base':'/home/andrew/code/data/tof/base_test_data/vivo-gaze/20180418_a.m.-gaze',
         'base':'/home/andrew/code/data/tof/base_test_data/vivo-gaze',
         'little':'/home/andrew/code/data/tof/little_test_data/little_gaze', 
@@ -117,7 +117,7 @@ types = {
         'name': 'liveness',
         'process': 'sample_liveness',
         'flag':'photo/',
-        'cmd': "nohup ./run -l output/files.txt > live.log 2>&1 & ",
+        'cmd': "nohup ./run -l output/files.txt > {}.log 2>&1 &".format(options.test_type),
         'bug':"/home/andrew/code/data/tof/bug/liveness",
         'base':'/home/andrew/code/data/tof/base_test_data/vivo-liveness',
         'batch1.7.5':'/home/andrew/code/data/tof/vivo3D_batch_test/liveness_batch/demo_1.7.5_test',
@@ -131,7 +131,7 @@ types = {
         'name': 'detect',
         'process': 'sample_detect',
         'flag':'photo/',
-        'cmd': "nohup ./run -d output/files.txt > detect.log 2>&1 & ",           
+        'cmd': "nohup ./run -d output/files.txt > {}.log 2>&1 &".format(options.test_type),     
         },
     
     "eyestate": {
@@ -139,7 +139,7 @@ types = {
         'name': 'eyestate',
         'process': 'sample_eyestate',
         'flag':'photo/',
-        'cmd': "nohup ./run -e output/files.txt > eyestate.log 2>&1 & ",           
+        'cmd': "nohup ./run -e output/files.txt > {}.log 2>&1 &".format(options.test_type),
         },    
     
     "landmark":{
@@ -147,13 +147,12 @@ types = {
         'name': 'detect',
         'process': 'sample_align',
         'flag':'/little_photo/',
-        'cmd':"nohup ./run -m output/files.txt > landmark.log 2>&1 &",
+        'cmd':"nohup ./run -m output/files.txt > {}.log 2>&1 &".format(options.test_type),
         },
 }
 
 
-
-tool = options.base
+tool = options.base    
 now = time.strftime("%Y-%m-%d_%H-%M-%S", time.localtime())    
 if options.directory is None:
     if not options.data_type:
@@ -248,6 +247,16 @@ print(result)
 time.sleep(3)
 if not Path(result).exists():
     servers.wait_until_stop('sample')
+
+# 如果比对工具有错，直接退出执行。
+tool_log = "{}{}{}.log".format(
+    options.base.rstrip(os.sep), os.sep,options.test_type)
+text = open(tool_log).read()
+if 'faceunlock' in text or 'tmp' in text:
+    print('\n')
+    print("#"*30 + "  ERROR  " + "#"*30)
+    print(text)
+    sys.exit(1)
 
 
 new_result = "{0}{1}{2}-result.csv".format(directory, os.sep, version)
