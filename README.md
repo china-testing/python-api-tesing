@@ -38,8 +38,6 @@ tools目录：
  * [软件自动化测试初学者忠告](https://china-testing.github.io/testing_automation_tips.html)
  * [python 网络安全 软件测试等IT海量书籍下载](https://github.com/china-testing/python-api-tesing/blob/master/books.md)
 
-更多内容请关注 [雪峰磁针石：简书](https://www.jianshu.com/u/9bc194fde100) 
-
 * 技术支持qq群： 144081101(后期会录制视频存在该群群文件) 591302926 567351477 钉钉免费群：21745728 
 
 * 道家技术-手相手诊看相中医等钉钉群21734177 qq群：391441566 184175668 338228106 看手相、面相、舌相、抽签、体质识别。服务费50元每人次起。请联系钉钉或者微信pythontesting
