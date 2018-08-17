@@ -30,25 +30,20 @@ tools目录：
 
  * split_raw.py 切分raw图为ir,depth图
 
-[可爱的python测试开发库](https://github.com/china-testing/python-api-tesing)  请在github上点赞，谢谢！
 
-[python中文库文档汇总](https://www.jianshu.com/p/7353375213ab)
 
-[[雪峰磁针石博客]python3标准库-中文版](https://www.jianshu.com/p/5a009aac9f59)
-
-[[雪峰磁针石博客]python3快速入门教程](https://www.jianshu.com/p/926869935071)
-
-[接口自动化性能测试线上培训大纲](https://www.jianshu.com/p/4304156f323c)
-
-[python测试开发自动化测试数据分析人工智能自学每周一练](https://www.jianshu.com/p/1873035ae75b)
-
-[软件自动化测试初学者忠告](https://www.jianshu.com/p/1be329b7bbc0)
+ * [python3快速入门教程1 turtle绘图-1开始](https://china-testing.github.io/python3_crash1.html)
+ * [接口自动化性能测试线上培训大纲](https://china-testing.github.io/testing_training.html)
+ * [python测试开发自动化测试数据分析人工智能自学每周一练](https://china-testing.github.io/python_weeks.html)
+ * [软件自动化测试初学者忠告](https://china-testing.github.io/testing_automation_tips.html)
+ * [python 网络安全 软件测试等IT海量书籍下载](https://github.com/china-testing/python-api-tesing/blob/master/books.md)
 
 更多内容请关注 [雪峰磁针石：简书](https://www.jianshu.com/u/9bc194fde100) 
 
 * 技术支持qq群： 144081101(后期会录制视频存在该群群文件) 591302926 567351477 钉钉免费群：21745728 
 
 * 道家技术-手相手诊看相中医等钉钉群21734177 qq群：391441566 184175668 338228106 看手相、面相、舌相、抽签、体质识别。服务费50元每人次起。请联系钉钉或者微信pythontesting
+
 Table of Contents
 =================
 

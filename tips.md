@@ -10,8 +10,8 @@ https://github.com/github/gitignore/blob/master/Python.gitignore
 
 https://github.com/ekalinin/github-markdown-toc
 
-/home/andrew/code/gh-md-toc   ~/code/mobile_data/books.md
-
+/home/andrew/code/gh-md-toc   ~/code/python-api-tesing/books.md
+ 
 ## pelican.server
 
 python3 -m pelican.server

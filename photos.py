@@ -29,22 +29,32 @@ def mark_image(filename, dst, poses, angle=None, relative=False):
         
         if relative:
             right = left + right
+            right2 = left + right
             bottom = top + bottom
+            bottom2 = top + bottom
                    
         if angle == 'left':
             left2 = top
             right2 = bottom
-            top2 = 480 - right
-            bottom2 = 480 - left
+            top2 = 400 - right
+            bottom2 = 400 - left
             
         if angle == 'right':
             left2 = 640 - bottom
             right2 = 640 - top
-            top2 = 480 - right
-            bottom2 = 480 - left        
+            top2 = left
+            bottom2 = right     
+            
+        if angle == None:
+            left2 = left
+            right2 = right
+            top2 = top
+            bottom2 = bottom      
         
             
-            
+        print((left2, top2), (right2, bottom2))    
+        print(left2, top2, right2, bottom2, end=' ') 
+        print()
         cv2.rectangle(image,(left2, top2), (right2, bottom2), colors[color], 1)
     cv2.imwrite(dst, image)
 
