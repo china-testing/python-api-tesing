@@ -44,93 +44,133 @@
 
 ## c_c++
 
-[c_c++书籍下载地址](https://u18113597.pipipan.com/u/18113597/29383236)
+[A Tour of C++ 2nd - 2018.pdf](https://u18113597.pipipan.com/fs/18113597-303086103)
 
-Absolute C++ 5th - 2013.pdf
 
-A TourofC++ 2nd - 2018.pdf
+[Hands-On Design Patterns with C++ - 2018.pdf](https://u18113597.pipipan.com/fs/18113597-303086074)
 
-Autodesk Inventor Programming In C++ - 2016.pdf
 
-Beginning C++17 From Novice to Professional, 5th edition - 2018.pdf
+[C++17 By Example - 2018.pdf](https://u18113597.pipipan.com/fs/18113597-303086073)
 
-Beginning C++ Game Programming - 2016.pdf
 
-beginning c++ programming - 2017.pdf
+[Game Programming in C++ Creating 3D Games - 2018.pdf](https://u18113597.pipipan.com/fs/18113597-303086068)
 
-Boost.Asio C++ Network 2nd - 2015.pdf
 
-Boost.Asio C++ Network Programming Cookbook - 2016.pdf
+[C++ Reactive Programming - 2018.pdf](https://u18113597.pipipan.com/fs/18113597-303085896)
 
-Boost C++ Application Development Cookbook - Second Edition - 2017.pdf
 
-C++17ByExample - 2018.pdf
+[Deep Belief Nets in C++ and CUDA C Volume 3 Convolutional Nets - 2018.pdf](https://u18113597.pipipan.com/fs/18113597-303085866)
 
-@C++17 Quick Syntax Reference A Pocket Guide to the Language, APIs and Library, 3rd edition - 2018.pdf
 
-C++17 STL Cookbook - 2017.pdf
+[Cryptography in C and C++ 2nd - 2013.pdf](https://u18113597.pipipan.com/fs/18113597-303085857)
 
-C++ Advanced Features and Programming Techniques - 2017.pdf
 
-C++ for Everyone, Second Edition - 2012 .pdf
+[The Modern C++ Challenge - 2018.pdf](https://u18113597.pipipan.com/fs/18113597-303085834)
 
-C++ for Financial Mathematics - 2017.pdf
 
-C++ HOW TO PROGRAM 10th - 2017.pdf
+[Absolute C++ 5th - 2013.pdf](https://u18113597.pipipan.com/fs/18113597-303085828)
 
-Clean C++ Sustainable Software Development Patterns and Best Practices with C++ 17 - 2017.pdf
 
-[@C++](https://my.oschina.net/u/219872) Programming For Beginners Crash Course - 2016.pdf
+[C++ HOW TO PROGRAM 10th - 2017.pdf](https://u18113597.pipipan.com/fs/18113597-303085818)
 
-C++ ReactiveProgramming - 2018.pdf
 
-Cryptography in C and C++ 2nd - 2013.pdf
+[@C++17 Quick Syntax Reference A Pocket Guide to the Language, APIs and Library, 3rd edition - 2018.pdf](https://u18113597.pipipan.com/fs/18113597-303085605)
 
-Data Clustering in C++ - 2011.pdf
 
-Data Structures and Algorithms in C++ Pocket Primer - 2018.pdf
+[Beginning C++17 From Novice to Professional, 5th edition - 2018.pdf](https://u18113597.pipipan.com/fs/18113597-303085591)
 
-Deep Belief Nets in C++ and CUDA C Volume 3 Convolutional Nets - 2018.pdf
 
-Effective C++ Digital Collection 140 Ways to Improve Your Programming - 2012.pdf
+[Starting Out with C++ from Control Structures to Objects (9th Edition) - 2018.pdf](https://u18113597.pipipan.com/fs/18113597-303085530)
 
-ExploringC++11 2nd - 2013.pdf
 
-Game Programming in C++ Creating 3D Games - 2018.pdf
+[C++ for Everyone, Second Edition - 2012 .pdf](https://u18113597.pipipan.com/fs/18113597-303084765)
 
-Hands-On Design Patterns with C++ - 2018.pdf
 
-Introduction to Programming with C++ (3rd edition).pdf
+[The C++ Programming Language, 4th Edition - 2013.epub](https://u18113597.pipipan.com/fs/18113597-303084675)
 
-@Kickstart Coding C++ by Nathaniel Cannon - 2014.pdf
 
-Learn C++ for Game Development - 2014.pdf
+[C++ Advanced Features and Programming Techniques - 2017.pdf](https://u18113597.pipipan.com/fs/18113597-303083982)
 
-Learning C++ Functional Programming - 2017.pdf
 
-Mastering C++ Multithreading - 2017.pdf
+[Effective C++ Digital Collection 140 Ways to Improve Your Programming - 2012.pdf](https://u18113597.pipipan.com/fs/18113597-303083979)
 
-Mastering the C++17 STL - 2017.pdf
 
-Object -Oriented Programming C++ Simplified - 2015.pdf
+[Mastering the C++17 STL - 2017.pdf](https://u18113597.pipipan.com/fs/18113597-303083916)
 
-Object Oriented Programming with C++, 2nd edition - 2012.pdf
 
-Options and Derivatives Programming in C++ - 2016.pdf
+[Clean C++ Sustainable Software Development Patterns and Best Practices with C++ 17 - 2017.pdf](https://u18113597.pipipan.com/fs/18113597-303083911)
 
-Practical C++ Metaprogramming - 2016.pdf
 
-Practice Guidebook for  Object Oriented C++ Language - 2016.pdf
+[Object -Oriented Programming C++ Simplified - 2015.pdf](https://u18113597.pipipan.com/fs/18113597-303083898)
 
-Problem Solving in Data Structures and Algorithms Using C  - 2017.pdf
 
-ProblemsSolvinginDataStructures&AlgorithmsUsingC++ - 2016.pdf
+[Boost C++ Application Development Cookbook - Second Edition - 2017.pdf](https://u18113597.pipipan.com/fs/18113597-303083865)
 
-Starting Out with C++ from Control Structures to Objects (9th Edition) - 2018.pdf
 
-The C++ Programming Language, 4th Edition - 2013.epub
+[Mastering C++ Multithreading - 2017.pdf](https://u18113597.pipipan.com/fs/18113597-303083860)
 
-The Modern C++ Challenge - 2018.pdf
+
+[Learning C++ Functional Programming - 2017.pdf](https://u18113597.pipipan.com/fs/18113597-303083844)
+
+
+[Practical C++ Metaprogramming - 2016.pdf](https://u18113597.pipipan.com/fs/18113597-303083838)
+
+
+[C++17 STL Cookbook - 2017.pdf](https://u18113597.pipipan.com/fs/18113597-303083836)
+
+
+[Introduction to Programming with C++ (3rd edition).pdf](https://u18113597.pipipan.com/fs/18113597-303083811)
+
+
+[Boost.Asio C++ Network Programming Cookbook - 2016.pdf](https://u18113597.pipipan.com/fs/18113597-303083772)
+
+
+[Data Structures and Algorithms in C++ Pocket Primer - 2018.pdf](https://u18113597.pipipan.com/fs/18113597-303083769)
+
+
+[beginning c++ programming - 2017.pdf](https://u18113597.pipipan.com/fs/18113597-303083745)
+
+
+[Boost.Asio C++ Network 2nd - 2015.pdf](https://u18113597.pipipan.com/fs/18113597-303083731)
+
+
+[Object Oriented Programming with C++, 2nd edition - 2012.pdf](https://u18113597.pipipan.com/fs/18113597-303083721)
+
+
+[Problem Solving in Data Structures and Algorithms Using C - 2017.pdf](https://u18113597.pipipan.com/fs/18113597-303083715)
+
+
+[Problems Solving in Data Structures & Algorithms Using C++ - 2016.pdf](https://u18113597.pipipan.com/fs/18113597-303083692)
+
+
+[C++ for Financial Mathematics - 2017.pdf](https://u18113597.pipipan.com/fs/18113597-303083673)
+
+
+[@C++ Programming For Beginners Crash Course - 2016.pdf](https://u18113597.pipipan.com/fs/18113597-303083661)
+
+
+[Autodesk Inventor Programming In C++ - 2016.pdf](https://u18113597.pipipan.com/fs/18113597-303083650)
+
+
+[@Kickstart Coding C++ by Nathaniel Cannon - 2014.pdf](https://u18113597.pipipan.com/fs/18113597-303083595)
+
+
+[Learn C++ for Game Development - 2014.pdf](https://u18113597.pipipan.com/fs/18113597-303083589)
+
+
+[Exploring C++ 11 2nd - 2013.pdf](https://u18113597.pipipan.com/fs/18113597-303083584)
+
+
+[Practice Guidebook for Object Oriented C++ Language - 2016.pdf](https://u18113597.pipipan.com/fs/18113597-303083571)
+
+
+[Options and Derivatives Programming in C++ - 2016.pdf](https://u18113597.pipipan.com/fs/18113597-303083565)
+
+
+[Data Clustering in C++ - 2011.pdf](https://u18113597.pipipan.com/fs/18113597-303083554)
+
+
+[Beginning C++ Game Programming - 2016.pdf](https://u18113597.pipipan.com/fs/18113597-303083538)
 
 ## 网络安全
 
