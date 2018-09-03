@@ -8,9 +8,11 @@
          * [mobile](#mobile)
          * [nessus](#nessus)
          * [nmap](#nmap)
-         * [python](#python)
+         * [python安全](#python安全)
          * [wireshark](#wireshark)
-      * [python](#python-1)
+      * [Kotlin](#kotlin)
+      * [python](#python)
+         * [python基础](#python基础)
          * [python performance](#python-performance)
          * [python_web](#python_web)
             * [flask](#flask)
@@ -35,6 +37,7 @@
       * [分布式系统](#分布式系统)
       * [人工智能机器学习](#人工智能机器学习)
          * [Scikit-learn](#scikit-learn)
+
 
 # 书籍	
 
@@ -144,7 +147,7 @@ The Modern C++ Challenge - 2018.pdf
 
  * [Practical Linux Security Cookbook - 2016.pdf](https://u18113597.pipipan.com/fs/18113597-302583384)
  * [The Antivirus Hacker-s Handbook - 2015.pdf](https://u18113597.pipipan.com/fs/18113597-302583387)
- * [Hands-On Penetration Testing on Windows - 2018.pdf](https://itbooks.ctfile.com/fs/18113597-302639985)
+ * [Hands-On Penetration Testing on Windows - 2018.pdf](https://u18113597.pipipan.com/fs/18113597-302639985)
 
 ### backbox
 
@@ -152,13 +155,13 @@ The Modern C++ Challenge - 2018.pdf
 
 ### Metasploit
 
- * [Mastering Metasploit 2nd Edition - 2016.pdf](https://itbooks.ctfile.com/fs/18113597-302800779)
+ * [Mastering Metasploit 2nd Edition - 2016.pdf](https://u18113597.pipipan.com/fs/18113597-302800779)
 
- * [Metasploit Bootcamp - 2017.epub](https://itbooks.ctfile.com/fs/18113597-302800744)
+ * [Metasploit Bootcamp - 2017.epub](https://u18113597.pipipan.com/fs/18113597-302800744)
 
- * [Metasploit for Beginners - 2017.epub](https://itbooks.ctfile.com/fs/18113597-302800732)
+ * [Metasploit for Beginners - 2017.epub](https://u18113597.pipipan.com/fs/18113597-302800732)
 
- * [Wireshark for Security Professionals Using Wireshark and the Metasploit Framework - 2017.pdf](https://itbooks.ctfile.com/fs/18113597-302800722)
+ * [Wireshark for Security Professionals Using Wireshark and the Metasploit Framework - 2017.pdf](https://u18113597.pipipan.com/fs/18113597-302800722)
 
 ### kali
 
@@ -202,7 +205,7 @@ The Modern C++ Challenge - 2018.pdf
  * [Mastering Nmap Scripting Engine - 2015.pdf](https://u18113597.pipipan.com/fs/18113597-302584110)
  * [Nmap Essentials - 2015.pdf](https://u18113597.pipipan.com/fs/18113597-302584111)
 
-### python
+### python安全
 
  * [Apress Beginning Ethical Hacking with Python - 2017.pdf](https://u18113597.pipipan.com/fs/18113597-302584152)
 
@@ -236,10 +239,70 @@ The Modern C++ Challenge - 2018.pdf
  * [Wireshark数据抓包分析(网络协议篇).pdf](https://u18113597.pipipan.com/fs/18113597-302584431)
  * [Wireshark网络分析实例集锦.rar](https://u18113597.pipipan.com/fs/18113597-302584435)
  * [利用Wireshark软件对微信协议的分析---qpic.pdf](https://u18113597.pipipan.com/fs/18113597-302584440)
+ 
+## Kotlin
+
+[Kotlin Standard Library Cookbook - 2018.pdf](https://u18113597.pipipan.com/fs/18113597-307308993)
+
+
+[Learning Kotlin by Building Android Applications - 2018.pdf](https://u18113597.pipipan.com/fs/18113597-307308990)
+
+
+[Kotlin Programming Cookbook - 2018.pdf](https://u18113597.pipipan.com/fs/18113597-307308982)
+
+
+[kotlin programming by example - 2018.epub](https://u18113597.pipipan.com/fs/18113597-307308975)
+
+
+[Kotlin in Action - 2017.pdf](https://u18113597.pipipan.com/fs/18113597-307308969)
+
+
+[Kotlin Blueprints - 2017.pdf](https://u18113597.pipipan.com/fs/18113597-307308958)
 
 ## python
 
+### python基础
+
+[下面书籍下载地址](https://itbooks.pipipan.com/dir/18113597-29412023-2f185c/)
+
+Python基础教程（第3版) - 2017.pdf
+	
+《Python Cookbook》第三版中文.pdf
+	
+Daniel Arbuckle's Mastering Python - 2017.pdf
+
+
 ### python performance
+
+[Learning Cython Programming(2nd).pdf](https://u18113597.pipipan.com/fs/18113597-304585876)
+
+
+[Reilly.High Performance Python.Practical Performant Programming for Human.2014.pdf](https://u18113597.pipipan.com/fs/18113597-304585816)
+
+
+[Python性能分析与优化 Mastering Python High Performance - 2015.pdf](https://u18113597.pipipan.com/fs/18113597-304585803)
+
+
+[Python Parallel Programming Cookbook - 2015.pdf.pdf](https://u18113597.pipipan.com/fs/18113597-304585794)
+
+
+[Python in Practice Aug 2013.pdf](https://u18113597.pipipan.com/fs/18113597-304585789)
+
+
+[Python High Performance Programming - 2013.pdf](https://u18113597.pipipan.com/fs/18113597-304585788)
+
+
+[Parallel Programming with Python - 2014.pdf](https://u18113597.pipipan.com/fs/18113597-304585785)
+
+
+[PacktPub.Unity.for.Architectural.Visualization.Sep.2013.pdf](https://u18113597.pipipan.com/fs/18113597-304585780)
+
+
+[Packt.Distributed.Computing.with.Python- 2016.pdf](https://u18113597.pipipan.com/fs/18113597-304585773)
+
+
+[Mastering Python High Performance - 2015.pdf](https://u18113597.pipipan.com/fs/18113597-304585758)
+
 
 ### python_web
 
@@ -289,34 +352,133 @@ Test-Driven Development with Python, 2nd Edition - 2017 qq群144081101共享
 
 #### pandas
 
-* 利用Python进行数据分析 qq群：630011153
+[Python数据挖掘入门与实践(中文完整版) - 2017.pdf](https://u18113597.pipipan.com/fs/18113597-304379622)
 
-* 零起点Python大数据与量化交易 - 2017 qq群：630011153
 
-* Python金融大数据分析 qq群：630011153
+[Python for Finance - Second Edition - 2017.pdf](https://u18113597.pipipan.com/fs/18113597-304379580)
 
-* Python数据挖掘入门与实践(中文完整版) 
 
-* [Python Data Analytics - 2015](http://file.allitebooks.com/20151217/Python%20Data%20Analytics.pdf)
+[Python for Everybody Exploring Data in Python 3.rar](https://u18113597.pipipan.com/fs/18113597-304379551)
 
-* Learning the Pandas Library: Python Tools for Data Munging, Analysis, and Visual 2016-06 q群：630011153
 
-* [Learning Pandas - 2015](http://file.allitebooks.com/20150425/Learning%20pandas.pdf)
+[Python for Data Science For Dummies - 2015.pdf](https://u18113597.pipipan.com/fs/18113597-304379532)
 
-* [Python Data Science Cookbook- 2015](http://file.allitebooks.com/20151124/Python%20Data%20Science%20Cookbook.pdf)
 
-* [Learn Data Analysis with Python - 2018](http://file.allitebooks.com/20180223/Learn%20Data%20Analysis%20with%20Python.pdf)
+[Python for Data Analysis, 2nd Edition - 2017.pdf](https://u18113597.pipipan.com/fs/18113597-304379499)
 
-* [Practical Data Science - 2018](http://file.allitebooks.com/20180222/Practical%20Data%20Science.pdf)
 
-* Pandas for Everyone Python Data Analysis -2018.pdf qq群：630011153
+[Python for analyze big financial data - 2015.pdf](https://u18113597.pipipan.com/fs/18113597-304379464)
 
-* Learning pandas - Second Edition - 2017 qq群：630011153
 
-* Pandas Cookbook Recipes for Scientific Computing - 2017  qq群：630011153
+[Python End-to-end Data Analysis - 2016.pdf](https://u18113597.pipipan.com/fs/18113597-304379436)
 
-* Python for Data Analysis, 2nd Edition - 2017.pdf qq群：630011153 * [下载](http://file.allitebooks.com/20171009/Python%20for%20Data%20Analysis,%202nd%20Edition.pdf)
 
+[Python Data Visualization Cookbook(2nd) - 2015.pdf](https://u18113597.pipipan.com/fs/18113597-304379350)
+
+
+[Python Data Science Handbook - 2017.pdf](https://u18113597.pipipan.com/fs/18113597-304379322)
+
+
+[Python Data Science Essentials 2nd Edition - 2016.pdf](https://u18113597.pipipan.com/fs/18113597-304379233)
+
+
+[Python Data Science Cookbook - 2015.pdf](https://u18113597.pipipan.com/fs/18113597-304379206)
+
+
+[Python Data Mining.pdf](https://u18113597.pipipan.com/fs/18113597-304379163)
+
+
+[Python Data Analysis Cookbook - 2016.pdf](https://u18113597.pipipan.com/fs/18113597-304379100)
+
+
+[Python.Data.Analytics - 2015.pdf](https://u18113597.pipipan.com/fs/18113597-304379050)
+
+
+[pyexcel - 2017.pdf](https://u18113597.pipipan.com/fs/18113597-304378986)
+
+
+[Pragmatic.Bookshelf.Data.Science.Essentials.in.Python - 2016.pdf](https://u18113597.pipipan.com/fs/18113597-304378974)
+
+
+[Practical Data Analysis, 2nd Edition - 2016.pdf](https://u18113597.pipipan.com/fs/18113597-304378951)
+
+
+[Pandas Cookbook Recipes for Scientific Computing - 2017.pdf](https://u18113597.pipipan.com/fs/18113597-304378824)
+
+
+[pandas - 2016.pdf](https://u18113597.pipipan.com/fs/18113597-304378713)
+
+
+[Packt.Clean.Data - 2015.pdf](https://u18113597.pipipan.com/fs/18113597-304378669)
+
+
+[Packt.Building.Python.Real-Time.Applications.with.Storm. - 2015.pdf](https://u18113597.pipipan.com/fs/18113597-304378653)
+
+
+[Mastering Python Data Analysis - 2016.pdf](https://u18113597.pipipan.com/fs/18113597-304378638)
+
+
+[Mastering Pandas for Finance - 2015.pdf](https://u18113597.pipipan.com/fs/18113597-304378599)
+
+
+[Mastering Pandas - 2015.pdf](https://u18113597.pipipan.com/fs/18113597-304378561)
+
+
+[Mastering.Python.Data.Visualization.2015.10.pdf](https://u18113597.pipipan.com/fs/18113597-304378485)
+
+
+[Manning.Introducing.Data.Science.2016.5.pdf](https://u18113597.pipipan.com/fs/18113597-304378429)
+
+
+[Learning pandas - Second Edition - 2017.pdf](https://u18113597.pipipan.com/fs/18113597-304378383)
+
+
+[Learning pandas - 2015.pdf](https://u18113597.pipipan.com/fs/18113597-304378233)
+
+
+[Learning Data Mining with Python -2nd 2017.pdf](https://u18113597.pipipan.com/fs/18113597-304378204)
+
+
+[Introduction to Data Science -A Python Approach to Concepts, Techniques and Applications - 2017.pdf](https://u18113597.pipipan.com/fs/18113597-304378180)
+
+
+[Foundations for Analytics with Python From Non-Programmer to Hacker - 2016.pdf](https://u18113597.pipipan.com/fs/18113597-304378155)
+
+
+[For.Dummies.Data.Science.For.Dummies 2nd- 2017.epub](https://u18113597.pipipan.com/fs/18113597-304377453)
+
+
+[Designing Data-Intensive Applications - 2017.pdf](https://u18113597.pipipan.com/fs/18113597-304377433)
+
+
+[Deep Time Series Forecasting with Python - 2016.pdf](https://u18113597.pipipan.com/fs/18113597-304377345)
+
+
+[Data Wrangling with Python - 2016.pdf](https://u18113597.pipipan.com/fs/18113597-304377333)
+
+
+[Data\_Visualization\_with\_Python\_and_JavaScript - 2016.pdf](https://u18113597.pipipan.com/fs/18113597-304377316)
+
+
+[Data Science from Scratch -2015.pdf](https://u18113597.pipipan.com/fs/18113597-304377295)
+
+
+[Data Analytics and Python Programming 2 Bundle Manuscript - Isaac D. Cody - 2016.pdf](https://u18113597.pipipan.com/fs/18113597-304377264)
+
+
+[Data.Science.Programming.in.Python - 2016.pdf](https://u18113597.pipipan.com/fs/18113597-304377255)
+
+
+[Data.Science.from.Scratch.First.Principles.with.Python - 2015.pdf](https://u18113597.pipipan.com/fs/18113597-304377235)
+
+
+[Apress.Text.Analytics.with.Python. - 2016.pdf](https://u18113597.pipipan.com/fs/18113597-304377213)
+
+
+[An Introduction to Statistics with Python \[2016\].pdf](https://u18113597.pipipan.com/fs/18113597-304377198)
+
+
+[Pandas for Everyone Python Data Analysis -2018.pdf](https://u18113597.pipipan.com/fs/18113597-304126960)
 #### NumPy
 
 * [NumPy Beginners Guide Third Edition-2015.pdf](http://file.allitebooks.com/20150807/NumPy%20Beginners%20Guide%20Third%20Edition.pdf)
