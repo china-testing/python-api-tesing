@@ -1,3 +1,7 @@
+# 笑话
+
+我是一个苦b的程序员，昨晚加班到现在，困得快睁不开眼了，女上司很关心，问我要不要去吃午饭。我没好气地说，午饭就算了，能让我睡一觉就行了。女上司红着脸说了句讨厌啊，然后坐在我身边不动，好像距离我很近，搞得我很紧张，难道她发现我的程序出了bug？
+
 ## gitignore
 
 https://github.com/github/gitignore/blob/master/Python.gitignore

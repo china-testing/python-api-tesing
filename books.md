@@ -176,6 +176,17 @@
 
 ### 综合
 
+[Wireless Network Security 2nd - 2018.pdf](https://itbooks.ctfile.com/fs/18113597-307924422)
+
+[The Cyber Risk Handbook - 2017.pdf](https://itbooks.ctfile.com/fs/18113597-307924375)
+
+[Fundamentals of Information Systems Security 3rd - 2018.pdf](https://itbooks.ctfile.com/fs/18113597-307924344)
+
+[Gray Hat Hacking 5th - 2018.pdf](https://itbooks.ctfile.com/fs/18113597-307822776)
+
+[灰帽黑客 第4版 - 2016.pdf](https://itbooks.ctfile.com/fs/18113597-307822356)
+
+
  * [Anti-Hacker Tool Kit, 4th Edition- 2014.pdf](https://u18113597.pipipan.com/fs/18113597-302583318)
  * [Applied Network Security - 2017.pdf](https://u18113597.pipipan.com/fs/18113597-302583336)
  * [From Hacking to Report Writing - 2016.pdf](https://u18113597.pipipan.com/fs/18113597-302583345)
