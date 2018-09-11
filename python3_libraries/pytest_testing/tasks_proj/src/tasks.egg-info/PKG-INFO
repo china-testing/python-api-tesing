@@ -1,4 +1,4 @@
-Metadata-Version: 1.0
+Metadata-Version: 2.1
 Name: tasks
 Version: 0.1.0
 Summary: Minimal Project Task Management
@@ -8,3 +8,4 @@ Author-email: Please use pythontesting.net contact form.
 License: proprietary
 Description: UNKNOWN
 Platform: UNKNOWN
+Provides-Extra: mongo
