@@ -1,6 +1,16 @@
 {
-  "tests/func/test_add_variety.py::TestAdd": true,
-  "tests/func/test_api_exceptions.py::TestUpdate": true,
+  "tests/func/test_add_variety.py::TestAdd::()::test_equivalent[Task(breathe,BRIAN,True)]": true,
+  "tests/func/test_add_variety.py::TestAdd::()::test_equivalent[Task(exercise,BrIaN,False)]": true,
+  "tests/func/test_add_variety.py::TestAdd::()::test_equivalent[Task(sleep,None,True)]": true,
+  "tests/func/test_add_variety.py::TestAdd::()::test_equivalent[Task(wake,brian,False)0]": true,
+  "tests/func/test_add_variety.py::TestAdd::()::test_equivalent[Task(wake,brian,False)1]": true,
+  "tests/func/test_add_variety.py::TestAdd::()::test_valid_id[Task(breathe,BRIAN,True)]": true,
+  "tests/func/test_add_variety.py::TestAdd::()::test_valid_id[Task(exercise,BrIaN,False)]": true,
+  "tests/func/test_add_variety.py::TestAdd::()::test_valid_id[Task(sleep,None,True)]": true,
+  "tests/func/test_add_variety.py::TestAdd::()::test_valid_id[Task(wake,brian,False)0]": true,
+  "tests/func/test_add_variety.py::TestAdd::()::test_valid_id[Task(wake,brian,False)1]": true,
+  "tests/func/test_api_exceptions.py::TestUpdate::()::test_bad_id": true,
+  "tests/func/test_api_exceptions.py::TestUpdate::()::test_bad_task": true,
   "tests/func/test_unique_id_1.py::test_unique_id": true,
   "tests/unit/test_task_fail.py::test_dict_equality": true,
   "tests/unit/test_task_fail.py::test_task_equality": true
