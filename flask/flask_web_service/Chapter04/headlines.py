@@ -7,15 +7,15 @@ import urllib
 
 app = Flask(__name__)
 
-RSS_FEEDS = {'bbc': 'http://feeds.bbci.co.uk/news/rss.xml',
-             'cnn': 'http://rss.cnn.com/rss/edition.rss',
-             'fox': 'http://feeds.foxnews.com/foxnews/latest',
+RSS_FEEDS = {'ft': 'http://www.ftchinese.com/rss/feed',
+             'zhihu': 'https://www.zhihu.com/rss',
+             'people': 'http://www.people.com.cn/rss/politics.xml',
              'iol': 'http://www.iol.co.za/cmlink/1.640'}
 
 WEATHER_URL = "http://api.openweathermap.org/data/2.5/weather?q={}&units=metric&APPID=cb932829eacb6a0e9ee4f38bfbf112ed"
 CURRENCY_URL = "https://openexchangerates.org//api/latest.json?app_id=b23c94daab584f4580e4e2bf75cbcf7e"
 
-DEFAULTS = {'publication': 'bbc',
+DEFAULTS = {'publication': 'ft',
             'city': 'London,UK',
             'currency_from': 'GBP',
             'currency_to': 'USD'
