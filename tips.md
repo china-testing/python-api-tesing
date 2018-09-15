@@ -9,6 +9,10 @@ https://github.com/github/gitignore/blob/master/Python.gitignore
 ## save git password
 
  git config credential.helper store
+ 
+## git清空历史
+
+https://stackoverflow.com/questions/13716658/how-to-delete-all-commit-history-in-github 
 
 ## Easy TOC creation for GitHub README.md 
 

@@ -678,6 +678,8 @@ django-viewlet因为github星级太少而未收录
 计算机视觉库。
 
  * OpenCV：开源计算机视觉库。[链接](https://opencv.org/) 
+ 
+ [2018最佳人工智能图像处理工具OpenCV书籍下载](https://www.jianshu.com/p/62a32f108341)
 
  * pyocr：Tesseract 和 Cuneiform 的包装库。[链接](https://github.com/openpaperwork/pyocr) 
 
@@ -951,6 +953,9 @@ Python实现的数据库。
 ## 深度学习(Deep Learning)
 
 机器学习库。 参见:[awesome-deep-learning](https://github.com/ChristosChristofidis/awesome-deep-learning).*
+
+[2018最佳机器学习工具书及下载(持续更新)](https://www.jianshu.com/p/e32fb5827acf)
+
 
 * [Caffe](https://github.com/BVLC/caffe) - 快速开放的深度学习框架 --推荐
 * [Keras](https://github.com/fchollet/keras) - 高级神经网络库，能够在TensorFlow或Theano之上运行。 --推荐
@@ -1863,6 +1868,8 @@ Archive
 
 
 ## 网络爬虫(Web Crawling)
+
+[2018最佳人工智能数据采集(爬虫)工具书下载](https://www.jianshu.com/p/8fb0d209491c)
 
   * Scrapy：快速高级的屏幕爬取及网页采集框架。[链接](https://github.com/scrapy/scrapy) --强烈推荐
 
