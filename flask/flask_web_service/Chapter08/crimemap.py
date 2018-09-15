@@ -19,7 +19,7 @@ categories = ['mugging', 'break-in']
 
 
 def sanitize_string(userinput):
-    whitelist = string.letters + string.digits + " !?.,;:-'()&"
+    whitelist = string.ascii_letters + string.digits + " !?.,;:-'()&"
     return filter(lambda x: x in whitelist, userinput)
 
 
@@ -61,6 +61,6 @@ def submitcrime():
     except Exception as e:
         print(e)
 
-
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0',port=8000, debug=True)
+
