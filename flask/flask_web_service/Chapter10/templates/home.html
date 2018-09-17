@@ -1,0 +1,104 @@
+{% extends "base.html" %}
+
+{% block bodytag %}
+  <body {% if onloadmessage %} onload="alert('{{onloadmessage}}');" {% endif %}>
+{% endblock %}
+
+
+{% block navbar %}
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="true" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Home</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <form class="navbar-form navbar-right" action="/login" method="POST">
+            {% if loginform.errors %}
+              <ul class="errors">
+                {% for field_name, field_errors in loginform.errors|dictsort if field_errors %}
+                  {% for error in field_errors %}
+                    <li>{{ error }}</li>
+                  {% endfor %}
+                {% endfor %}
+              </ul>
+            {% endif %}
+            {{ loginform.csrf_token}}
+            <div class="form-group">
+              {{ loginform.loginemail(class="form-control", placeholder="Email Address")}}
+            </div>
+            <div class="form-group">
+              {{ loginform.loginpassword(class="form-control", placeholder="Password")}}
+            </div>
+            <div class="form-group">
+              {{ loginform.submit(value="Sign in", class="btn btn-success")}}
+            </div>
+          </form>
+
+        </div><!--/.navbar-collapse -->
+      </div>
+    </nav>
+{% endblock %}
+
+{% block content %}
+    <div class="jumbotron">
+      <div class="container">
+        <h1>Waiter Caller</h1>
+        <p>Your patrons can call their waiter anytime, using only their phone</p>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h2>Simple</h2>
+          <p>Just print out the URLs and put them on the tables of your restaurant. No specialized hardware required. </p>
+        </div>
+        <div class="col-md-4">
+          <h2>Cost effective</h2>
+          <p>No need to buy hardware either for your tables or for your kitchen. Management and usage all directly from this page.</p>
+       </div>
+        <div class="col-md-4">
+          <h2>Register now</h2>
+          <form class="form-horizontal" action="/register" method="POST">
+            {{ registrationform.csrf_token }}
+            <div class="form-group">
+              <div class="col-sm-9">
+                {% if registrationform.email.errors %}
+                  <ul class="errors">{% for error in registrationform.email.errors %}<li>{{ error }}</li>{% endfor %}</ul>
+                {% endif %}
+                {{ registrationform.email(class="form-control", placeholder="Email Address" )}}
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-sm-9">
+                {% if registrationform.password.errors %}
+                  <ul class="errors">{% for error in registrationform.password.errors %}<li>{{ error }}</li>{% endfor %}</ul>
+                {% endif %}
+                {{ registrationform.password(class="form-control", placeholder="Password" )}}
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-sm-9">
+                {% if registrationform.password2.errors %}
+                  <ul class="errors">{% for error in registrationform.password2.errors %}<li>{{ error }}</li>{% endfor %}</ul>
+                {% endif %}
+                {{ registrationform.password2(class="form-control", placeholder="Confirm Password" )}}
+              </div>
+            </div> 
+            <div class="form-group">
+              <div class="col-sm-9">
+                {{ registrationform.submit(class="btn btn-primary btn-block")}}
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+{% endblock %}
+
