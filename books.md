@@ -533,6 +533,7 @@ Test-Driven Development with Python, 2nd Edition - 2017 qq群144081101共享
 
 
 [Pandas for Everyone Python Data Analysis -2018.pdf](https://u18113597.pipipan.com/fs/18113597-304126960)
+
 #### NumPy
 
 * [NumPy Beginners Guide Third Edition-2015.pdf](http://file.allitebooks.com/20150807/NumPy%20Beginners%20Guide%20Third%20Edition.pdf)
@@ -570,7 +571,9 @@ Test-Driven Development with Python, 2nd Edition - 2017 qq群144081101共享
 * [Pyside GUI Application Development, Second Edition-2016.pdf](http://file.allitebooks.com/20160213/Pyside%20GUI%20Application%20Development,%20Second%20Edition.pdf)
 
 
+### 其他
 
+[Learning Apache Thrift - 2015](https://itbooks.pipipan.com/fs/18113597-313986510)
 
 常用的python测试开发库。
 
@@ -731,6 +734,7 @@ Test-Driven Development with Python, 2nd Edition - 2017 qq群144081101共享
 * [JavaScript Unit Testing-2013.pdf](http://file.allitebooks.com/20150513/JavaScript%20Unit%20Testing.pdf)
 * [Testing Python-2014.pdf](http://file.allitebooks.com/20150514/Testing%20Python.pdf)
 * [JavaScript Testing with Jasmine-2013.pdf](http://file.allitebooks.com/20150513/JavaScript%20Testing%20with%20Jasmine.pdf)
+* [python自动化测试圣经 -2018 Python Automation Cookbook - 2018 英文版](https://itbooks.pipipan.com/fs/18113597-313910541)
 	
 ## 数据库
 
