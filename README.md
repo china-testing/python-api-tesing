@@ -8,6 +8,11 @@ book_scraper/requests_allitbooks.py 根据搜索词下载allitbooks的书籍，[
 
 wingide6 破解：other/wingide6_python3_crack.py
 
+[国学 中医 历史等社科类书籍下载](https://github.com/china-testing/python-api-tesing/blob/master/society_books.md)
+[电影 视频 下载](https://github.com/china-testing/python-api-tesing/blob/master/videos.md)
+[IT类书籍 下载](https://github.com/china-testing/python-api-tesing/blob/master/books.md)
+
+
 tools目录：
 
  * check_face.py  从excel中读取文件，进行人脸识别
@@ -36,7 +41,7 @@ tools目录：
  * [接口自动化性能测试线上培训大纲](https://china-testing.github.io/testing_training.html)
  * [python测试开发自动化测试数据分析人工智能自学每周一练](https://china-testing.github.io/python_weeks.html)
  * [软件自动化测试初学者忠告](https://china-testing.github.io/testing_automation_tips.html)
- * [python 网络安全 软件测试等IT海量书籍下载](https://github.com/china-testing/python-api-tesing/blob/master/books.md)
+
 
 * 技术支持qq群： 144081101(后期会录制视频存在该群群文件) 591302926 567351477 钉钉免费群：21745728 
 
