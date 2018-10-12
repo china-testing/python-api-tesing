@@ -251,6 +251,7 @@
  * [Take Control of Wi-Fi Networking and Security - 2018.pdf](https://u18113597.pipipan.com/fs/18113597-302583726)
  * [The Mobile Application Hacker’s Handbook - 2015.pdf](https://u18113597.pipipan.com/fs/18113597-302583867)
  * [Kali Linux Wireless Penetration Testing Cookbook - 2017.pdf](https://u18113597.pipipan.com/fs/18113597-302541198)
+ * [Kali Linux Web Penetration Testing Cookbook 2nd - 2018.pdf](https://itbooks.pipipan.com/fs/18113597-314061726)
 
 ### nessus
 
@@ -553,6 +554,8 @@ Test-Driven Development with Python, 2nd Edition - 2017 qq群144081101共享
 
 * Python网络数据采集 qq群：630011153
 
+* [Social Media Data Mining and Analytics - 2018.pdf](https://itbooks.ctfile.com/fs/18113597-314072395)
+
 ### 机器学习
 
 * [Learning TensorFlow - 2017.pdf](http://file.allitebooks.com/20170928/Learning%20TensorFlow.pdf)
@@ -560,6 +563,8 @@ Test-Driven Development with Python, 2nd Edition - 2017 qq群144081101共享
 * [Pro Deep Learning with TensorFlow - 2018.pdf](http://file.allitebooks.com/20171207/Pro%20Deep%20Learning%20with%20TensorFlow.pdf)
 
 * [Reinforcement Learning With Open AI, TensorFlow and Keras Using Python - 2017.pdf](http://file.allitebooks.com/20171210/Reinforcement%20Learning.pdf)
+
+* [Artificial Intelligence for Robotics - 2018.pdf](https://itbooks.ctfile.com/fs/18113597-314071365)
 
 ### UI
 
@@ -737,6 +742,7 @@ Test-Driven Development with Python, 2nd Edition - 2017 qq群144081101共享
 * [Testing Python-2014.pdf](http://file.allitebooks.com/20150514/Testing%20Python.pdf)
 * [JavaScript Testing with Jasmine-2013.pdf](http://file.allitebooks.com/20150513/JavaScript%20Testing%20with%20Jasmine.pdf)
 * [python自动化测试圣经 -2018 Python Automation Cookbook - 2018 英文版](https://itbooks.pipipan.com/fs/18113597-313910541)
+* 数据库基准和压力测试 2018版本 [Database Benchmarking and Stress Testing - 2018.pdf](https://itbooks.pipipan.com/fs/18113597-314044807) 
 	
 ## 数据库
 

@@ -34,10 +34,10 @@
 [手诊与养生保健28.WMV](https://itbooks.pipipan.com/fs/18113597-313865506)
 [手诊与养生保健29.WMV](https://itbooks.pipipan.com/fs/18113597-313865520)
 [手诊与养生保健30.WMV](https://itbooks.pipipan.com/fs/18113597-313865529)
-[手诊与养生保健-共30集 目录.docx](https://itbooks.ctfile.com/fs/18113597-313865532)
+[手诊与养生保健-共30集 目录.docx](https://itbooks.pipipan.com/fs/18113597-313865532)
 
 ### 经典电影
 
-[小鬼当家B.mp4](https://itbooks.ctfile.com/fs/18113597-313862178)
-[小鬼当家4.rmvb](https://itbooks.ctfile.com/fs/18113597-313861956)
-[小城之春.rmvb](https://itbooks.ctfile.com/fs/18113597-313861891)
+[小鬼当家B.mp4](https://itbooks.pipipan.com/fs/18113597-313862178)
+[小鬼当家4.rmvb](https://itbooks.pipipan.com/fs/18113597-313861956)
+[小城之春.rmvb](https://itbooks.pipipan.com/fs/18113597-313861891)
