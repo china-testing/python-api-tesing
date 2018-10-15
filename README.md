@@ -8,9 +8,11 @@ book_scraper/requests_allitbooks.py 根据搜索词下载allitbooks的书籍，[
 
 wingide6 破解：other/wingide6_python3_crack.py
 
-[国学 中医 历史等社科类书籍下载](https://github.com/china-testing/python-api-tesing/blob/master/society_books.md)
-[电影 视频 下载](https://github.com/china-testing/python-api-tesing/blob/master/videos.md)
-[IT类书籍 下载](https://github.com/china-testing/python-api-tesing/blob/master/books.md)
+ * [国学 中医 历史等社科类书籍下载](https://github.com/china-testing/python-api-tesing/blob/master/society_books.md)
+ * [电影 视频 下载](https://github.com/china-testing/python-api-tesing/blob/master/videos.md)
+ * [IT类书籍 下载](https://github.com/china-testing/python-api-tesing/blob/master/books.md)
+
+![休息一下，领领红包，祝你中大奖](https://github.com/china-testing/python-api-tesing/blob/master/hongbao.png)
 
 
 tools目录：

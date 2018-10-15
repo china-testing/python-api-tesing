@@ -1,10 +1,20 @@
+ * [国学 中医 历史等社科类书籍下载](https://github.com/china-testing/python-api-tesing/blob/master/society_books.md)
+ * [电影 视频 下载](https://github.com/china-testing/python-api-tesing/blob/master/videos.md)
+ * [IT类书籍 下载](https://github.com/china-testing/python-api-tesing/blob/master/books.md)
+
+![休息一下，领领红包，祝你中大奖](https://github.com/china-testing/python-api-tesing/blob/master/hongbao.png)
 
 
+   * [经典软件](#经典软件)
    * [社科书籍](#社科书籍)
+      * [保健](#保健)
       * [中医](#中医)
          * [中医教材](#中医教材)
          * [中草药](#中草药)
+         * [医学科普](#医学科普)
+         * [推拿](#推拿)
       * [国学](#国学)
+
       
 # 经典软件
 
@@ -51,6 +61,49 @@
 ### 医学科普
 
 [这些事,医生没有告诉你3远离糖尿病.pdf](https://itbooks.pipipan.com/fs/18113597-309469921)
+
+
+### 推拿
+
+[名医教你从头到脚做推拿 \- 2014.pdf](https://itbooks.ctfile.com/fs/18113597-314557912)
+
+[四季推拿养生法 \- 2008.pdf](https://itbooks.ctfile.com/fs/18113597-314728500)
+
+[大成推拿术 \- 2012.pdf](https://itbooks.ctfile.com/fs/18113597-314557866) 亚马逊4星 6条评论
+
+[实用小儿推拿 \- 2009.pdf](https://itbooks.ctfile.com/fs/18113597-314728554)
+
+[小儿推拿使用手册 \- 2013.pdf](https://itbooks.ctfile.com/fs/18113597-314728483)
+
+[小儿推拿妈妈做 \- 2015.pdf](https://itbooks.ctfile.com/fs/18113597-314728476)
+
+[小儿推拿按摩专家教 (73种小儿常见病的推拿、按摩、刮痧疗法) - 2015.pdf](https://itbooks.ctfile.com/fs/18113597-314557948)
+
+[小病小痛一推就好 \- 2016.pdf](https://itbooks.ctfile.com/fs/18113597-314557927)
+
+[常见病推拿防治.pdf](https://itbooks.ctfile.com/fs/18113597-314728459)
+
+[手到病除学推拿 \- 2013.pdf](https://itbooks.ctfile.com/fs/18113597-314728458)
+
+[推拿按摩全书 \- 2007.pdf](https://itbooks.ctfile.com/fs/18113597-314557917)
+
+[推拿排毒一身轻 \- 2010.pdf](https://itbooks.ctfile.com/fs/18113597-314728506) 亚马逊4.0星 9评论
+
+[推拿研究与应用 \- 2010.pdf](https://itbooks.ctfile.com/fs/18113597-314728539)
+
+[李少波真气运行针灸推拿实践 \- 2012.pdf](https://itbooks.ctfile.com/fs/18113597-314728551) 亚马逊4.5星 12评论
+
+[李德修小儿推拿秘笈 \- 2010.pdf](https://itbooks.ctfile.com/fs/18113597-314557879) 亚马逊4.2星 148评论
+
+[每天学点颈肩腰腿病速效自疗 \- 2015.pdf](https://itbooks.ctfile.com/fs/18113597-314557902)
+
+[汉英对照三字经流派小儿推拿(修订版) \- 2011.pdf](https://itbooks.ctfile.com/fs/18113597-314728470) 亚马逊4.5星 5评论
+
+[海派儿科推拿 2017.pdf](https://itbooks.ctfile.com/fs/18113597-314557878)
+
+[针灸推拿一学就会 \- 2009.pdf](https://itbooks.ctfile.com/fs/18113597-314728489)
+
+[零基础学会推拿按摩 \- 2015.pdf](https://itbooks.ctfile.com/fs/18113597-314557891) 亚马逊4.2星 13评论
 
 
 

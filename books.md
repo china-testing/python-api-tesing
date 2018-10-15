@@ -183,15 +183,15 @@
 
 ### 综合
 
-[Wireless Network Security 2nd - 2018.pdf](https://itbooks.ctfile.com/fs/18113597-307924422)
+[Wireless Network Security 2nd - 2018.pdf](https://itbooks.pipipan.com/fs/18113597-307924422)
 
-[The Cyber Risk Handbook - 2017.pdf](https://itbooks.ctfile.com/fs/18113597-307924375)
+[The Cyber Risk Handbook - 2017.pdf](https://itbooks.pipipan.com/fs/18113597-307924375)
 
-[Fundamentals of Information Systems Security 3rd - 2018.pdf](https://itbooks.ctfile.com/fs/18113597-307924344)
+[Fundamentals of Information Systems Security 3rd - 2018.pdf](https://itbooks.pipipan.com/fs/18113597-307924344)
 
-[Gray Hat Hacking 5th - 2018.pdf](https://itbooks.ctfile.com/fs/18113597-307822776)
+[Gray Hat Hacking 5th - 2018.pdf](https://itbooks.pipipan.com/fs/18113597-307822776)
 
-[灰帽黑客 第4版 - 2016.pdf](https://itbooks.ctfile.com/fs/18113597-307822356)
+[灰帽黑客 第4版 - 2016.pdf](https://itbooks.pipipan.com/fs/18113597-307822356)
 
 
  * [Anti-Hacker Tool Kit, 4th Edition- 2014.pdf](https://u18113597.pipipan.com/fs/18113597-302583318)
@@ -556,7 +556,7 @@ Test-Driven Development with Python, 2nd Edition - 2017 qq群144081101共享
 
 * Python网络数据采集 qq群：630011153
 
-* [Social Media Data Mining and Analytics - 2018.pdf](https://itbooks.ctfile.com/fs/18113597-314072395)
+* [Social Media Data Mining and Analytics - 2018.pdf](https://itbooks.pipipan.com/fs/18113597-314072395)
 
 ### 机器学习
 
@@ -566,7 +566,7 @@ Test-Driven Development with Python, 2nd Edition - 2017 qq群144081101共享
 
 * [Reinforcement Learning With Open AI, TensorFlow and Keras Using Python - 2017.pdf](http://file.allitebooks.com/20171210/Reinforcement%20Learning.pdf)
 
-* [Artificial Intelligence for Robotics - 2018.pdf](https://itbooks.ctfile.com/fs/18113597-314071365)
+* [Artificial Intelligence for Robotics - 2018.pdf](https://itbooks.pipipan.com/fs/18113597-314071365)
 
 ### UI
 
@@ -589,6 +589,8 @@ Test-Driven Development with Python, 2nd Edition - 2017 qq群144081101共享
 ### PYTHON图像处理
 
 #### opencv
+
+* [Hands-On GPU-Accelerated Computer Vision with OpenCV and CUDA - 2018.pdf](https://itbooks.pipipan.com/fs/18113597-314163762)
 
 * Practical Computer Vision Extract insightful information from images using TensorFlow, Keras, and OpenCV 2018-02 
 
@@ -678,6 +680,10 @@ Test-Driven Development with Python, 2nd Edition - 2017 qq群144081101共享
 * [Mastering matplotlib-2015.pdf](http://file.allitebooks.com/20150807/Mastering%20matplotlib.pdf)
 * [Interactive Applications using Matplotlib-2015.pdf](http://file.allitebooks.com/20150731/Interactive%20Applications%20using%20Matplotlib.pdf)
 
+### python其他
+
+* [Microservices in Action - 2018.pdf](https://itbooks.pipipan.com/fs/18113597-314162503)
+
 
 ## 测试
 
@@ -744,7 +750,9 @@ Test-Driven Development with Python, 2nd Edition - 2017 qq群144081101共享
 * [Testing Python-2014.pdf](http://file.allitebooks.com/20150514/Testing%20Python.pdf)
 * [JavaScript Testing with Jasmine-2013.pdf](http://file.allitebooks.com/20150513/JavaScript%20Testing%20with%20Jasmine.pdf)
 * [python自动化测试圣经 -2018 Python Automation Cookbook - 2018 英文版](https://itbooks.pipipan.com/fs/18113597-313910541)
-* 数据库基准和压力测试 2018版本 [Database Benchmarking and Stress Testing - 2018.pdf](https://itbooks.pipipan.com/fs/18113597-314044807) 
+* 数据库基准和压力测试 2018版本 [Database Benchmarking and Stress Testing - 2018.pdf](https://itbooks.pipipan.com/fs/18113597-314044807)
+* [Remote Usability Testing - 2018.pdf](https://itbooks.ctfile.com/fs/18113597-314167512) 
+
 	
 ## 数据库
 
