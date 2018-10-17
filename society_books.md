@@ -18,7 +18,7 @@
       
 # 经典软件
 
-[PDF编辑器 Adobe_Acrobat_Pro9_160215.rar](https://home.ctfile.com/#item-files/action-index/folder_id-29785334)
+[PDF编辑器 Adobe_Acrobat_Pro9_160215.rar](https://home.pipipan.com/#item-files/action-index/folder_id-29785334)
 
 [secureCRT 7.2](https://itbooks.pipipan.com/fs/18113597-310081425)
      
@@ -65,63 +65,63 @@
 
 ### 推拿
 
-[名医教你从头到脚做推拿 \- 2014.pdf](https://itbooks.ctfile.com/fs/18113597-314557912)
+[名医教你从头到脚做推拿 \- 2014.pdf](https://itbooks.pipipan.com/fs/18113597-314557912)
 
-[四季推拿养生法 \- 2008.pdf](https://itbooks.ctfile.com/fs/18113597-314728500)
+[四季推拿养生法 \- 2008.pdf](https://itbooks.pipipan.com/fs/18113597-314728500)
 
-[大成推拿术 \- 2012.pdf](https://itbooks.ctfile.com/fs/18113597-314557866) 亚马逊4星 6条评论
+[大成推拿术 \- 2012.pdf](https://itbooks.pipipan.com/fs/18113597-314557866) 亚马逊4星 6条评论
 
-[实用小儿推拿 \- 2009.pdf](https://itbooks.ctfile.com/fs/18113597-314728554)
+[实用小儿推拿 \- 2009.pdf](https://itbooks.pipipan.com/fs/18113597-314728554)
 
-[小儿推拿使用手册 \- 2013.pdf](https://itbooks.ctfile.com/fs/18113597-314728483)
+[小儿推拿使用手册 \- 2013.pdf](https://itbooks.pipipan.com/fs/18113597-314728483)
 
-[小儿推拿妈妈做 \- 2015.pdf](https://itbooks.ctfile.com/fs/18113597-314728476)
+[小儿推拿妈妈做 \- 2015.pdf](https://itbooks.pipipan.com/fs/18113597-314728476)
 
-[小儿推拿按摩专家教 (73种小儿常见病的推拿、按摩、刮痧疗法) - 2015.pdf](https://itbooks.ctfile.com/fs/18113597-314557948)
+[小儿推拿按摩专家教 (73种小儿常见病的推拿、按摩、刮痧疗法) - 2015.pdf](https://itbooks.pipipan.com/fs/18113597-314557948)
 
-[小病小痛一推就好 \- 2016.pdf](https://itbooks.ctfile.com/fs/18113597-314557927)
+[小病小痛一推就好 \- 2016.pdf](https://itbooks.pipipan.com/fs/18113597-314557927)
 
-[常见病推拿防治.pdf](https://itbooks.ctfile.com/fs/18113597-314728459)
+[常见病推拿防治.pdf](https://itbooks.pipipan.com/fs/18113597-314728459)
 
-[手到病除学推拿 \- 2013.pdf](https://itbooks.ctfile.com/fs/18113597-314728458)
+[手到病除学推拿 \- 2013.pdf](https://itbooks.pipipan.com/fs/18113597-314728458)
 
-[推拿按摩全书 \- 2007.pdf](https://itbooks.ctfile.com/fs/18113597-314557917)
+[推拿按摩全书 \- 2007.pdf](https://itbooks.pipipan.com/fs/18113597-314557917)
 
-[推拿排毒一身轻 \- 2010.pdf](https://itbooks.ctfile.com/fs/18113597-314728506) 亚马逊4.0星 9评论
+[推拿排毒一身轻 \- 2010.pdf](https://itbooks.pipipan.com/fs/18113597-314728506) 亚马逊4.0星 9评论
 
-[推拿研究与应用 \- 2010.pdf](https://itbooks.ctfile.com/fs/18113597-314728539)
+[推拿研究与应用 \- 2010.pdf](https://itbooks.pipipan.com/fs/18113597-314728539)
 
-[李少波真气运行针灸推拿实践 \- 2012.pdf](https://itbooks.ctfile.com/fs/18113597-314728551) 亚马逊4.5星 12评论
+[李少波真气运行针灸推拿实践 \- 2012.pdf](https://itbooks.pipipan.com/fs/18113597-314728551) 亚马逊4.5星 12评论
 
-[李德修小儿推拿秘笈 \- 2010.pdf](https://itbooks.ctfile.com/fs/18113597-314557879) 亚马逊4.2星 148评论
+[李德修小儿推拿秘笈 \- 2010.pdf](https://itbooks.pipipan.com/fs/18113597-314557879) 亚马逊4.2星 148评论
 
-[每天学点颈肩腰腿病速效自疗 \- 2015.pdf](https://itbooks.ctfile.com/fs/18113597-314557902)
+[每天学点颈肩腰腿病速效自疗 \- 2015.pdf](https://itbooks.pipipan.com/fs/18113597-314557902)
 
-[汉英对照三字经流派小儿推拿(修订版) \- 2011.pdf](https://itbooks.ctfile.com/fs/18113597-314728470) 亚马逊4.5星 5评论
+[汉英对照三字经流派小儿推拿(修订版) \- 2011.pdf](https://itbooks.pipipan.com/fs/18113597-314728470) 亚马逊4.5星 5评论
 
-[海派儿科推拿 2017.pdf](https://itbooks.ctfile.com/fs/18113597-314557878)
+[海派儿科推拿 2017.pdf](https://itbooks.pipipan.com/fs/18113597-314557878)
 
-[针灸推拿一学就会 \- 2009.pdf](https://itbooks.ctfile.com/fs/18113597-314728489)
+[针灸推拿一学就会 \- 2009.pdf](https://itbooks.pipipan.com/fs/18113597-314728489)
 
-[零基础学会推拿按摩 \- 2015.pdf](https://itbooks.ctfile.com/fs/18113597-314557891) 亚马逊4.2星 13评论
+[零基础学会推拿按摩 \- 2015.pdf](https://itbooks.pipipan.com/fs/18113597-314557891) 亚马逊4.2星 13评论
 
-[王敬能救命的刮痧书 \- 2015.pdf](https://itbooks.ctfile.com/fs/18113597-314934000) 亚马逊5.0 25
+[王敬能救命的刮痧书 \- 2015.pdf](https://itbooks.pipipan.com/fs/18113597-314934000) 亚马逊5.0 25
 
-[图解刮痧拔罐疗法 \- 2014.pdf](https://itbooks.ctfile.com/fs/18113597-314933874)
+[图解刮痧拔罐疗法 \- 2014.pdf](https://itbooks.pipipan.com/fs/18113597-314933874)
 
-[手到病自消全集．2，拔罐、刮痧、艾灸、贴敷祛百病 - 2015.pdf](https://itbooks.ctfile.com/fs/18113597-314933790)
+[手到病自消全集．2，拔罐、刮痧、艾灸、贴敷祛百病 - 2015.pdf](https://itbooks.pipipan.com/fs/18113597-314933790)
 
-[手到病自除 1——刮痧、拔罐、艾灸、贴敷养生自愈法 - 2016.pdf](https://itbooks.ctfile.com/fs/18113597-314933352) 亚马逊4.0 18 
+[手到病自除 1——刮痧、拔罐、艾灸、贴敷养生自愈法 - 2016.pdf](https://itbooks.pipipan.com/fs/18113597-314933352) 亚马逊4.0 18 
 
-[零基础学会拔罐刮痧 \- 2015.pdf](https://itbooks.ctfile.com/fs/18113597-314933305)
+[零基础学会拔罐刮痧 \- 2015.pdf](https://itbooks.pipipan.com/fs/18113597-314933305)
 
-[灸除百病刮痧保健全书：彩图白金版 (中国家庭必备工具书) \- 2015.pdf](https://itbooks.ctfile.com/fs/18113597-314933283)
+[灸除百病刮痧保健全书：彩图白金版 (中国家庭必备工具书) \- 2015.pdf](https://itbooks.pipipan.com/fs/18113597-314933283)
 
-[国医绝学家庭使用手册 \- 2014.pdf](https://itbooks.ctfile.com/fs/18113597-314933241)
+[国医绝学家庭使用手册 \- 2014.pdf](https://itbooks.pipipan.com/fs/18113597-314933241)
 
-[刮痧消百病 \- 2014.pdf](https://itbooks.ctfile.com/fs/18113597-314933188)
+[刮痧消百病 \- 2014.pdf](https://itbooks.pipipan.com/fs/18113597-314933188)
 
-[刮痧拔罐针灸 \- 2015.pdf](https://itbooks.ctfile.com/fs/18113597-314933139)
+[刮痧拔罐针灸 \- 2015.pdf](https://itbooks.pipipan.com/fs/18113597-314933139)
 
 
 

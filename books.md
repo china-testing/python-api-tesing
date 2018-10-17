@@ -752,6 +752,7 @@ Test-Driven Development with Python, 2nd Edition - 2017 qq群144081101共享
 * [python自动化测试圣经 -2018 Python Automation Cookbook - 2018 英文版](https://itbooks.pipipan.com/fs/18113597-313910541)
 * 数据库基准和压力测试 2018版本 [Database Benchmarking and Stress Testing - 2018.pdf](https://itbooks.pipipan.com/fs/18113597-314044807)
 * [Remote Usability Testing - 2018.pdf](https://itbooks.ctfile.com/fs/18113597-314167512) 
+* [Selenium自动化测试 基于 Python 语言 - 2018.pdf](https://itbooks.pipipan.com/fs/18113597-315206043)
 
 	
 ## 数据库
