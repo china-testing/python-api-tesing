@@ -1277,6 +1277,7 @@ Python版本和环境管理
 * [Pingo](https://github.com/pingo-io/pingo-py) - Pingo提供统一的API来编程像Raspberry Pi，pcDuino，Intel Galileo等设备。
 * [PyUserInput](https://github.com/SavinaRoja/PyUserInput) - 用于跨平台控制鼠标和键盘的模块。
 * [scapy](https://github.com/secdev/scapy) - 出色的数据包操作库。
+* [thrift-tools](https://github.com/pinterest/thrift-tools) thrift抓包工具。
 * mitmproxy：HTTP和抓包库。[官网](https://github.com/mitmproxy/mitmproxy)
 * [wifi](https://github.com/rockymeza/wifi) - 用于在Linux上使用WiFi的Python库和命令行工具。
 *   Pyro：Python 机器人编程库。[官网](http://pyrorobotics.com/)
