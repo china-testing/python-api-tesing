@@ -43,3 +43,14 @@
 [小鬼当家B.mp4](https://itbooks.pipipan.com/fs/18113597-313862178)
 [小鬼当家4.rmvb](https://itbooks.pipipan.com/fs/18113597-313861956)
 [小城之春.rmvb](https://itbooks.pipipan.com/fs/18113597-313861891)
+
+
+ * [python3快速入门教程1 turtle绘图-1开始](https://china-testing.github.io/python3_crash1.html)
+ * [接口自动化性能测试线上培训大纲](https://china-testing.github.io/testing_training.html)
+ * [python测试开发自动化测试数据分析人工智能自学每周一练](https://china-testing.github.io/python_weeks.html)
+ * [软件自动化测试初学者忠告](https://china-testing.github.io/testing_automation_tips.html)
+
+
+* 技术支持qq群： 144081101(后期会录制视频存在该群群文件) 591302926 567351477 钉钉免费群：21745728 
+
+* 道家技术-手相手诊看相中医等钉钉群21734177 qq群：391441566 184175668 338228106 看手相、面相、舌相、抽签、体质识别。服务费50元每人次起。请联系钉钉或者微信pythontesting
