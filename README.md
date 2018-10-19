@@ -1266,6 +1266,7 @@ Python版本和环境管理
 *   treq：类似 requests 的 Python API 构建于 Twisted HTTP 客户端之上。[官网](https://github.com/twisted/treq)
 *   urllib3：一个具有线程安全连接池，支持文件 post，清晰友好的 HTTP 库。[官网](https://github.com/shazow/urllib3)
 
+
 ## 硬件(Hardware)
 
 *用于硬件编程的库。*
@@ -1276,6 +1277,7 @@ Python版本和环境管理
 * [Pingo](https://github.com/pingo-io/pingo-py) - Pingo提供统一的API来编程像Raspberry Pi，pcDuino，Intel Galileo等设备。
 * [PyUserInput](https://github.com/SavinaRoja/PyUserInput) - 用于跨平台控制鼠标和键盘的模块。
 * [scapy](https://github.com/secdev/scapy) - 出色的数据包操作库。
+* mitmproxy：HTTP和抓包库。[官网](https://github.com/mitmproxy/mitmproxy)
 * [wifi](https://github.com/rockymeza/wifi) - 用于在Linux上使用WiFi的Python库和命令行工具。
 *   Pyro：Python 机器人编程库。[官网](http://pyrorobotics.com/)
 *   PyUserInput：跨平台的，控制鼠标和键盘的模块。[官网](https://github.com/SavinaRoja/PyUserInput)
