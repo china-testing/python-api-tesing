@@ -72,7 +72,7 @@ Table of Contents
       * [音频(Audio)](#音频audio)
       * [认证(Authentication)](#认证authentication)
       * [内置类增强(Built-in Classes Enhancement)](#内置类增强built-in-classes-enhancement)
-	  * [区块链(Blockchain)](#区块链Blockchain)
+      * [区块链(Blockchain)](#区块链blockchain)
       * [CMS(Content Management Systems)](#cmscontent-management-systems)
       * [缓存(Caching)](#缓存caching)
       * [自动聊天工具(ChatOps Tools)](#自动聊天工具chatops-tools)
@@ -157,7 +157,9 @@ Table of Contents
       * [网络爬虫(Web Crawling)](#网络爬虫web-crawling)
       * [Web 框架(Web Frameworks)](#web-框架web-frameworks)
       * [WebSocket](#websocket)
+      * [监控](#监控)
          * [持续更新](#持续更新)
+
 
 
 # Python测试开发库
@@ -174,8 +176,6 @@ https://westurner.github.io/wiki/awesome-python-testing
 
 wechat： pythontesting
 
-淘宝天猫购物可以把链接发给qq850766020，为你生成优惠券，降低你的购物成本！
-
 # 测试开发
 
 
@@ -184,7 +184,7 @@ wechat： pythontesting
 
  * splinter - web UI测试工具，基于selnium封装。 [链接](https://github.com/cobrateam/splinter) 
 
- * selenium - web UI自动化测试。 [链接](https://github.com/SeleniumHQ/selenium/tree/master/py) --推荐
+ * selenium - web UI自动化测试。 [链接](https://github.com/SeleniumHQ/selenium/tree/master/py) --推荐 [文档参考](https://china-testing.github.io/selenium_example5.html)
 
  * mechanize- Python中有状态的程序化Web浏览。[链接](https://github.com/python-mechanize/mechanize) 
 
@@ -218,8 +218,7 @@ wechat： pythontesting
 
  * Winium.Desktop - 开源测试自动化工具，用于基于WinForms和WPF平台自动测试Windows应用程序，基于Selenium远程WebDriver实现。 [链接](https://github.com/2gis/Winium.Desktop/)
 
- * pyautogui- 跨平台的UI自动化工具，控制鼠标和键盘。 [链接](https://github.com/asweigart/pyautogui) 
-
+ * pyautogui- 跨平台的UI自动化工具，控制鼠标和键盘。 [链接](https://github.com/asweigart/pyautogui)  
  * autopy - 简单的跨平台GUI自动化工具包，适用于Python。 [链接](https://github.com/msanders/autopy) 
 
  * pywinauto - Windows UI自动化。 [链接](https://github.com/pywinauto/pywinauto/) 
@@ -247,6 +246,7 @@ autopy、WATSUP、winGuiAuto因为较长时间未更新未收录
 
 ## 性能测试
 
+[软件测试专家工具包2性能测试](https://china-testing.github.io/testing_tools_perf.html) https://china-testing.github.io/testing_tools_perf.html
 
  * funkload - 性能及功能测试工具。 [链接](http://funkload.nuxeo.org/) --推荐
 
@@ -280,15 +280,13 @@ autopy、WATSUP、winGuiAuto因为较长时间未更新未收录
 
  * nose2- nose基于unittest2的版本。 [链接](https://github.com/nose-devs/nose2) 
 
- * pytest- 很好的强大的单元测试框架，实际上广泛使用在自动化单元、接口、功能等测试。 [链接](https://github.com/pytest-dev/pytest) -- 强烈推荐 
+ * pytest- 很好的强大的单元测试框架，实际上广泛使用在自动化单元、接口、功能等测试。 [链接](https://github.com/pytest-dev/pytest) -- 强烈推荐  [参考](https://china-testing.github.io/python_pytest_testing1.html)
 
  * testify - 单元测试框架，提供增强的测试fixture设置，将测试套件拆分成易于并行化的存储bucket，PEP8命名约定，带有大量日志/报告选项及颜色测试运行器。[链接](https://github.com/Yelp/Testify/) 
 
  * trial - Twisted的单元测试框架，基于unittest。[链接](http://twistedmatrix.com/trac/wiki/TwistedTrial) 
 
  * Robot Framework- 通用的python测试框架，易于上手，生成的报告比较好看，适合小型公司使用，支持关键字和数据等驱动，系业界内很出名的框架。不过因为写用例不能很灵活的应用python，需要大量的python封装，大公司通常使用pytest，django，flask之类的库自行开发。 [链接](https://github.com/robotframework/robotframework) 
-
- * pytest- 很好的强大的单元测试框架，实际上广泛使用在自动化单元、接口、功能等测试。 [链接](https://github.com/pytest-dev/pytest)  -- 强烈推荐 
 
  * green- 彩色(命令行能显示多种颜色)的单元测试框架。 [链接](https://github.com/CleanCut/green) 
 
@@ -349,7 +347,7 @@ autopy、WATSUP、winGuiAuto因为较长时间未更新未收录
 
  * 雪峰磁针石说明:
 
-radar 因为github星级太少而未收录
+radar 因为github星级太少而未收录 最近版本参见原文：https://github.com/china-testing/python-api-tesing
 
 ## 其他测试工具
 
@@ -367,7 +365,7 @@ radar 因为github星级太少而未收录
 
 ## 持续交付
 
- * buildbot - google等公司使用的持续集成框架，上手比Jenkins难，功能和性能远比Jenkins强大。 [链接](https://github.com/buildbot/buildbot/)
+ * buildbot - google等公司使用的持续集成框架，上手比Jenkins难，功能和性能远比Jenkins强大。 [链接](https://github.com/buildbot/buildbot/) [python库介绍-buildbot教程](https://china-testing.github.io/python3_lib_buildbot.html)
 
  * BitBake – 嵌入式Linux上类似make工具。[链接](http://www.yoctoproject.org/docs/1.6/bitbake-user-manual/bitbake-user-manual.html)
 
@@ -423,7 +421,7 @@ Python的算法和设计模式的实现。
 
  * 雪峰磁针石说明:
 
-django-simple-spam-blocker因为github星级太少而未收录
+django-simple-spam-blocker因为github星级太少而未收录  最近版本参见原文：https://github.com/china-testing/python-api-tesing
 
 
 ## 资产管理(Asset Management)
@@ -482,9 +480,10 @@ django-simple-spam-blocker因为github星级太少而未收录
 
  * 雪峰磁针石说明:
 
-django-elastic-transcoder， eyeD3 因为github星级太少而未收录
+django-elastic-transcoder， eyeD3 因为github星级太少而未收录 
 
-scikits.talkbox 因长时间未更新未收录
+scikits.talkbox 因长时间未更新未收录 最近版本参见原文：https://github.com/china-testing/python-api-tesing
+
 
 ## 认证(Authentication)
 
@@ -1939,13 +1938,20 @@ Archive
  * django-socketio：Django WebSocket。[链接](https://github.com/stephenmcd/django-socketio)
 
  * WebSocket-for-Python：为Python2/3 以及 PyPy 编写的 WebSocket 客户端和服务器库。[链接](https://github.com/Lawouach/WebSocket-for-Python) 
+ 
+## 监控
+
+[python应用性能监控工具简介](https://china-testing.github.io/python_monitor.html) https://china-testing.github.io/python_monitor.html
+
+  * [sentry](https://github.com/getsentry/sentry) Sentry is cross-platform application monitoring, with a focus on error reporting. https://sentry.io 推荐
+  * [Graphite](https://github.com/graphite-project/graphite-web/blob/master/docs/overview.rst) 存储时间序列数据，并通过Django Web应用程序在图形中显示它们。 
 
 ### 持续更新
 
 [接口自动化性能测试线上培训大纲](https://china-testing.github.io/testing_training.html)
 
-交流QQ群：python 测试开发自动化测试 144081101  Python数据分析pandas Excel 630011153 中医草药自学自救大数据 391441566 南方中医草药鉴别学习 184175668 中医草药湿热湿疹胃病 291184506 python高级人工智能视觉 6089740 
+交流QQ群：python 测试开发自动化测试 144081101 python高级人工智能视觉 6089740 
 
 wechat： pythontesting
 
-淘宝天猫购物可以把链接发给qq850766020，为你生成优惠券，降低你的购物成本！
+
