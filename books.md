@@ -2,7 +2,7 @@
  * [电影 视频 下载](https://github.com/china-testing/python-api-tesing/blob/master/videos.md)
  * [IT类书籍 下载](https://github.com/china-testing/python-api-tesing/blob/master/books.md)
 
-![休息一下，领领红包，祝你中大奖](https://github.com/china-testing/python-api-tesing/blob/master/hongbao.png)
+
 
 
    * [书籍](#书籍)
@@ -688,6 +688,84 @@ Test-Driven Development with Python, 2nd Edition - 2017 qq群144081101共享
 
 ## 测试
 
+### 试题
+ [软件测试综合面试题(高级测试)-试题.pdf](https://itbooks.pipipan.com/fs/18113597-316083198)
+
+  [软件测试综合面试题(python测试开发).pdf](https://itbooks.pipipan.com/fs/18113597-316083196)
+
+  [自动化_性能_web测试 - 试卷.pdf](https://itbooks.pipipan.com/fs/18113597-316083195)
+
+  [自动化试卷.pdf](https://itbooks.pipipan.com/fs/18113597-316083192)
+
+### 软件测试
+
+  [优质代码：软件测试的原则、实践与模式 \- 2015.pdf](https://itbooks.pipipan.com/fs/18113597-316074102)
+
+
+  [应用程序性能测试的艺术 \- 2012.pdf](https://itbooks.pipipan.com/fs/18113597-316074076)
+
+  [移动App测试实战：顶级互联网企业软件测试和质量提升最佳实践 - 2015.pdf](https://itbooks.pipipan.com/fs/18113597-316074007)
+
+  [腾讯Android自动化测试实战 - 2016.pdf](https://itbooks.pipipan.com/fs/18113597-316073745)
+
+  [软件性能测试过程详解与案例剖析（第二版）\- 2012.pdf](https://itbooks.pipipan.com/fs/18113597-316073529)
+
+  [软件测试价值提升之路 \- 2016.pdf](https://itbooks.pipipan.com/fs/18113597-316072834)
+
+  [Praxiswissen Softwaretest - Test Analyst und Technical Test Analyst Aus - 2015.pdf](https://itbooks.pipipan.com/fs/18113597-316072683)
+
+  [Google软件测试之道 - 2013.pdf](https://itbooks.pipipan.com/fs/18113597-316072590)
+
+  [Advanced Software Testing - Vol. 2, 2nd Edition Guide to the ISTQB Advanced Certification as an Advanced Test Manager - 2014.pdf](https://itbooks.pipipan.com/fs/18113597-316072495)
+
+  [std1008-1987 IEEE 1008 单元测试国际标准.pdf](https://itbooks.pipipan.com/fs/18113597-314969695)
+
+  [IEEE Std 829-2008 测试计划模板.pdf](https://itbooks.pipipan.com/fs/18113597-314969548)
+
+  [BS ISO IEC 25010-2011 Systems and software engineering — Systems and software Quality Requirements and Evaluation (SQuaRE) — System and software quality models.pdf](https://itbooks.pipipan.com/fs/18113597-314939974)
+
+  [IEEE-Std-829-2008.pdf](https://itbooks.pipipan.com/fs/18113597-314939694)
+
+  [ISO-IEC 25010 系统和软件质量模型.pdf](https://itbooks.pipipan.com/fs/18113597-314939352)
+
+  [Hands-On Continuous Integration and Delivery - 2018.pdf](https://itbooks.pipipan.com/fs/18113597-314170123)
+
+  [Remote Usability Testing - 2018.pdf](https://itbooks.pipipan.com/fs/18113597-314167512)
+
+  [Database Benchmarking and Stress Testing - 2018.pdf](https://itbooks.pipipan.com/fs/18113597-314044807)
+
+  [Python Testing with pytest - 2017.pdf](https://itbooks.pipipan.com/fs/18113597-309198424)
+
+  [\[高级软件测试卷2：高级软件测试经理\].Rex.Black.扫描版.pdf](https://itbooks.pipipan.com/fs/18113597-302728068)
+
+  [Rocky.Nook.Improving.the.Test.Process.Dec.2013.pdf](https://itbooks.pipipan.com/fs/18113597-302727922)
+
+  [Software Testing Foundations 4th - 2014.pdf](https://itbooks.pipipan.com/fs/18113597-302727870)
+
+  [Rocky.Nook Advanced Software Testing .Vol.3.2nd.Edition - 2015.pdf](https://itbooks.pipipan.com/fs/18113597-302727763)
+
+[深入理解Android自动化测试 (移动开发) - 2016.pdf](https://itbooks.pipipan.com/fs/18113597-316090216)
+
+[精通Metasploit渗透测试 (图灵程序设计丛书) - 2016.pdf](https://itbooks.pipipan.com/fs/18113597-316090186)
+
+[测试架构师修炼之道：从测试工程师到测试架构师 \- 2016.pdf](https://itbooks.pipipan.com/fs/18113597-316090161)
+
+[Web渗透测试：使用Kali Linux (图灵程序设计丛书) - 2014.pdf](https://itbooks.pipipan.com/fs/18113597-316090132)
+
+[Kali Linux高级渗透测试（原书第2版） (网络空间安全技术丛书) - 2018.pdf](https://itbooks.pipipan.com/fs/18113597-316090098)
+
+[Kali Linux 无线渗透测试入门指南 - 2016.pdf](https://itbooks.pipipan.com/fs/18113597-316090032)
+
+[Android移动性能实战 - 2017.pdf](https://itbooks.pipipan.com/fs/18113597-316090015)
+
+[有效的单元测试 (华章程序员书库) \- 2014.pdf](https://itbooks.pipipan.com/fs/18113597-316089972)
+
+[Kali Linux渗透测试的艺术 - 2015.pdf](https://itbooks.pipipan.com/fs/18113597-316089945)
+
+[程序之美系列套装（6册）团队之美、项目管理之美、架构之美、数据之美、测试之美、安全之美 - 2015.pdf](https://itbooks.pipipan.com/fs/18113597-316096746)
+
+[Sample Exam Questions- ISTQB Foundation Level-Agile Tester Extension Exam - 2016.pdf](https://itbooks.pipipan.com/fs/18113597-316096725)
+
 * [Learning Android Application Testing-2015.pdf](http://file.allitebooks.com/20170415/Learning%20Android%20Application%20Testing.pdf)
 * [Effective Python Penetration Testing-2016.pdf](http://file.allitebooks.com/20170710/Effective%20Python%20Penetration%20Testing.pdf)
 * [Kali Linux 2 Windows Penetration Testing-2016.pdf](http://file.allitebooks.com/20170608/Kali%20Linux%202%20Windows%20Penetration%20Testing.pdf)
@@ -962,8 +1040,60 @@ Test-Driven Development with Python, 2nd Edition - 2017 qq群144081101共享
  * [接口自动化性能测试线上培训大纲](https://china-testing.github.io/testing_training.html)
  * [python测试开发自动化测试数据分析人工智能自学每周一练](https://china-testing.github.io/python_weeks.html)
  * [软件自动化测试初学者忠告](https://china-testing.github.io/testing_automation_tips.html)
+ 
+## 虚拟现实
+
+[GFK：虚拟现实零售市场简述 - 2017.pdf](https://itbooks.pipipan.com/fs/18113597-316295260)
+
+[VR虚拟现实与AR增强现实的技术原理与商业应用 - 2017.pdf](https://itbooks.pipipan.com/fs/18113597-316295256)
+
+[虚拟现实技术与应用 \- 2004.pdf](https://itbooks.pipipan.com/fs/18113597-316295253)
+
+[虚拟现实技术及编程技巧 \- 1999.pdf](https://itbooks.pipipan.com/fs/18113597-316295248)
+
+[虚拟现实：万象的新开端 \- 2018.pdf](https://itbooks.pipipan.com/fs/18113597-316295244)
+
+[人工智能和虚拟现实的科幻鼻祖“神经漫游者”三部曲（套装全3册） - 2013.pdf](https://itbooks.pipipan.com/fs/18113597-316295242)
+
+[沉浸感：不可错过的虚拟现实革命 \- 2017.pdf](https://itbooks.pipipan.com/fs/18113597-316295241)
+
+[Yeti：2016年虚拟现实（VR）用户调查报告.pdf](https://itbooks.pipipan.com/fs/18113597-316295239)
+
+[VR虚拟现实 重构用户体验与商业新生态 - 2016.pdf](https://itbooks.pipipan.com/fs/18113597-316295236)
+
+[OFFLINE · 虚拟现实如何讲故事.pdf](https://itbooks.pipipan.com/fs/18113597-316295235)
+
+[Learning Web-based Virtual Reality - 2017.pdf](https://itbooks.pipipan.com/fs/18113597-316294896)
+
+[Building Virtual Reality with Unity and SteamVR - 2017.pdf](https://itbooks.pipipan.com/fs/18113597-316294890)
+
+[Beginning Windows Mixed Reality Programming For HoloLens and Mixed Reality Headsets.pdf](https://itbooks.pipipan.com/fs/18113597-316294888)
+
+[Augmented Reality Principles and Practice - 2016.pdf](https://itbooks.pipipan.com/fs/18113597-316294885)
+
+[Augmented Reality Game Development - 2017.pdf](https://itbooks.pipipan.com/fs/18113597-316294881)
+
+[Augmented Reality for Developers - 2017.pdf](https://itbooks.pipipan.com/fs/18113597-316294875)
+
+[Augmented Reality for Android Application Development - 2013.pdf](https://itbooks.pipipan.com/fs/18113597-316294873)
+
+[Virtual Reality Enhanced Robotic Systems for Disability Rehabilitation - 2016.pdf](https://itbooks.pipipan.com/fs/18113597-316294872)
+
+[Virtual Reality and the Built Environment 2nd - 2018.pdf](https://itbooks.pipipan.com/fs/18113597-316294867)
+
+[Virtual Reality and Medicine (Next-Generation Medical Technology) - 2018.pdf](https://itbooks.pipipan.com/fs/18113597-316294866)
+
+[Virtual & Augmented Reality For Dummies - 2018.pdf](https://itbooks.pipipan.com/fs/18113597-316294863)
+
+[Unity Virtual Reality Projects - 2018 2nd.pdf](https://itbooks.pipipan.com/fs/18113597-316294860)
+
+[Unity 2018 Augmented Reality Projects - 2018 - Jesse Glover.pdf](https://itbooks.pipipan.com/fs/18113597-316294855)
+
+ 
 
 
 * 技术支持qq群： 144081101(后期会录制视频存在该群群文件) 591302926 567351477 钉钉免费群：21745728 
 
 * 道家技术-手相手诊看相中医等钉钉群21734177 qq群：391441566 184175668 338228106 看手相、面相、舌相、抽签、体质识别。服务费50元每人次起。请联系钉钉或者微信pythontesting
+
+![休息一下，领领红包，祝你中大奖](https://github.com/china-testing/python-api-tesing/blob/master/hongbao.png)
