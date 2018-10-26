@@ -31,10 +31,14 @@
             * [爬虫](#爬虫)
          * [机器学习](#机器学习)
          * [UI](#ui)
+         * [其他](#其他)
          * [PYTHON图像处理](#python图像处理)
             * [opencv](#opencv)
             * [python图像其他](#python图像其他)
+         * [python其他](#python其他)
       * [测试](#测试)
+         * [试题](#试题)
+         * [软件测试](#软件测试)
       * [数据库](#数据库)
          * [PostgreSQL](#postgresql)
          * [MySQL](#mysql)
@@ -44,6 +48,7 @@
       * [分布式系统](#分布式系统)
       * [人工智能机器学习](#人工智能机器学习)
          * [Scikit-learn](#scikit-learn)
+      * [虚拟现实](#虚拟现实)
 
 
 # 书籍	
