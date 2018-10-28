@@ -689,7 +689,8 @@ Test-Driven Development with Python, 2nd Edition - 2017 qq群144081101共享
 ### python其他
 
 * [Microservices in Action - 2018.pdf](https://itbooks.pipipan.com/fs/18113597-314162503)
-
+* [Python设计模式（第2版）- 2017.pdf](https://itbooks.pipipan.com/fs/18113597-316733241)
+* [精通Python设计模式 - 2016.pdf](https://itbooks.pipipan.com/fs/18113597-316733235)
 
 ## 测试
 
