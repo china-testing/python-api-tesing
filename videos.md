@@ -40,21 +40,34 @@
 
 ### 经典电影
 
-[仙履奇缘.rmvb](https://itbooks.ctfile.com/fs/18113597-317622547)
 
-[鹿鼎记之神龙教.rm](https://itbooks.ctfile.com/fs/18113597-317620305)
+[上帝之城.City\_of\_God.CD2.rmvb](https://itbooks.ctfile.com/fs/18113597-317637177)
 
-[鹿鼎记I.rm](https://itbooks.ctfile.com/fs/18113597-317619138)
+[上帝之城.City\_of\_God.CD1.rmvb](https://itbooks.ctfile.com/fs/18113597-317636238)
 
-[举起手来 DVD.rm](https://itbooks.ctfile.com/fs/18113597-317617471)
+[上帝也疯狂.rmvb](https://itbooks.ctfile.com/fs/18113597-317635614)
 
-[功夫 \[高清DVD珍藏版\].rmvb](https://itbooks.ctfile.com/fs/18113597-317615772)
+[尼罗河上的惨案cd2.rmvb](https://itbooks.ctfile.com/fs/18113597-317634867)
 
-[大话西游之月光宝盒 高清版 .rmvb](https://itbooks.ctfile.com/fs/18113597-317613672)
+[尼罗河上的惨案cd1.rmvb](https://itbooks.ctfile.com/fs/18113597-317634237)
+
+
+- [仙履奇缘.rmvb](https://itbooks.ctfile.com/fs/18113597-317622547)
+
+- [鹿鼎记之神龙教.rm](https://itbooks.ctfile.com/fs/18113597-317620305)
+
+- [鹿鼎记I.rm](https://itbooks.ctfile.com/fs/18113597-317619138)
+
+- [举起手来 DVD.rm](https://itbooks.ctfile.com/fs/18113597-317617471)
+
+- [功夫 \[高清DVD珍藏版\].rmvb](https://itbooks.ctfile.com/fs/18113597-317615772)
+
+- [大话西游之月光宝盒 高清版 .rmvb](https://itbooks.ctfile.com/fs/18113597-317613672)
 
 - [小鬼当家B.mp4](https://itbooks.pipipan.com/fs/18113597-313862178)
 - [小鬼当家4.rmvb](https://itbooks.pipipan.com/fs/18113597-313861956)
 - [小城之春.rmvb](https://itbooks.pipipan.com/fs/18113597-313861891)
+
 
 
  * [python3快速入门教程1 turtle绘图-1开始](https://china-testing.github.io/python3_crash1.html)

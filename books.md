@@ -676,6 +676,8 @@ Test-Driven Development with Python, 2nd Edition - 2017 qq群144081101共享
 
 * A Computational Introduction to Digital Image Processing, Second Edition -2016 qq群6089740
 
+[视觉SLAM十四讲：从理论到实践 - 2017.pdf](https://itbooks.ctfile.com/fs/18113597-317224017)
+
 文章：
 
 [Rotate images (correctly) with OpenCV and Python](https://www.pyimagesearch.com/2017/01/02/rotate-images-correctly-with-opencv-and-python/)

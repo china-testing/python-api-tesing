@@ -137,6 +137,8 @@
 - [刮痧拔罐针灸 \- 2015.pdf](https://itbooks.pipipan.com/fs/18113597-314933139)
 - [中医拔罐养生治病一本通 \- 2011.pdf](https://itbooks.ctfile.com/fs/18113597-317261796)
 
+- [中医拔罐养生治病一本通 \- 2011.pd](https://itbooks.ctfile.com/fs/18113597-317261796)
+
 - [图解刮痧·拔罐·艾灸养生疗法 \- 2011.pdf](https://itbooks.ctfile.com/fs/18113597-317261764)
 
 - [李志刚教授之拔罐养生全程指导 (中医堂) \- 2014.pdf](https://itbooks.ctfile.com/fs/18113597-317261685)
@@ -190,6 +192,30 @@
 [很老很老的老偏方大全集（10册） - 2015.pdf](https://itbooks.ctfile.com/fs/18113597-317223484) 亚马逊4.5星 13评论
 
 [超级汉方美人：200个经典古方全面提升美肌力 - 2013.pdf](https://itbooks.ctfile.com/fs/18113597-317223459)
+
+### 其他
+
+[高血压、高血脂、高血糖对症食疗与按摩 (国医绝学健康馆) \- 2012 4.5 83.pdf](https://itbooks.ctfile.com/fs/18113597-317550448)
+
+[夫妻特效经络按摩图解 (国医绝学健康馆) 4.5 30.pdf](https://itbooks.ctfile.com/fs/18113597-317550435)
+
+[对症艾灸速查图典 \- 2014.pdf](https://itbooks.ctfile.com/fs/18113597-317550414)
+
+[常见病自愈调养按摩 \- 2015.pdf](https://itbooks.ctfile.com/fs/18113597-317550367)
+
+[常见病自愈调养艾灸 \- 2012 4.5 34.pdf](https://itbooks.ctfile.com/fs/18113597-317550255)
+
+[本草对症养生茶饮 (国医绝学健康馆) \- 2012 4.5星 34评.pdf](https://itbooks.ctfile.com/fs/18113597-317550126)
+
+[宝宝常见病对症食疗与按摩 \- 2012 4.5星 128评.pdf](https://itbooks.ctfile.com/fs/18113597-317550118)
+
+[百病从腿养 (国医绝学健康馆) \- 2012 4.5星 44评.pdf](https://itbooks.ctfile.com/fs/18113597-317550081)
+
+[艾灸特效穴位瘦身法 (她生活美体书系) \- 2014.pdf](https://itbooks.ctfile.com/fs/18113597-317550063)
+
+[艾灸祛病看这本就够 \- 2012 4.5星 41评.pdf](https://itbooks.ctfile.com/fs/18113597-317550031)
+
+[艾灸疗法治百病（第2版） (中国民间传统疗法丛书) - 2009.pdf](https://itbooks.ctfile.com/fs/18113597-317549982)
 
 ## 国学
 
