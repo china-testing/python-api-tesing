@@ -5,4 +5,8 @@
 # CreateDate: 2018-11-03
 """
 
-print("Hello, https://china-testing.github.io/")
+def hello():
+  print("Hello, https://china-testing.github.io/")
+  
+if __name__== "__main__":
+  hello()
