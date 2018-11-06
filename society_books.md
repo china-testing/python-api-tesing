@@ -35,28 +35,27 @@
 
 ### 中医教材
 
-[下载地址](https://itbooks.pipipan.com/dir/18113597-29674213-109e74/)
 
- 中医诊断学 中医药出版社 十版 大学教材.pdf
+[中医诊断学 中医药出版社 十版 大学教材.pdf](https://itbooks.ctfile.com/fs/18113597-309192907)
 
- 方剂学 中医药出版社 十版 大学教材.pdf
+[方剂学 中医药出版社 十版 大学教材.pdf](https://itbooks.ctfile.com/fs/18113597-308220076)
 
- 中医内科学-中医药出版社 十版 大学教材.pdf
+[中医内科学-中医药出版社 十版 大学教材.pdf](https://itbooks.ctfile.com/fs/18113597-308196549)
 
- 中药学-中医药出版社 十版 大学教材.pdf
-
+[中药学-中医药出版社 十版 大学教材.pdf](https://itbooks.ctfile.com/fs/18113597-308188125)
 
 
 
 ### 中草药
 
-[下载地址](https://itbooks.pipipan.com/dir/18113597-29685500-5ee212/)
+[600种中草药野外识别高清图谱 - 2017.pdf](https://itbooks.ctfile.com/fs/18113597-318796698)
 
- 新编中草药图谱及经典配方 3.pdf
+[新编中草药图谱及经典配方 3.pdf](https://itbooks.ctfile.com/fs/18113597-309193407)
 
- 新编中草药图谱及经典配方 2.pdf
+[新编中草药图谱及经典配方 2.pdf](https://itbooks.ctfile.com/fs/18113597-308315563)
 
- 新编中草药图谱及经典配方 1 - 2016.pdf
+[新编中草药图谱及经典配方 1 - 2016.pdf](https://itbooks.ctfile.com/fs/18113597-308259898)
+
 
 
 ### 医学科普
