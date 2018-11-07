@@ -2,8 +2,8 @@
  * [电影 视频 下载](https://github.com/china-testing/python-api-tesing/blob/master/videos.md)
  * [IT类书籍 下载](https://github.com/china-testing/python-api-tesing/blob/master/books.md)
 
-![休息一下，领领红包，祝你中大奖](https://github.com/china-testing/python-api-tesing/blob/master/hongbao.png)
-
+[急救书籍汇总下载-持续更新](https://www.jianshu.com/p/7f66e811b8d7)
+[偏方书籍汇总下载](https://www.jianshu.com/p/19f4a5805199)
 
    * [经典软件](#经典软件)
    * [社科书籍](#社科书籍)
@@ -334,3 +334,6 @@
 * 技术支持qq群： 144081101(后期会录制视频存在该群群文件) 591302926 567351477 钉钉免费群：21745728 
 
 * 道家技术-手相手诊看相中医等钉钉群21734177 qq群：391441566 184175668 338228106 看手相、面相、舌相、抽签、体质识别。服务费50元每人次起。请联系钉钉或者微信pythontesting
+
+![休息一下，领领红包，祝你中大奖](https://github.com/china-testing/python-api-tesing/blob/master/hongbao.png)
+
