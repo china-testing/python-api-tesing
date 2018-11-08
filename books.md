@@ -574,6 +574,17 @@ Test-Driven Development with Python, 2nd Edition - 2017 qq群144081101共享
 
 * [Artificial Intelligence for Robotics - 2018.pdf](https://itbooks.pipipan.com/fs/18113597-314071365)
 
+[深度学习之PyTorch实战计算机视觉 - 2018.pdf](https://itbooks.ctfile.com/fs/18113597-319170078)
+
+[深度学习之Pytorch - 2017.pdf](https://itbooks.ctfile.com/fs/18113597-319170048)
+
+[PyTorch深度学习实战 - 2017.pdf](https://itbooks.ctfile.com/fs/18113597-319169961)
+
+[Deep Learning with PyTorch - 2018.pdf](https://itbooks.ctfile.com/fs/18113597-319169959)
+
+[Deep Learning Toolkits II pytorch example - 2017.pdf](https://itbooks.ctfile.com/fs/18113597-319169958)
+
+
 ### UI
 
 * [wxPython Recipes - 2017.pdf](http://file.allitebooks.com/20171213/wxPython%20Recipes.pdf)
