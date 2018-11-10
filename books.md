@@ -372,25 +372,34 @@ Daniel Arbuckle's Mastering Python - 2017.pdf
 
 #### flask
 
-* Flask Building Python Web Services - 2017 qq群144081101共享
+[web开发工具flask中文英文书籍下载-持续更新](https://china-testing.github.io/flask_books.html)
 
-* FlaskWeb开发：基于Python的Web应用开发实战 qq群144081101共享
 
-* Mastering Flask - 2015 qq群144081101共享
+[Flask Web开发实战：入门、进阶与原理解析 - 2018.pdf](https://itbooks.ctfile.com/fs/18113597-319371801)
 
-* 深入理解Flask - 2016 qq群144081101共享
+[Flask Web开发：基于Python的Web应用开发实战（第2版）- 2018.pdf](https://itbooks.ctfile.com/fs/18113597-319371799)
 
-* Flask Web Development 2nd - 2018.pdf qq群144081101共享
+[深入理解Flask - 2016.pdf](https://itbooks.ctfile.com/fs/18113597-319371589)
 
-* [The-Flask-Mega-Tutorial-zh](https://github.com/luhuisicnu/The-Flask-Mega-Tutorial-zh)
+[The New And Improved Flask - 2018.pdf](https://itbooks.ctfile.com/fs/18113597-319371576)
 
-* [Flask Web Development-2014.pdf](http://file.allitebooks.com/20150530/Flask%20Web%20Development.pdf)
-* [Flask Blueprints-2015.pdf](http://file.allitebooks.com/20151216/Flask%20Blueprints.pdf)
-* [Flask Framework Cookbook-2014.pdf](http://file.allitebooks.com/20150514/Flask%20Framework%20Cookbook.pdf)
-* [Instant Flask Web Development-2013.pdf](http://file.allitebooks.com/20150731/Instant%20Flask%20Web%20Development.pdf)
-* [Building Web Applications with Flask-2015.pdf](http://file.allitebooks.com/20150708/Building%20Web%20Applications%20with%20Flask.pdf)
-* [Flask By Example-2016.pdf](http://file.allitebooks.com/20160416/Flask%20By%20Example.pdf)
-* [Learning Flask Framework-2015.rar](http://file.allitebooks.com/20160104/Learning%20Flask%20Framework.rar)
+[Python高效开发实战Django、Tornado、Flask、Twisted - 2016.pdf](https://itbooks.ctfile.com/fs/18113597-319371573)
+
+[Mastering Flask - 2015.pdf](https://itbooks.ctfile.com/fs/18113597-319371570)
+
+[Learning Flask Framework - 2015.pdf](https://itbooks.ctfile.com/fs/18113597-319371568)
+
+[Instant Flask Web Development - 2013.pdf](https://itbooks.ctfile.com/fs/18113597-319371561)
+
+[head first flask - 2016.pdf](https://itbooks.ctfile.com/fs/18113597-319371558)
+
+[Flask Web Development 2nd - 2018.pdf](https://itbooks.ctfile.com/fs/18113597-319371546)
+
+[Flask Building Python Web Services - 2017.pdf](https://itbooks.ctfile.com/fs/18113597-319371544)
+
+[Flask Blueprints - 2015.pdf](https://itbooks.ctfile.com/fs/18113597-319371537)
+
+[Building Web Applications with Flask - 2015.pdf](https://itbooks.ctfile.com/fs/18113597-319371534)
 
 #### Django
 
