@@ -30,6 +30,7 @@
             * [NumPy](#numpy)
             * [爬虫](#爬虫)
          * [机器学习](#机器学习)
+         * [Network](#Network)		 
          * [UI](#ui)
          * [其他](#其他)
          * [PYTHON图像处理](#python图像处理)
@@ -593,6 +594,24 @@ Test-Driven Development with Python, 2nd Edition - 2017 qq群144081101共享
 
 [Deep Learning Toolkits II pytorch example - 2017.pdf](https://itbooks.ctfile.com/fs/18113597-319169958)
 
+
+### Network
+
+[Python Network Programming Cookbook, 2nd Edition - 2017.pdf](https://itbooks.pipipan.com/fs/18113597-321449040)
+
+[Practical Network Automation Leverage the power of Python and Ansible to optimize your network - 2017.pdf](https://itbooks.pipipan.com/fs/18113597-321449010)
+
+[Practical Network Automation - 2017.pdf](https://itbooks.pipipan.com/fs/18113597-321448989)
+
+[O'Reilly.Twisted.Network.Programming.Essentials.2nd.Edition.Mar.2013.pdf](https://itbooks.pipipan.com/fs/18113597-321448974)
+
+[Learning Python Network Programming - 2015.pdf](https://itbooks.pipipan.com/fs/18113597-321448971)
+
+[Foundations of Python Network Programming, 3rd Edition - 2014.pdf](https://itbooks.pipipan.com/fs/18113597-321448953)
+
+[Data Science and Complex Networks Real Case Studies with Python - 2016.pdf](https://itbooks.pipipan.com/fs/18113597-321448942)
+
+[Complex Network Analysis in Python Recognize – Construct – Visualize – Analyze – Interpret - 2018.pdf](https://itbooks.pipipan.com/fs/18113597-321448935)
 
 ### UI
 
