@@ -33,6 +33,7 @@
          * [Network](#Network)		 
          * [UI](#ui)
          * [其他](#其他)
+         * [数据结构](#数据结构)		 
          * [PYTHON图像处理](#python图像处理)
             * [opencv](#opencv)
             * [python图像其他](#python图像其他)
@@ -325,6 +326,29 @@
 [Kotlin Blueprints - 2017.pdf](https://u18113597.pipipan.com/fs/18113597-307308958)
 
 ## python
+
+
+ [python数据结构基础工具书籍下载-持续更新](https://china-testing.github.io/python_structure_books.html)
+
+[2018最佳人工智能机器学习工具书籍及下载(持续更新)](https://china-testing.github.io/ai_books.html)
+
+ [2018最佳人工智能图像处理工具OpenCV书籍下载](https://china-testing.github.io/opencv_books.html)
+
+[web开发工具flask中文英文书籍下载-持续更新](https://china-testing.github.io/flask_books.html)
+
+[python网络基础工具书籍下载-持续更新](https://china-testing.github.io/python_network_books.html)
+
+ [python 3.7极速入门教程9最佳python中文工具书籍下载](https://china-testing.github.io/python3_quick9.html)
+
+[机器学习工具pytorch中文英文工具书籍下载-持续更新](https://china-testing.github.io/pytorch_books.html)
+
+[2018最佳selenium工具书籍汇总下载(持续更新)](https://china-testing.github.io/selnium_books.html)
+
+[python数据分析数据科学中文英文工具书籍下载-持续更新](https://china-testing.github.io/datas_books.html)
+
+[2018最佳人工智能数据采集(爬虫)工具书下载](https://china-testing.github.io/scrap_books.html)
+
+
 
 ### python基础
 
@@ -624,6 +648,37 @@ Test-Driven Development with Python, 2nd Edition - 2017 qq群144081101共享
 
 * [Pyside GUI Application Development, Second Edition-2016.pdf](http://file.allitebooks.com/20160213/Pyside%20GUI%20Application%20Development,%20Second%20Edition.pdf)
 
+### 数据结构
+
+[算法图解 \- 2017.pdf](https://itbooks.pipipan.com/fs/18113597-321523035)
+
+[数据结构与算法__Python语言描述-2015.pdf](https://itbooks.pipipan.com/fs/18113597-321523014)
+
+[Python算法教程 - 2016.pdf](https://itbooks.pipipan.com/fs/18113597-321522934)
+
+[Python Data Structures and Algorithms - 2017.pdf](https://itbooks.pipipan.com/fs/18113597-321522888)
+
+[Python Algorithms, 2nd Edition 2014.pdf](https://itbooks.pipipan.com/fs/18113597-321522876)
+
+[Problem Solving with Algorithms and Data Structures Release 3.0 - 2013.pdf](https://itbooks.pipipan.com/fs/18113597-321522870)
+
+[Problem Solving in Data Structures and Algorithms Using Python - 2016.pdf](https://itbooks.pipipan.com/fs/18113597-321522864)
+
+[Practical Programming An Introduction to Computer Science Using Python (Pragmatic Programmers) 2009.pdf](https://itbooks.pipipan.com/fs/18113597-321522846)
+
+[grokking algorithms - 2016.pdf](https://itbooks.pipipan.com/fs/18113597-321522841)
+
+[Fundamentals of Python From First Programs Through Data Structures - 2010.pdf](https://itbooks.pipipan.com/fs/18113597-321522826)
+
+[Fundamentals of Python - Data Structures - 2014.pdf](https://itbooks.pipipan.com/fs/18113597-321522816)
+
+[Data Structures and Algorithms with Python(Springer,2015).pdf](https://itbooks.pipipan.com/fs/18113597-321522807)
+
+[Data Structures and Algorithms Using Python - 2011.pdf](https://itbooks.pipipan.com/fs/18113597-321522760)
+
+[Data Structures and Algorithms in Python - 2013.pdf](https://itbooks.pipipan.com/fs/18113597-321522744)
+
+[Data Structures And Algorithmic Thinking With Python - 2016.pdf](https://itbooks.pipipan.com/fs/18113597-321522736)
 
 ### 其他
 
