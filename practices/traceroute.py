@@ -72,4 +72,4 @@ def main(dest_name):
             break
 
 if __name__ == "__main__":
-    main("www.baidu.com")
+    main("china-testing.github.io")
