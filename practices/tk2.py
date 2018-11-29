@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # 技术支持：https://www.jianshu.com/u/69f40328d4f0 
 # 技术支持 https://china-testing.github.io/
-# https://github.com/china-testing/python-api-tesing/blob/master/practices/tk1.py
+# https://github.com/china-testing/python-api-tesing/blob/master/practices/tk2.py
 # 讨论钉钉免费群21745728 qq群144081101 567351477
 # CreateDate: 2018-11-27
 import tkinter as tk
@@ -98,9 +98,7 @@ colors = ["Blue", "Gold", "Red"]
 # Radiobutton Callback
 def radCall():
     radSel=radVar.get()
-    if   radSel == 0: win.configure(background=colors[0])  # zero-based
-    elif radSel == 1: win.configure(background=colors[1])  # using list
-    elif radSel == 2: win.configure(background=colors[2])
+    win.configure(background=colors[radSel])
 
 # create three Radiobuttons using one variable
 radVar = tk.IntVar()

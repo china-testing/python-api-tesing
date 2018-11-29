@@ -42,7 +42,7 @@ number = tk.StringVar()
 number_chosen = ttk.Combobox(win, width=12, textvariable=number, state='readonly')
 number_chosen['values'] = (1, 2, 4, 42, 100)
 number_chosen.grid(column=1, row=1)
-number_chosen.current(0)
+number_chosen.current(3)
 
 chVarDis = tk.IntVar()
 check1 = tk.Checkbutton(win, text="Disabled", variable=chVarDis, state='disabled')
@@ -80,9 +80,7 @@ colors = ["Blue", "Gold",  "Red"]
 # Radiobutton Callback
 def radCall():
     radSel=radVar.get()
-    if   radSel == 0: win.configure(background=colors[0])  # now zero-based
-    elif radSel == 1: win.configure(background=colors[1])  # and using list
-    elif radSel == 2: win.configure(background=colors[2])
+    win.configure(background=colors[radSel])
 
 # create three Radiobuttons using one variable
 radVar = tk.IntVar()
@@ -97,9 +95,7 @@ for col in range(3):
     curRad.grid(column=col, row=5, sticky=tk.W) 
 
 # Using a scrolled Text control    
-scrol_w  = 30
-scrol_h  =  3
-scr = scrolledtext.ScrolledText(win, width=scrol_w, height=scrol_h, wrap=tk.WORD)
+scr = scrolledtext.ScrolledText(win, width=30, height=3, wrap=tk.WORD)
 scr.grid(column=0, columnspan=3)
 
 name_entered.focus()      # Place cursor into name Entry
