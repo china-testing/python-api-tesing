@@ -1,0 +1,37 @@
+https://china-testing.github.io/
+
+https://www.jianshu.com/u/69f40328d4f0 
+
+# 讨论钉钉免费群21745728 qq群144081101 567351477
+# CreateDate: 2018-11-29
+
+I am a text-widget.
+Tkinter includes 21 core widgets. This program demonstrates all of them.
+
+See if you can identify all of them
+
+1) Toplevel Widget**
+2) Button Widget
+3) Canvas Widget 
+4) Checkbutton Widget
+5) Entry Widget
+6) Frame Widget
+7) Label Widget
+8) LabelFrame Widget
+9) Listbox Widget
+10) Menu Widget
+11) Menubutton Widget
+12) Message Widget
+13) OptionMenu Widget
+14) PanedWindow Widget
+15) Radiobutton Widget
+16) Scale Widget
+17) Scrollbar Widget
+18) Spinbox Widget
+19) Text Widget
+20) Bitmap Class Widget
+21) Image Class Widget 
+
+**  (hint - the window which houses all other widgets)
+
+
