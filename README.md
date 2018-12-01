@@ -1216,7 +1216,7 @@ Python版本和环境管理
  * PyGObject：GLib/GObject/GIO/GTK+ (GTK+3) 的 Python 绑定。[链接](https://wiki.gnome.org/Projects/PyGObject)
  * Flexx：纯 Python编写的用来创建 GUI 程序的工具集，它使用 web 技术进行界面的展示。[链接](https://github.com/flexxui/flexx) 
 
-##游戏开发(Game Development)
+## 游戏开发(Game Development)
 
 
 * [Cocos2d](https://github.com/los-cocos/cocos) - cocos2d是用于构建2D游戏，演示和其他图形/交互式应用程序的框架。它基于pyglet。
@@ -1227,7 +1227,7 @@ Python版本和环境管理
 * [PySDL2](http://pysdl2.readthedocs.io/en/rel_0_9_5/) - SDL2库的基于ctypes的包装器。
 * [RenPy](https://github.com/renpy/renpy) - Visual Novel引擎。
 
-##地理位置(Geolocation)
+## 地理位置(Geolocation)
 
 *地理编码地址和纬度和经度的图书馆。*
 

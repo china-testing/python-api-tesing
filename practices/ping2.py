@@ -3,7 +3,7 @@
 # 技术支持：https://www.jianshu.com/u/69f40328d4f0 
 # 技术支持 https://china-testing.github.io/
 # https://github.com/china-testing/python-api-tesing/blob/master/practices/ping.py
-# 讨论钉钉免费群21745728 qq群144081101 567351477
+# 项目实战讨论QQ群630011153 144081101
 # CreateDate: 2018-11-22
 
 import os 
