@@ -376,6 +376,9 @@ radar 因为github星级太少而未收录 最近版本参见原文：https://gi
  * PyBuilder – 纯Python编写的持续构建工具。[链接](https://github.com/buildbot/buildbot/)
 
  * SCons – 软件构建工具。[链接](https://github.com/SCons/scons)
+ 
+ * jenkinsapi – Hudson & Jenkins python API。[链接](https://github.com/pycontribs/jenkinsapi)
+ 
 
 ## 测试工具对接
 
