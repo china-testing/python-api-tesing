@@ -868,6 +868,10 @@ Test-Driven Development with Python, 2nd Edition - 2017 qq群144081101共享
 
 [Sample Exam Questions- ISTQB Foundation Level-Agile Tester Extension Exam - 2016.pdf](https://itbooks.pipipan.com/fs/18113597-316096725)
 
+[Mobile Test Auto with Appium - 2017.pdf](https://itbooks.pipipan.com/fs/18113597-322413180)
+
+[Appium Recipes - 2016.pdf](https://itbooks.pipipan.com/fs/18113597-322413178)
+
 * [Learning Android Application Testing-2015.pdf](http://file.allitebooks.com/20170415/Learning%20Android%20Application%20Testing.pdf)
 * [Effective Python Penetration Testing-2016.pdf](http://file.allitebooks.com/20170710/Effective%20Python%20Penetration%20Testing.pdf)
 * [Kali Linux 2 Windows Penetration Testing-2016.pdf](http://file.allitebooks.com/20170608/Kali%20Linux%202%20Windows%20Penetration%20Testing.pdf)

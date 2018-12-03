@@ -59,6 +59,7 @@ Table of Contents
       * [Windows UI测试自动化](#windows-ui测试自动化)
       * [UI测试](#ui测试)
       * [性能测试](#性能测试)
+      * [跨语言调用](#跨语言调用)
       * [测试框架](#测试框架)
       * [Mock](#mock)
       * [其他测试工具](#其他测试工具)
@@ -260,6 +261,13 @@ autopy、WATSUP、winGuiAuto因为较长时间未更新未收录
 
  * boom - 类似ab(ApacheBench)的性能测试工具。 [链接](https://github.com/tarekziade/boom) 
  
+ 
+## 跨语言调用
+
+ * [python库介绍-jpype：python到java桥](https://china-testing.github.io/python3_lib_jpype1.html)
+ * [python库介绍-pyjnius：访问java类](https://china-testing.github.io/python3_lib_pyjniu.html)
+ * [python3外部库boost介绍 用c++为python编写扩展](https://china-testing.github.io/python3_lib_boost.html) 
+ * [C++11和Python桥](https://github.com/pybind/pybind11) 
  
 
 ## 测试框架
