@@ -1,0 +1,5 @@
+*Button*borderwidth:3
+*Button*relief: raised
+*Button*width: 3
+*Button*height: 1
+*Button*pady:3
