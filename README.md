@@ -1299,7 +1299,9 @@ Python版本和环境管理
 *用于处理图像的库。*
 
 
-*   [pillow](http://hao.jobbole.com/pillow/)：Pillow 是一个更加易用版的 [PIL](http://www.pythonware.com/products/pil/)。[官网](http://pillow.readthedocs.org/en/latest/) -推荐
+*   [pillow](http://hao.jobbole.com/pillow/)：Pillow 是一个更加易用版的 [PIL](http://www.pythonware.com/products/pil/)。[官网](http://pillow.readthedocs.org/en/latest/) -推荐 
+	[python库介绍-图像处理工具pillow中文文档-手册(2018 5.*)](https://china-testing.github.io/python3_lib_pil.html)
+	
 *   hmap：图像直方图映射。[官网](https://github.com/rossgoodwin/hmap)
 *   imgSeek：使用视觉相似性搜索一组图片集合的项目。[官网](https://sourceforge.net/projects/imgseek/) 较长时间没有更新
 *   nude.py：裸体检测。[官网](https://github.com/hhatto/nude.py)
