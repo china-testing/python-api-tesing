@@ -9,7 +9,7 @@
 import math
 from PIL import Image
 
-column = 2
+column = 11
 width = 802
 height = 286
 size = (802, 286)
@@ -17,7 +17,6 @@ size = (802, 286)
 list_im = [r'd:\code.jpg', r'd:\code.jpg', r'd:\code.jpg', r'd:\code.jpg', 
            r'd:\code.jpg', r'd:\code.jpg', r'd:\code.jpg', r'd:\code.jpg',
            r'd:\code.jpg', r'd:\code.jpg', r'd:\code.jpg']
-list_im = list_im*11
 imgs = [Image.open(i) for i in list_im]
 
 row_num = math.ceil(len(imgs)/column)
