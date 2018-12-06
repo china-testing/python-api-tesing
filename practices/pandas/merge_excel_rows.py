@@ -7,7 +7,7 @@
 # CreateDate: 2018-12-06
 import pandas as pd
 
-frame = pd.read_csv("test.csv")
+frame = pd.read_csv("test.csv", engine='c')
 df =  frame.groupby(['state', 'year']).sum()
 df.to_csv("out.csv")
 
