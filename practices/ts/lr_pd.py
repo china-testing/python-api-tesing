@@ -49,6 +49,4 @@ y = estimator.predict( input_fn=get_input_fn(prediction_set, num_epochs=1,
          n_batch = 128, shuffle=False))
 
 predictions = list(p["predictions"] for p in itertools.islice(y, 6))
-result = prediction_set
-result[]
 print("Predictions: {}".format(str(predictions)))	
