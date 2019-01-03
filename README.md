@@ -780,9 +780,13 @@ django-viewlet因为github星级太少而未收录
 
  * Pandas：提供高性能，易用的数据结构和数据分析工具。[链接](https://github.com/pandas-dev/pandas) --强烈推荐
 
+ * [facets](https://github.com/PAIR-code/facets) 机器学习数据集可视化　--推荐
+
  * 书籍：利用Python进行数据分析 2017 第二版 代码 [链接](https://github.com/wesm/pydata-book)  --推荐
  
  * [利用Python进行数据分析·第2版](https://www.jianshu.com/p/ac7bec000dad) --推荐
+
+
  
 
 ## 数据验证(Data Validation)
@@ -1315,6 +1319,8 @@ Python版本和环境管理
 *   wand：[MagickWand](http://www.imagemagick.org/script/magick-wand.php)的 Python 绑定。MagickWand 是 ImageMagick 的 C API 。[官网](https://github.com/dahlia/wand)
 *   face_recognition：简单易用的 python 人脸识别库。[官网](https://github.com/ageitgey/face_recognition) --强烈推荐
 *  [pagan](https://github.com/daboth/pagan) - 基于输入字符串和散列的复古identicon(阿凡达)生成。
+*  [opencv-python](https://github.com/skvark/opencv-python) 预编译的opencv-python, opencv-python-headless, opencv-contrib-python and opencv-contrib-python-headless。　--推荐
+*  [imutils](https://github.com/jrosebr1/imutils) 一系列便利函数，可以使用OpenCV和Python轻松进行基本图像处理操作，如平移，旋转，调整大小，骨架化和显示Matplotlib图像。　--推荐
 
 ## 实现(Implementations)
 
