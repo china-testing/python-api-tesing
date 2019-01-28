@@ -985,7 +985,8 @@ Python实现的数据库。
 * [Serpent.AI](https://github.com/SerpentAI/SerpentAI) - 游戏代理框架。 使用任何视频游戏作为深度学习沙盒。 --推荐
 * [TensorFlow](https://github.com/tensorflow/tensorflow) - 由Google创建的最受欢迎的深度学习框架。 --强烈推荐
 * [Theano](https://github.com/Theano/Theano) - 用于快速数值计算的库.  --推荐
-
+* [Shogun](https://github.com/shogun-toolbox/shogun/) C++实现，为包括Python在内的多种语言和平台提供统一的接口。 它侧重于可扩展的内核方法，以解决回归和分类问题。 Shogun关注生物信息学，可以扩展以处理超过1000万个数据样本，同时保持准确性。
+* [CNTK](https://github.com/Microsoft/CNTK/tree/master/bindings/python)  微软的深度学习框架。
 
 ## DevOps工具(DevOps Tools)
 
