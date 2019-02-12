@@ -320,6 +320,14 @@
 
 [绍金解易经-八字揭秘.pdf](https://itbooks.pipipan.com/fs/18113597-309507364)
 
+[图解三命通会 第3部论命精要 - 2009.pdf](https://itbooks.pipipan.com/fs/18113597-335869726)
+
+[图解三命通会 第2部吉凶推断 - 2009.pdf](https://itbooks.pipipan.com/fs/18113597-335869683)
+
+[图解三命通会 第1部 八字神煞 2009 -扫描.pdf](https://itbooks.pipipan.com/fs/18113597-335869623)
+
+[三命通会.pdf](https://itbooks.pipipan.com/fs/18113597-335869512)
+
 [中国历史那些事儿系列套装：明朝那些事儿（全7册）、这里曾经是汉朝（全6册）、唐史并不如烟（全5册）、如果这是宋史（全10册）.pdf](https://itbooks.pipipan.com/fs/18113597-309521853)
 
 

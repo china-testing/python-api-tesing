@@ -6,37 +6,7 @@
 
 ### 手诊
 
-- [手诊与养生保健01.WMV](https://itbooks.pipipan.com/fs/18113597-313864878)
-- [手诊与养生保健02.WMV](https://itbooks.pipipan.com/fs/18113597-313864924)
-- [手诊与养生保健03.WMV](https://itbooks.pipipan.com/fs/18113597-313864971)
-- [手诊与养生保健04.WMV](https://itbooks.pipipan.com/fs/18113597-313865022)
-- [手诊与养生保健05.WMV](https://itbooks.pipipan.com/fs/18113597-313865055)
-- [手诊与养生保健06.WMV](https://itbooks.pipipan.com/fs/18113597-313865077)
-- [手诊与养生保健07.WMV](https://itbooks.pipipan.com/fs/18113597-313865094)
-- [手诊与养生保健08.WMV](https://itbooks.pipipan.com/fs/18113597-313865118)
-- [手诊与养生保健09.WMV](https://itbooks.pipipan.com/fs/18113597-313865130)
-- [手诊与养生保健10.WMV](https://itbooks.pipipan.com/fs/18113597-313865143)
-- [手诊与养生保健11.WMV](https://itbooks.pipipan.com/fs/18113597-313865160)
-- [手诊与养生保健12.WMV](https://itbooks.pipipan.com/fs/18113597-313865181)
-- [手诊与养生保健13.WMV](https://itbooks.pipipan.com/fs/18113597-313865190)
-- [手诊与养生保健14.WMV](https://itbooks.pipipan.com/fs/18113597-313865205)
-- [手诊与养生保健15.WMV](https://itbooks.pipipan.com/fs/18113597-313865233)
-- [手诊与养生保健16.WMV](https://itbooks.pipipan.com/fs/18113597-313865263)
-- [手诊与养生保健17.WMV](https://itbooks.pipipan.com/fs/18113597-313865286)
-- [手诊与养生保健18.WMV](https://itbooks.pipipan.com/fs/18113597-313865310)
-- [手诊与养生保健19.WMV](https://itbooks.pipipan.com/fs/18113597-313865329)
-- [手诊与养生保健20.WMV](https://itbooks.pipipan.com/fs/18113597-313865364)
-- [手诊与养生保健21.WMV](https://itbooks.pipipan.com/fs/18113597-313865398)
-- [手诊与养生保健22.WMV](https://itbooks.pipipan.com/fs/18113597-313865419)
-- [手诊与养生保健23.WMV](https://itbooks.pipipan.com/fs/18113597-313865439)
-- [手诊与养生保健24.WMV](https://itbooks.pipipan.com/fs/18113597-313865460)
-- [手诊与养生保健25.WMV](https://itbooks.pipipan.com/fs/18113597-313865472)
-- [手诊与养生保健26.WMV](https://itbooks.pipipan.com/fs/18113597-313865485)
-- [手诊与养生保健27.WMV](https://itbooks.pipipan.com/fs/18113597-313865499)
-- [手诊与养生保健28.WMV](https://itbooks.pipipan.com/fs/18113597-313865506)
-- [手诊与养生保健29.WMV](https://itbooks.pipipan.com/fs/18113597-313865520)
-- [手诊与养生保健30.WMV](https://itbooks.pipipan.com/fs/18113597-313865529)
-- [手诊与养生保健-共30集 目录.docx](https://itbooks.pipipan.com/fs/18113597-313865532)
+《手诊与养生保健》系列视频，参见：QQ群184175668
 
 ### 经典电影
 
