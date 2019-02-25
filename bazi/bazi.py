@@ -58,6 +58,14 @@ ten_deities = {
 }
 gan5 = {"甲":"木", "乙":"木", "丙":"火", "丁":"火", "戊":"土", "己":"土", 
     "庚":"金", "辛":"金", "壬":"水", "癸":"水"}
+
+guans = {
+    "甲":('辛',"酉"), "乙":('庚',"申",'巳'), "丙":('子',"癸"), "丁":('壬',"亥"),
+    "戊":('乙',"卯"), "己":('甲',"寅"), "庚":('丁',"午"), "辛":('丙',"寅",'巳'),
+    "壬":('己',"午",'未','丑'), "癸":('戊',"辰",'巳','戌'),}
+
+
+
 gan_health = {
     "金":'''
     秋天较走运
@@ -193,6 +201,13 @@ gan_chongs = {
     ("丁", "癸"): "相冲",       
 }
 
+chongs = { 
+    "甲":"庚", "庚":"甲","乙":"辛", "辛":"乙","丙":"壬", "壬":"丙", "丁":"癸",
+    "癸":"丁", "子":"午", "午":"子", "丑":"未", "未":"丑", "寅":"申",  "申":"寅", 
+    "卯":"酉",  "酉":"卯", "辰":"戌", "戌":"辰", "巳":"亥", "亥":"巳"
+}
+
+
 zhi_6hes = {
     ("子", "丑"): "化土",
     ("寅", "亥"): "化木",
@@ -261,6 +276,9 @@ zhi_xings = {
     ("戌", "未"): "戌刑未 持势之刑",  
     ("子", "卯"): "子刑卯　卯刑子 无礼之刑",       
 }
+
+xings = {"巳":"寅", "申":"巳",  "寅":"申", "丑":"未", "戌":"丑", "未":"戌",
+         "子":"卯", "卯":"子", '辰':'辰', '午':'午','酉':'酉', '亥':'亥'}
 
 zhi_zixings = ['辰', '午', '酉', '亥']
 
@@ -365,15 +383,35 @@ check_subset(zhis, zhi_poes, '地支相破')
 check_subset(zhis, zhi_haies, '地支相害')	
 check_subset(zhis, zhi_xings, '地支相刑')	
 
-flag = True
-for item in zhi_zixings:
-    if zhis.count(item) > 1:
-        if flag:
-            print("\n{}:".format("地支自刑"))
-            print("=========================")    
-            flag = False
-        print(item)    
+print("\n\n正官:")  
+print("=========================")   
+print("财印两扶,柱中不见伤煞,行运引至官乡,大富大贵命也, 月令最佳")  
+print("大忌刑冲破害、伤官七煞、贪合忘官、劫财分福,为破格")
+print("=========================")   
+guan_list = []
+for item in gans + zhis:
+    if item in guans[me]:
+        guan_list.append(item)
+if guan_list:
+	print("恭喜，有天福贵人相助！", guan_list)
+if len(guan_list) > 1:
+    print("正官偏多")
+if len(guan_list) == 1:    
+    guan_chongs = []
+    for item in gans + zhis:
+        if item in chongs[guan_list[0]]:
+            guan_chongs.append(item)
+    if guan_chongs:
+        print("官冲",guan_list)    
         
+    guan_xings = []
+    l = list(gans + zhis)
+    l.remove(guan_list[0])
+    for item in l:
+        if item in xings[guan_list[0]]:
+            guan_xings.append(item)
+    if guan_xings:
+        print("官刑",guan_xings) 
 
 # 计算五行分数 http://www.131.com.tw/word/b3_2_14.htm
 
