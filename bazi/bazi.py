@@ -116,7 +116,7 @@ check_subset(zhis, zhi_poes, '地支相破')
 check_subset(zhis, zhi_haies, '地支相害')	
 check_subset(zhis, zhi_xings, '地支相刑')	
 
- 
+
 guan_list = []
 for item in gans + zhis:
     if item in guans[me]:
@@ -130,12 +130,21 @@ if guan_list:
     print("恭喜，有贵人相助！", guan_list)
 
     # 检查天福贵人
-    tmp_zhus = zhus[:2] + zhus[3:]
-    for item in lus:
-        if item in tmp_zhus:
-            print("天福贵人:主科名巍峨，官职尊崇，多掌丝纶文翰之美!")
-    
-    
+    if lus[me] in guan_list:
+        print("天福贵人:主科名巍峨，官职尊崇，多掌丝纶文翰之美!")
+
+    # 岁德正官
+    if gans[0] in guan_list:
+        print("大岁德正官!")
+    if zhis[0] in guan_list:
+        print("小岁德正官!")  
+    # 时上正官
+    if gans[3] in guan_list:
+        print("大时上正官!")
+    if zhis[3] in guan_list:
+        print("小时上正官!")          
+
+
 if len(guan_list) == 1:    
     guan_chongs = []
     gui = guan_list[0]
@@ -153,7 +162,7 @@ if len(guan_list) == 1:
             guan_xings.append(item)
     if guan_xings:
         print("官刑",guan_xings) 
-        
+
 if zhus[2] in tianyuans:
     print("\n\n天元坐禄:")  
     print("=========================")   
