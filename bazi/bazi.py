@@ -93,6 +93,7 @@ for item in zhis:
 
 print("\n\n")
 print("="*140)  
+print("你属:", me, "特点：--", gan_atts[me])
 print(dict(ten_deities[me]))
 #print(ten_deities[me])
 
