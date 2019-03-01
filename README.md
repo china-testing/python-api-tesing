@@ -1,5 +1,7 @@
 人脸测试的一些小脚本和教程。
 
+bazi/bazi.py：使用python排八字 [文档地址](https://china-testing.github.io/bazi.html)
+
 flask/api_demo: 使用python3和flask构建RESTful API(接口测试服务) 的源码 [文档地址](http://t.cn/RQzD0uY)
 
 book_scraper：一些爬取书籍的脚本。如果你知道有更好的免费书籍下载站点或下载脚本，请联系xurongzhong#126.com，谢谢 [文档地址](http://t.cn/RQzD0uY)

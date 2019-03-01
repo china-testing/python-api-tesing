@@ -69,7 +69,7 @@ if not options.b:
     print("农历:")
     print("\t{}年{}{}月{}日".format(day.Lyear0 + 1984, Lleap, ymc[day.Lmc], rmc[day.Ldi]))
 
-print("\n八字:   同义词：七杀|偏官 偏印|枭神 阳刃|帝旺(阳干)|冠带(阴干)")
+print("\n八字:   同义词：七杀|偏官 偏印|枭神 解读：钉钉或微信pythontesting")
 print("="*150)    
 print("{:^30s}{:^30s}{:^30s}{:^30s}".format('年【父-根】', "月【兄弟僚友-苗】", "日【自己配偶-花】", "时【子孙-实】"))
 print("-"*150)
@@ -146,6 +146,80 @@ if ten_deities[me].inverse[key] in zhis:
     print("=========================")      
 
 
+# 将星分析
+me_zhi = zhis[2]
+other_zhis = zhis[:2] + zhis[3:]
+flag = False
+if me_zhi in ("申", "子", "辰"):
+    if "子" in other_zhis:
+        flag = True
+elif me_zhi in ("丑", "巳", "酉"):
+    if "酉" in other_zhis:
+        flag = True   
+elif me_zhi in ("寅", "午", "戌"):
+    if "午" in other_zhis:
+        flag = True     
+elif me_zhi in ("亥", "卯", "未"):
+    if "卯" in other_zhis:
+        flag = True   
+        
+if flag:
+    print("\n\n将星: 常欲吉星相扶，贵煞加临乃为吉庆。")  
+    print("=========================")   
+    print('''理愚歌》云：将星若用亡神临，为国栋梁臣。言吉助之为贵，更夹贵库墓纯粹而
+    不杂者，出将入相之格也，带华盖、正印而不夹库，两府之格也；只带库墓而带正印，员郎
+    以上，既不带墓又不带正印，止有华盖，常调之禄也；带华印而正建驿马，名曰节印，主旌节
+    之贵；若岁干库同库为两重福，主大贵。''')
+    
+# 华盖分析
+flag = False
+if me_zhi in ("申", "子", "辰"):
+    if "辰" in other_zhis:
+        flag = True
+elif me_zhi in ("丑", "巳", "酉"):
+    if "丑" in other_zhis:
+        flag = True   
+elif me_zhi in ("寅", "午", "戌"):
+    if "戌" in other_zhis:
+        flag = True     
+elif me_zhi in ("亥", "卯", "未"):
+    if "未" in other_zhis:
+        flag = True   
+        
+if flag:
+    print("\n\n华盖: 多主孤寡，总贵亦不免孤独，作僧道艺术论。")  
+    print("=========================")   
+    print('''《理愚歌》云：华盖虽吉亦有妨，或为孽子或孤孀。填房入赘多阙口，炉钳顶笠拔缁黄。
+    又云：华盖星辰兄弟寡，天上孤高之宿也；生来若在时与胎，便是过房庶出者。''')    
+
+
+# 咸池 桃花
+flag = False
+year_zhi = zhis[0]
+if me_zhi in ("申", "子", "辰") or year_zhi in ("申", "子", "辰"):
+    if "酉" in zhis:
+        flag = True
+elif me_zhi in ("丑", "巳", "酉") or year_zhi in ("丑", "巳", "酉"):
+    if "午" in other_zhis:
+        flag = True   
+elif me_zhi in ("寅", "午", "戌") or year_zhi in ("寅", "午", "戌"):
+    if "卯" in other_zhis:
+        flag = True     
+elif me_zhi in ("亥", "卯", "未") or year_zhi in ("亥", "卯", "未"):
+    if "子" in other_zhis:
+        flag = True   
+        
+if flag:
+    print("\n\n咸池(桃花): 墙里桃花，煞在年月；墙外桃花，煞在日时；")  
+    print("=========================")   
+    print('''一名败神，一名桃花煞，其神之奸邪淫鄙，如生旺则美容仪，耽酒色，疏财好欢，
+    破散家业，唯务贪淫；如死绝，落魄不检，言行狡诈，游荡赌博，忘恩失信，私滥奸淫，
+    靡所不为；与元辰并，更临生旺者，多得匪人为妻；与贵人建禄并，多因油盐酒货得生，
+    或因妇人暗昧之财起家，平生有水厄、痨瘵之疾，累遭遗失暗昧之灾。此人入命，有破无成，
+    非为吉兆，妇人尤忌之。
+    咸池非吉煞，日时与水命遇之尤凶。''')    
+
+# 官分析
 guan_list = []
 for item in gans + zhis:
     if item in guans[me]:
