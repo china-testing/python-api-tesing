@@ -13,6 +13,12 @@ from bidict import bidict
 
 from datas import *
 
+def yinyang(item):
+    if item in Gan:
+        return '+' if Gan.index(item)%2 == 0 else '-'
+    else:
+        return '+' if Zhi.index(item)%2 == 0 else '-'
+
 description = '''
 
 '''
@@ -70,34 +76,55 @@ if not options.b:
     print("\t{}年{}{}月{}日".format(day.Lyear0 + 1984, Lleap, ymc[day.Lmc], rmc[day.Ldi]))
 
 print("\n八字:   同义词：七杀|偏官 偏印|枭神 解读：钉钉或微信pythontesting")
-print("="*150)    
-print("{:^30s}{:^30s}{:^30s}{:^30s}".format('年【父-根】', "月【兄弟僚友-苗】", "日【自己配偶-花】", "时【子孙-实】"))
-print("-"*150)
-print("{:^32s}{:^32s}{:^32s}{:^32s}".format(
-    gans.year + "--" + '{} [{}]'.format(gan5[gans.year], ten_deities[me][gans.year]),
-    gans.month + "--" + '{} [{}]'.format(gan5[gans.month], ten_deities[me][gans.month]),
-    me + "--" + '{} [{}]'.format(gan5[me], '自己'), 
-    gans.time + "--" + '{} [{}]'.format(gan5[gans.time], ten_deities[me][gans.time]),
+print("="*140)    
+print("{:^28s}{:^28s}{:^28s}{:^28s}".format('年【父-根】', "月【兄弟僚友-苗】", "日【自己配偶-花】", "时【子孙-实】"))
+print("-"*140)
+print("{:^30s}{:^30s}{:^30s}{:^30s}".format(
+    '{}{}{} [{}]'.format(
+         gans.year, yinyang(gans.year), gan5[gans.year], ten_deities[me][gans.year]),
+    '{}{}{} [{}]'.format(
+        gans.month, yinyang(gans.month), gan5[gans.month], ten_deities[me][gans.month]),
+    '{}{}{} [{}]'.format(me, yinyang(me),gan5[me], '自己'), 
+    '{}{}{} [{}]'.format(gans.time, yinyang(gans.time), gan5[gans.time], ten_deities[me][gans.time]),
 ))
-print("{:^32s}{:^32s}{:^32s}{:^32s}".format(
-    zhis.year + "--" + ten_deities[me][zhis.year],
-    zhis.month + "--" + ten_deities[me][zhis.month],
-    zhis.day + "--" + ten_deities[me][zhis.day],
-    zhis.time + "--" + ten_deities[me][zhis.time],
+print("{:^30s}{:^30s}{:^30s}{:^30s}".format(
+    "{}{}{} [{}]".format(zhis.year, yinyang(zhis.year), 
+        ten_deities[me][zhis.year], ten_deities[gans.year][zhis.year]),
+    "{}{}{} [{}]".format(zhis.month, yinyang(zhis.month), 
+        ten_deities[me][zhis.month], ten_deities[gans.month][zhis.month]),  
+    "{}{}{}".format(zhis.day, yinyang(zhis.day), ten_deities[me][zhis.day]),   
+    "{}{}{} [{}]".format(zhis.time, yinyang(zhis.time), 
+        ten_deities[me][zhis.time], ten_deities[gans.time][zhis.time]),       
 ))
 for item in zhis:
     out = ''
     for gan in zhi5[item]:
         out = out + "{}{}{}{} ".format(gan, gan5[gan], zhi5[item][gan],  ten_deities[me][gan])
-    print("{:^28s}".format(out), end=' ')
+    print("{:^26s}".format(out), end=' ')
 
 print("\n\n")
-print("="*150)  
+print("="*140)  
 print("你属:", me, "特点：--", gan_desc[me],"\n")
 print("年份:", zhis[0], "特点：--", zhi_desc[zhis[0]],"\n")
-print(dict(ten_deities[me]))
+#print(dict(ten_deities[me]))
 #print(ten_deities[me])
 
+# 子女分析
+print("\n\n子女状态:", end='')
+children = ['食','伤'] if options.n else ['官','杀'] 
+for item in children:
+	gan = ten_deities[me].inverse[item]
+	print(item, ": ", gan, ten_deities[gan][zhis[3]], '\t\t',  end='')
+
+
+# 对象状态
+print("\n\n对象状态:", end='')
+children = ['官','杀'] if options.n else ['财','偏财'] 
+for item in children:
+	gan = ten_deities[me].inverse[item]
+	print(item, ": ", gan, ten_deities[gan][zhis[1]], '\t\t',  end='')
+	
+	
 def check_subset(gans, db, desc):
     flag = True
     for item in db:
@@ -118,15 +145,7 @@ check_subset(zhis, zhi_poes, '地支相破')
 check_subset(zhis, zhi_haies, '地支相害')	
 check_subset(zhis, zhi_xings, '地支相刑')
 
-# 子女分析
-child = ten_deities[me].inverse['伤'] if options.n else ten_deities[me].inverse['食']
-print("\n子女状态:", child, ten_deities[child][zhis[3]])  
-print("=========================")  
 
-# 对象状态
-peer = ten_deities[me].inverse['官'] if options.n else ten_deities[me].inverse['财']
-print("\n对象状态:", peer, ten_deities[peer][zhis[1]])  
-print("=========================")  
 
 # 羊刃分析
 key = '帝旺' if Gan.index(me)%2 == 0 else '冠带'
@@ -261,9 +280,9 @@ if len(guan_list) == 1:
     l = list(zhis)
     if gui in l:
         l.remove(gui)
-    for item in l:
-        if item in xings[gui]:
-            guan_xings.append(item)
+        for item in l:
+            if item in xings[gui]:
+                guan_xings.append(item)
     if guan_xings:
         print("官刑",guan_xings) 
 
