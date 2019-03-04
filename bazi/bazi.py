@@ -114,15 +114,19 @@ print("\n\n子女状态:", end='')
 children = ['食','伤'] if options.n else ['官','杀'] 
 for item in children:
 	gan = ten_deities[me].inverse[item]
-	print(item, ": ", gan, ten_deities[gan][zhis[3]], '\t\t',  end='')
+	print(item, ": ", gan, "--", ten_deities[gan][zhis[0]], 
+	      ten_deities[gan][zhis[1]], ten_deities[gan][zhis[2]], " [",
+	      ten_deities[gan][zhis[3]], ']\t\t',  end='')
 
 
 # 对象状态
 print("\n\n对象状态:", end='')
-children = ['官','杀'] if options.n else ['财','偏财'] 
-for item in children:
+peer = ['官','杀'] if options.n else ['财','偏财'] 
+for item in peer:
 	gan = ten_deities[me].inverse[item]
-	print(item, ": ", gan, ten_deities[gan][zhis[1]], '\t\t',  end='')
+	print(item, ": ", gan, "--", ten_deities[gan][zhis[0]], " [",
+	          ten_deities[gan][zhis[1]], "]", ten_deities[gan][zhis[2]], 
+	          ten_deities[gan][zhis[3]], '\t\t',  end='')	
 	
 	
 def check_subset(gans, db, desc):
