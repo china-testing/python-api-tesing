@@ -81,7 +81,7 @@ print("{:^28s}{:^28s}{:^28s}{:^28s}".format('年【父-根】', "月【兄弟僚
 print("-"*140)
 print("{:^30s}{:^30s}{:^30s}{:^30s}".format(
     '{}{}{} [{}]'.format(
-         gans.year, yinyang(gans.year), gan5[gans.year], ten_deities[me][gans.year]),
+        gans.year, yinyang(gans.year), gan5[gans.year], ten_deities[me][gans.year]),
     '{}{}{} [{}]'.format(
         gans.month, yinyang(gans.month), gan5[gans.month], ten_deities[me][gans.month]),
     '{}{}{} [{}]'.format(me, yinyang(me),gan5[me], '自己'), 
@@ -89,12 +89,12 @@ print("{:^30s}{:^30s}{:^30s}{:^30s}".format(
 ))
 print("{:^30s}{:^30s}{:^30s}{:^30s}".format(
     "{}{}{} [{}]".format(zhis.year, yinyang(zhis.year), 
-        ten_deities[me][zhis.year], ten_deities[gans.year][zhis.year]),
+                         ten_deities[me][zhis.year], ten_deities[gans.year][zhis.year]),
     "{}{}{} [{}]".format(zhis.month, yinyang(zhis.month), 
-        ten_deities[me][zhis.month], ten_deities[gans.month][zhis.month]),  
+                         ten_deities[me][zhis.month], ten_deities[gans.month][zhis.month]),  
     "{}{}{}".format(zhis.day, yinyang(zhis.day), ten_deities[me][zhis.day]),   
     "{}{}{} [{}]".format(zhis.time, yinyang(zhis.time), 
-        ten_deities[me][zhis.time], ten_deities[gans.time][zhis.time]),       
+                         ten_deities[me][zhis.time], ten_deities[gans.time][zhis.time]),       
 ))
 for item in zhis:
     out = ''
@@ -113,22 +113,22 @@ print("年份:", zhis[0], "特点：--", zhi_desc[zhis[0]],"\n")
 print("\n\n子女状态:", end='')
 children = ['食','伤'] if options.n else ['官','杀'] 
 for item in children:
-	gan = ten_deities[me].inverse[item]
-	print(item, ": ", gan, "--", ten_deities[gan][zhis[0]], 
-	      ten_deities[gan][zhis[1]], ten_deities[gan][zhis[2]], " [",
-	      ten_deities[gan][zhis[3]], ']\t\t',  end='')
+    gan = ten_deities[me].inverse[item]
+    print(item, ": ", gan, "--", ten_deities[gan][zhis[0]], 
+              ten_deities[gan][zhis[1]], ten_deities[gan][zhis[2]], " [",
+              ten_deities[gan][zhis[3]], ']\t\t',  end='')
 
 
 # 对象状态
 print("\n\n对象状态:", end='')
 peer = ['官','杀'] if options.n else ['财','偏财'] 
 for item in peer:
-	gan = ten_deities[me].inverse[item]
-	print(item, ": ", gan, "--", ten_deities[gan][zhis[0]], " [",
-	          ten_deities[gan][zhis[1]], "]", ten_deities[gan][zhis[2]], 
-	          ten_deities[gan][zhis[3]], '\t\t',  end='')	
-	
-	
+    gan = ten_deities[me].inverse[item]
+    print(item, ": ", gan, "--", ten_deities[gan][zhis[0]], " [",
+              ten_deities[gan][zhis[1]], "]", ten_deities[gan][zhis[2]], 
+                  ten_deities[gan][zhis[3]], '\t\t',  end='')	
+
+
 def check_subset(gans, db, desc):
     flag = True
     for item in db:
@@ -173,19 +173,24 @@ if ten_deities[me].inverse[key] in zhis:
 me_zhi = zhis[2]
 other_zhis = zhis[:2] + zhis[3:]
 flag = False
+tmp_list = []
 if me_zhi in ("申", "子", "辰"):
     if "子" in other_zhis:
         flag = True
+        tmp_list.append((me_zhi, '子'))
 elif me_zhi in ("丑", "巳", "酉"):
     if "酉" in other_zhis:
         flag = True   
+        tmp_list.append((me_zhi, '酉'))
 elif me_zhi in ("寅", "午", "戌"):
     if "午" in other_zhis:
         flag = True     
+        tmp_list.append((me_zhi, '午'))
 elif me_zhi in ("亥", "卯", "未"):
     if "卯" in other_zhis:
         flag = True   
-        
+        tmp_list.append((me_zhi, '卯'))
+
 if flag:
     print("\n\n将星: 常欲吉星相扶，贵煞加临乃为吉庆。")  
     print("=========================")   
@@ -193,7 +198,8 @@ if flag:
     不杂者，出将入相之格也，带华盖、正印而不夹库，两府之格也；只带库墓而带正印，员郎
     以上，既不带墓又不带正印，止有华盖，常调之禄也；带华印而正建驿马，名曰节印，主旌节
     之贵；若岁干库同库为两重福，主大贵。''')
-    
+    print(tmp_list)
+
 # 华盖分析
 flag = False
 if me_zhi in ("申", "子", "辰"):
@@ -208,7 +214,7 @@ elif me_zhi in ("寅", "午", "戌"):
 elif me_zhi in ("亥", "卯", "未"):
     if "未" in other_zhis:
         flag = True   
-        
+
 if flag:
     print("\n\n华盖: 多主孤寡，总贵亦不免孤独，作僧道艺术论。")  
     print("=========================")   
@@ -231,7 +237,7 @@ elif me_zhi in ("寅", "午", "戌") or year_zhi in ("寅", "午", "戌"):
 elif me_zhi in ("亥", "卯", "未") or year_zhi in ("亥", "卯", "未"):
     if "子" in other_zhis:
         flag = True   
-        
+
 if flag:
     print("\n\n咸池(桃花): 墙里桃花，煞在年月；墙外桃花，煞在日时；")  
     print("=========================")   
@@ -242,6 +248,36 @@ if flag:
     非为吉兆，妇人尤忌之。
     咸池非吉煞，日时与水命遇之尤凶。''')    
 
+# 禄分析
+flag = False
+for item in zhus:
+    if item in lu_types[me]:
+        if not flag:
+            print("\n\n禄分析:")  
+            print("=========================")	    
+        print(item,lu_types[me][item])
+        
+        
+# 文昌贵人
+if wenchang[me] in zhis:
+        print("\n\n文昌贵人: ")  
+        print("=========================")	              
+        print(me,  wenchang[me])
+        
+# 文星贵人
+if wenxing[me] in zhis:
+    print("\n\n文星贵人: ")  
+    print("=========================")	              
+    print(me,  wenxing[me])
+
+# 天印贵人
+if tianyin[me] in zhis:
+    print("\n\n天印贵人: 此号天印贵，荣达受皇封")  
+    print("=========================")	              
+    print(me,  tianyin[me])
+ 
+       
+        
 # 官分析
 guan_list = []
 for item in gans + zhis:
@@ -275,7 +311,7 @@ if len(guan_list) == 1:
     guan_chongs = []
     gui = guan_list[0]
     for item in gans + zhis:
-        if item in chongs[gui]:
+        if item in chongs.get(gui, []):
             guan_chongs.append(item)
     if guan_chongs:
         print("官冲",guan_list)    
