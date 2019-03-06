@@ -102,7 +102,11 @@ for item in zhis:
         out = out + "{}{}{}{} ".format(gan, gan5[gan], zhi5[item][gan],  ten_deities[me][gan])
     print("{:^26s}".format(out), end=' ')
 
-print("\n\n")
+print()
+for item in zhus:
+    print("{:^30s}".format(nayins[item]), end=' ')    
+
+print("\n")
 print("="*140)  
 print("你属:", me, "特点：--", gan_desc[me],"\n")
 print("年份:", zhis[0], "特点：--", zhi_desc[zhis[0]],"\n")
