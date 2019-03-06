@@ -3,8 +3,6 @@
 # Author:  钉钉或微信pythontesting 技术支持qq群：630011153 144081101
 # CreateDate: 2019-2-21
 
-# -*- coding:utf-8 -*-
-
 import argparse
 from datas import shengxiaos, zhi_atts
 
