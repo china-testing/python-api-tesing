@@ -31,7 +31,7 @@ else:
     zhi = shengxiaos.inverse[options.shengxiao]
     print("你的年支是：", zhi)
     print("="*80) 
-    print("生肖是八字的一小部分，有一定参考意义，但是不是全部。") 
+    print("合生肖是合八字的一小部分，有一定参考意义，但是不是全部。") 
     print("合婚请以八字为准，技术支持：钉钉或微信pythontesting") 
     print("="*80) 
     output("与你最合的生肖：", '合')  
@@ -41,7 +41,3 @@ else:
     output("被你刑的生肖：", '被刑') 
     output("与你相害的生肖：", '害')     
     output("与你相破的生肖：", '害')     
-        
-    
-    
-    
