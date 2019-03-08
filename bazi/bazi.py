@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# Author:  钉钉或微信pythontesting 技术支持qq群：630011153 144081101
+# Author: 钉钉或微信pythontesting 钉钉群21734177 技术支持qq群：630011153 144081101
 # CreateDate: 2019-2-21
 
 # -*- coding:utf-8 -*-
@@ -12,6 +12,7 @@ import pprint
 from bidict import bidict
 
 from datas import *
+from sizi import summarys
 
 def yinyang(item):
     if item in Gan:
@@ -96,6 +97,8 @@ print("{:^30s}{:^30s}{:^30s}{:^30s}".format(
     "{}{}{} [{}]".format(zhis.time, yinyang(zhis.time), 
                          ten_deities[me][zhis.time], ten_deities[gans.time][zhis.time]),       
 ))
+
+
 for item in zhis:
     out = ''
     for gan in zhi5[item]:
@@ -106,51 +109,86 @@ print()
 for item in zhus:
     print("{:^30s}".format(nayins[item]), end=' ')    
 
-print("\n")
-print("="*140)  
-print("你属:", me, "特点：--", gan_desc[me],"\n")
-print("年份:", zhis[0], "特点：--", zhi_desc[zhis[0]],"\n")
-#print(dict(ten_deities[me]))
-#print(ten_deities[me])
+print()
+print("-"*140)
 
 # 子女分析
-print("\n\n子女状态:", end='')
+boy = ten_deities[me].inverse['食'] if options.n else ten_deities[me].inverse['杀']
+girl = ten_deities[me].inverse['伤'] if options.n else ten_deities[me].inverse['官']
 children = ['食','伤'] if options.n else ['官','杀'] 
-for item in children:
-    gan = ten_deities[me].inverse[item]
-    print(item, ": ", gan, "--", ten_deities[gan][zhis[0]], 
-              ten_deities[gan][zhis[1]], ten_deities[gan][zhis[2]], " [",
-              ten_deities[gan][zhis[3]], ']\t\t',  end='')
+boy_state = "子：{} -- {} {} {} [{}]".format(
+    boy, ten_deities[boy][zhis[0]], ten_deities[boy][zhis[1]], 
+    ten_deities[boy][zhis[2]], ten_deities[boy][zhis[3]] )
+girl_state = "女：{} -- {} {} {} [{}]".format(
+    girl, ten_deities[girl][zhis[0]], ten_deities[girl][zhis[1]], 
+    ten_deities[girl][zhis[2]], ten_deities[girl][zhis[3]] )
 
 
 # 对象状态
-print("\n\n对象状态:", end='')
-peer = ['官','杀'] if options.n else ['财','偏财'] 
-for item in peer:
-    gan = ten_deities[me].inverse[item]
-    print(item, ": ", gan, "--", ten_deities[gan][zhis[0]], " [",
-              ten_deities[gan][zhis[1]], "]", ten_deities[gan][zhis[2]], 
-                  ten_deities[gan][zhis[3]], '\t\t',  end='')	
+mate = ten_deities[me].inverse['官'] if options.n else ten_deities[me].inverse['财']
+lover = ten_deities[me].inverse['杀'] if options.n else ten_deities[me].inverse['偏财'] 
+mate_state = "对象：{} -- {} [{}] {} {}".format(
+    mate, ten_deities[mate][zhis[0]], ten_deities[mate][zhis[1]], 
+    ten_deities[mate][zhis[2]], ten_deities[mate][zhis[3]] )
+lover_state = "情人：{} -- {} [{}] {} {}".format(
+    lover, ten_deities[lover][zhis[0]], ten_deities[lover][zhis[1]], 
+    ten_deities[lover][zhis[2]], ten_deities[lover][zhis[3]] )
+print("{:<25s}  {:<25s}  {:<25}  {:<25s}".format(
+    boy_state, girl_state, mate_state, lover_state))
 
+# 父母状态
+father = ten_deities[me].inverse['偏财'] 
+mother = ten_deities[me].inverse['印'] 
+father_state = "父：{} -- {} [{}] {} {}".format(
+    father, ten_deities[father][zhis[0]], ten_deities[father][zhis[1]], 
+    ten_deities[father][zhis[2]], ten_deities[father][zhis[3]] )
+mother_state = "母：{} -- {} [{}] {} {}".format(
+    mother, ten_deities[mother][zhis[0]], ten_deities[mother][zhis[1]], 
+    ten_deities[mother][zhis[2]], ten_deities[mother][zhis[3]] )
+
+# 兄弟姐妹状态
+brother = ten_deities[me].inverse['劫'] if options.n else ten_deities[me].inverse['比肩']
+sister = ten_deities[me].inverse['比肩'] if options.n else ten_deities[me].inverse['劫'] 
+brother_state = "兄弟：{} -- {} [{}] {} {}".format(
+    brother, ten_deities[brother][zhis[0]], ten_deities[brother][zhis[1]], 
+    ten_deities[brother][zhis[2]], ten_deities[brother][zhis[3]] )
+sister_state = "姐妹：{} -- {} [{}] {} {}".format(
+    sister, ten_deities[sister][zhis[0]], ten_deities[sister][zhis[1]], 
+    ten_deities[sister][zhis[2]], ten_deities[sister][zhis[3]] )
+print("{:<25s}  {:<25s}  {:<25}  {:<25s}".format(
+    father_state, mother_state, brother_state, sister_state))
+
+sum_index = ''.join([me, '日', *zhus[3]])
+if sum_index in summarys:
+    print("\n\n命")    
+    print("=========================")      
+    print(summarys[sum_index])
+
+
+print("="*140)  
+print("你属:", me, "特点：--", gan_desc[me],"\n")
+print("年份:", zhis[0], "特点：--", zhi_desc[zhis[0]],"\n")
 
 def check_subset(gans, db, desc):
-    flag = True
+    flag = False # 是否找到
     for item in db:
         if set(item).issubset(gans):
-            if flag:
+            if not flag:
                 print("\n\n{}:".format(desc))
                 print("="*60)   
-                flag = False
-            print(item, db[item])    
+                flag = True
+            print(item, db[item])  
+    return flag
 
 check_subset(gans, gan_hes, '十干合')
-check_subset(gans, gan_chongs, '十干冲')
-check_subset(zhis, zhi_6hes, '地支六合')		
-check_subset(zhis, zhi_3hes, '地支三合')		
+check_subset(gans, gan_chongs, '十干冲 https://www.jianshu.com/p/ac958d44835f')
+check_subset(zhis, zhi_6hes, '地支六合: 男子忌合绝，女人忌合贵。')		
+if not check_subset(zhis, zhi_3hes, '地支三合'):	 # 如果三合，没必要检查半合
+    check_subset(zhis, zhi_half_3hes, '地支半合')	
 check_subset(zhis, zhi_huis, '地支三会')	
-check_subset(zhis, zhi_chongs, '地支相冲')	
-check_subset(zhis, zhi_poes, '地支相破')	
-check_subset(zhis, zhi_haies, '地支相害')	
+check_subset(zhis, zhi_chongs, '地支相冲 https://www.jianshu.com/p/ac958d44835f')	
+check_subset(zhis, zhi_poes, '地支相破(破煞): 少年灾滞，财产耗散，兼有折伤之灾。')	
+check_subset(zhis, zhi_haies, '地支相害 六亲损害 再见羊刃、劫煞、官府，为灾尤甚。日时、女命尤忌')	
 check_subset(zhis, zhi_xings, '地支相刑')
 
 
@@ -172,6 +210,19 @@ if ten_deities[me].inverse[key] in zhis:
     print("有揽辔澄清格，谓贵人乘马而前视羊刃，犹马头带剑之义。")    
     print("=========================")      
 
+
+# 三奇
+flag = False
+if ['乙','丙', '丁'] == list(gans[:3]) or ['乙','丙', '丁'] == list(gans[1:]):
+    flag = True   
+if ['甲','戊', '庚'] == list(gans[:3]) or ['甲','戊', '庚'] == list(gans[1:]):
+    flag = True   
+if ['辛','壬', '癸'] == list(zhis[:3]) or ['辛','壬', '癸'] == list(zhis[1:]):
+    flag = True         
+    
+
+if flag:
+    print("\n\n三奇：参见https://www.jianshu.com/p/d014a054c38e")     
 
 # 将星分析
 me_zhi = zhis[2]
@@ -228,19 +279,24 @@ if flag:
 
 # 咸池 桃花
 flag = False
+taohuas = []
 year_zhi = zhis[0]
 if me_zhi in ("申", "子", "辰") or year_zhi in ("申", "子", "辰"):
     if "酉" in zhis:
         flag = True
+        taohuas.append("酉")
 elif me_zhi in ("丑", "巳", "酉") or year_zhi in ("丑", "巳", "酉"):
     if "午" in other_zhis:
         flag = True   
+        taohuas.append("午")
 elif me_zhi in ("寅", "午", "戌") or year_zhi in ("寅", "午", "戌"):
     if "卯" in other_zhis:
-        flag = True     
+        flag = True    
+        taohuas.append("卯")
 elif me_zhi in ("亥", "卯", "未") or year_zhi in ("亥", "卯", "未"):
     if "子" in other_zhis:
         flag = True   
+        taohuas.append("子")
 
 if flag:
     print("\n\n咸池(桃花): 墙里桃花，煞在年月；墙外桃花，煞在日时；")  
@@ -250,7 +306,8 @@ if flag:
     靡所不为；与元辰并，更临生旺者，多得匪人为妻；与贵人建禄并，多因油盐酒货得生，
     或因妇人暗昧之财起家，平生有水厄、痨瘵之疾，累遭遗失暗昧之灾。此人入命，有破无成，
     非为吉兆，妇人尤忌之。
-    咸池非吉煞，日时与水命遇之尤凶。''')    
+    咸池非吉煞，日时与水命遇之尤凶。''')  
+    print(taohuas, zhis)
 
 # 禄分析
 flag = False
@@ -296,7 +353,7 @@ if guan_list:
     print("恭喜，有贵人相助！", guan_list)
 
     # 检查天福贵人
-    if lus[me] in guan_list:
+    if ten_deities[me].inverse['建'] in guan_list:
         print("天福贵人:主科名巍峨，官职尊崇，多掌丝纶文翰之美!")
 
     # 岁德正官
@@ -365,3 +422,4 @@ short = min(scores, key=scores.get)
 print("\n\n五行缺{}的建议".format(short))    
 print("=========================")    
 print("{}".format(gan_health[short]))
+
