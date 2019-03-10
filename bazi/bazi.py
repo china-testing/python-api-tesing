@@ -66,6 +66,24 @@ else:
 me = gans.day
 zhus = [item for item in zip(gans, zhis)]
 
+
+# 计算五行分数 http://www.131.com.tw/word/b3_2_14.htm
+
+scores = {"金":0, "木":0, "水":0, "火":0, "土":0}
+gan_scores = {"甲":0, "乙":0, "丙":0, "丁":0, "戊":0, "己":0, "庚":0, "辛":0,
+              "壬":0, "癸":0}   
+
+for item in gans:  
+    scores[gan5[item]] += 5
+    gan_scores[item] += 5
+
+
+for item in list(zhis) + [zhis.month]:  
+    for gan in zhi5[item]:
+        scores[gan5[gan]] += zhi5[item][gan]
+        gan_scores[gan] += zhi5[item][gan]
+
+
 if not options.b:
     print("\n日期:")
     print("======================================")  
@@ -81,12 +99,12 @@ print("="*140)
 print("{:^28s}{:^28s}{:^28s}{:^28s}".format('年【父-根】', "月【兄弟僚友-苗】", "日【自己配偶-花】", "时【子孙-实】"))
 print("-"*140)
 print("{:^30s}{:^30s}{:^30s}{:^30s}".format(
-    '{}{}{} [{}]'.format(
+    '{}{}{}5 [{}]'.format(
         gans.year, yinyang(gans.year), gan5[gans.year], ten_deities[me][gans.year]),
-    '{}{}{} [{}]'.format(
+    '{}{}{}5 [{}]'.format(
         gans.month, yinyang(gans.month), gan5[gans.month], ten_deities[me][gans.month]),
-    '{}{}{} [{}]'.format(me, yinyang(me),gan5[me], '自己'), 
-    '{}{}{} [{}]'.format(gans.time, yinyang(gans.time), gan5[gans.time], ten_deities[me][gans.time]),
+    '{}{}{}5 [{}]'.format(me, yinyang(me),gan5[me], '自己'), 
+    '{}{}{}5 [{}]'.format(gans.time, yinyang(gans.time), gan5[gans.time], ten_deities[me][gans.time]),
 ))
 print("{:^30s}{:^30s}{:^30s}{:^30s}".format(
     "{}{}{} [{}]".format(zhis.year, yinyang(zhis.year), 
@@ -101,8 +119,11 @@ print("{:^30s}{:^30s}{:^30s}{:^30s}".format(
 
 for item in zhis:
     out = ''
+    multi = 2 if item == zhis.month else 1
+        
     for gan in zhi5[item]:
-        out = out + "{}{}{}{} ".format(gan, gan5[gan], zhi5[item][gan],  ten_deities[me][gan])
+        out = out + "{}{}{}{} ".format(gan, gan5[gan], zhi5[item][gan]*multi,  
+                                       ten_deities[me][gan])
     print("{:^26s}".format(out), end=' ')
 
 print()
@@ -110,7 +131,15 @@ for item in zhus:
     print("{:^30s}".format(nayins[item]), end=' ')    
 
 print()
+
+
+
 print("-"*140)
+for item in gan_scores:  
+    print("{}[{}]-{} ".format(
+        item, ten_deities[me][item], gan_scores[item]),  end='  ')    
+
+print("\n")
 
 # 子女分析
 boy = ten_deities[me].inverse['食'] if options.n else ten_deities[me].inverse['杀']
@@ -198,17 +227,12 @@ key = '帝旺' if Gan.index(me)%2 == 0 else '冠带'
 
 if ten_deities[me].inverse[key] in zhis:
     print("\n羊刃:", me, ten_deities[me].inverse[key])  
-    print("=========================")   
-    print("羊刃重重又见禄，富贵饶金玉。 官、印相助福相资。")  
-    print("专羊刃，主眼露性急，凶暴害物，亲近恶党，生旺稍可，死绝尤甚")
-    print("在五行败者逢之，多患瘰疠或瘴疠、金刃之灾，不论贵贱，多冗杂劳迫，少得安逸") 
-    print("六甲生人逢乙卯、丁卯，为真羊刃。若重犯，主残疾，官禄失退则散在晚年")
-    print("运行羊刃，财物耗散")    
-    print("\n有刃头财，如甲人见己卯之类，谓之销 煞 主财帛歇灭，常人以屠沽刀锯等事为业，或因被盗而致命者。")
-    print("有刃头鬼，如甲人见辛卯之类，谓之持刃煞，主人不令终，虽入贵格，亦不可测。甲乙人见之，尤紧。多脑疽发背而终。")
-    print("有羊刃相蚀，如甲寅虎、兔、甲戊狗兔之类()，见所蚀年月稍可，日时至危。若见两重，更值空亡，设非相蚀，亦犯流配至老，主不善终?")
-    print("有揽辔澄清格，谓贵人乘马而前视羊刃，犹马头带剑之义。")    
-    print("=========================")      
+    print("======================参考：https://www.jianshu.com/p/c503f7b3ed04")  
+    if ten_deities[me].inverse['冠带']:
+        print("羊刃重重又见禄，富贵饶金玉。 官、印相助福相资。")  
+    else:
+        print("劳累命！")
+
 
 
 # 三奇
@@ -219,7 +243,7 @@ if ['甲','戊', '庚'] == list(gans[:3]) or ['甲','戊', '庚'] == list(gans[1
     flag = True   
 if ['辛','壬', '癸'] == list(zhis[:3]) or ['辛','壬', '癸'] == list(zhis[1:]):
     flag = True         
-    
+
 
 if flag:
     print("\n\n三奇：参见https://www.jianshu.com/p/d014a054c38e")     
@@ -317,14 +341,14 @@ for item in zhus:
             print("\n\n禄分析:")  
             print("=========================")	    
         print(item,lu_types[me][item])
-        
-        
+
+
 # 文昌贵人
 if wenchang[me] in zhis:
-        print("\n\n文昌贵人: ")  
-        print("=========================")	              
-        print(me,  wenchang[me])
-        
+    print("\n\n文昌贵人: ")  
+    print("=========================")	              
+    print(me,  wenchang[me])
+
 # 文星贵人
 if wenxing[me] in zhis:
     print("\n\n文星贵人: ")  
@@ -336,9 +360,9 @@ if tianyin[me] in zhis:
     print("\n\n天印贵人: 此号天印贵，荣达受皇封")  
     print("=========================")	              
     print(me,  tianyin[me])
- 
-       
-        
+
+
+
 # 官分析
 guan_list = []
 for item in gans + zhis:
@@ -404,16 +428,8 @@ if zhus[2] in tianyuans:
     print("=========================")       
     print(zhus[2])
 
-# 计算五行分数 http://www.131.com.tw/word/b3_2_14.htm
 
-scores = {"金":0, "木":0, "水":0, "火":0, "土":0}
-
-for item in gans:  
-    scores[gan5[item]] += 5
-
-for item in list(zhis) + [zhis.month]:  
-    for gan in zhi5[item]:
-        scores[gan5[gan]] += zhi5[item][gan]
+     
 
 print("\n\n五行分数") 
 print("="*60)  
@@ -423,3 +439,4 @@ print("\n\n五行缺{}的建议".format(short))
 print("=========================")    
 print("{}".format(gan_health[short]))
 
+print(gan_scores)
