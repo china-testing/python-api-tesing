@@ -140,6 +140,8 @@ for item in gan_scores:
         item, ten_deities[me][item], gan_scores[item]),  end='  ')    
 
 print("\n")
+print(scores)
+print("\n")
 
 # 子女分析
 boy = ten_deities[me].inverse['食'] if options.n else ten_deities[me].inverse['杀']
@@ -429,14 +431,7 @@ if zhus[2] in tianyuans:
     print(zhus[2])
 
 
-     
-
-print("\n\n五行分数") 
-print("="*60)  
-print(scores)
-short = min(scores, key=scores.get)
-print("\n\n五行缺{}的建议".format(short))    
-print("=========================")    
-print("{}".format(gan_health[short]))
-
-print(gan_scores)
+#short = min(scores, key=scores.get)
+#print("\n\n五行缺{}的建议".format(short))    
+#print("=========================")    
+#print("{}".format(gan_health[short]))
