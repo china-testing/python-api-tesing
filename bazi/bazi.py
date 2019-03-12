@@ -82,7 +82,14 @@ for item in list(zhis) + [zhis.month]:
     for gan in zhi5[item]:
         scores[gan5[gan]] += zhi5[item][gan]
         gan_scores[gan] += zhi5[item][gan]
+        
 
+# 计算八字强弱
+
+
+me_attrs_ = ten_deities[me].inverse
+strong = gan_scores[me_attrs_['比肩']] + gan_scores[me_attrs_['劫']] \
+    + gan_scores[me_attrs_['偏印']] + gan_scores[me_attrs_['印']]
 
 if not options.b:
     print("\n日期:")
@@ -139,15 +146,15 @@ for item in empty:
         print("空亡", item)
         break
 
-
-
 print("-"*140)
 for item in gan_scores:  
     print("{}[{}]-{} ".format(
         item, ten_deities[me][item], gan_scores[item]),  end='  ')    
 
 print("\n")
-print(scores)
+print("五行分数", scores, '\t\t八字强弱：', strong, "通常大于29分为强，还需要参考月份、坐支等")
+
+
 
 # 子女分析
 boy = ten_deities[me].inverse['食'] if options.n else ten_deities[me].inverse['杀']
@@ -436,8 +443,10 @@ if zhus[2] in tianyuans:
     print("=========================")       
     print(zhus[2])
 
+print(list(gans).count('癸'))
 
 #short = min(scores, key=scores.get)
 #print("\n\n五行缺{}的建议".format(short))    
 #print("=========================")    
 #print("{}".format(gan_health[short]))
+
