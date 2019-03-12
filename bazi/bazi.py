@@ -106,6 +106,8 @@ print("{:^30s}{:^30s}{:^30s}{:^30s}".format(
     '{}{}{}5 [{}]'.format(me, yinyang(me),gan5[me], '自己'), 
     '{}{}{}5 [{}]'.format(gans.time, yinyang(gans.time), gan5[gans.time], ten_deities[me][gans.time]),
 ))
+
+empty = empties[zhus[0]]
 print("{:^30s}{:^30s}{:^30s}{:^30s}".format(
     "{}{}{} [{}]".format(zhis.year, yinyang(zhis.year), 
                          ten_deities[me][zhis.year], ten_deities[gans.year][zhis.year]),
@@ -132,6 +134,11 @@ for item in zhus:
 
 print()
 
+for item in empty:
+    if item in zhis:
+        print("空亡", item)
+        break
+
 
 
 print("-"*140)
@@ -141,7 +148,6 @@ for item in gan_scores:
 
 print("\n")
 print(scores)
-print("\n")
 
 # 子女分析
 boy = ten_deities[me].inverse['食'] if options.n else ten_deities[me].inverse['杀']
