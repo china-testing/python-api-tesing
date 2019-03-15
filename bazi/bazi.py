@@ -94,11 +94,11 @@ strong = gan_scores[me_attrs_['比肩']] + gan_scores[me_attrs_['劫']] \
 if not options.b:
     print("\n日期:")
     print("======================================")  
-    print("公历:")
+    print("公历:", end='')
     print("\t{}年{}月{}日".format(day.y, day.m, day.d))
 
     Lleap = "闰" if day.Lleap else ""
-    print("农历:")
+    print("农历:", end='')
     print("\t{}年{}{}月{}日".format(day.Lyear0 + 1984, Lleap, ymc[day.Lmc], rmc[day.Ldi]))
 
 print("\n八字:   同义词：七杀|偏官 偏印|枭神 解读：钉钉或微信pythontesting")
@@ -126,9 +126,9 @@ print("{:^30s}{:^30s}{:^30s}{:^30s}".format(
 ))
 
 
-for item in zhis:
+for seq, item in enumerate(zhis):
     out = ''
-    multi = 2 if item == zhis.month else 1
+    multi = 2 if item == zhis.month and seq == 1 else 1
         
     for gan in zhi5[item]:
         out = out + "{}{}{}{} ".format(gan, gan5[gan], zhi5[item][gan]*multi,  
@@ -208,6 +208,23 @@ if sum_index in summarys:
     print("=========================")      
     print(summarys[sum_index])
 
+gan_ = tuple(gans)
+for item in Gan:
+    if gan_.count(item) == 3:
+        print("三字干：", item, "--", gan3[item])
+        break
+    
+gan_ = tuple(gans)
+for item in Gan:
+    if gan_.count(item) == 4:
+        print("四字干：", item, "--", gan4[item])
+        break    
+        
+zhi_ = tuple(zhis)
+for item in Zhi:
+    if zhi_.count(item) > 2:
+        print("三字支：", item, "--", zhi3[item])
+        break
 
 print("="*140)  
 print("你属:", me, "特点：--", gan_desc[me],"\n")
