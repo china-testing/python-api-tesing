@@ -101,7 +101,7 @@ if not options.b:
     print("农历:", end='')
     print("\t{}年{}{}月{}日".format(day.Lyear0 + 1984, Lleap, ymc[day.Lmc], rmc[day.Ldi]))
 
-print("\n八字:   同义词：七杀|偏官 偏印|枭神 解读：钉钉或微信pythontesting")
+print("\n八字:   同义词：七杀|偏官 偏印|枭神  流岁取天干 解读：钉钉或微信pythontesting 以下未包含暗合、三合")
 print("="*140)    
 print("{:^28s}{:^28s}{:^28s}{:^28s}".format('年【父-根】', "月【兄弟僚友-苗】", "日【自己配偶-花】", "时【子孙-实】"))
 print("-"*140)
@@ -110,7 +110,7 @@ print("{:^30s}{:^30s}{:^30s}{:^30s}".format(
         gans.year, yinyang(gans.year), gan5[gans.year], ten_deities[me][gans.year]),
     '{}{}{}5 [{}]'.format(
         gans.month, yinyang(gans.month), gan5[gans.month], ten_deities[me][gans.month]),
-    '{}{}{}5 [{}]'.format(me, yinyang(me),gan5[me], '自己'), 
+    '{}{}{}5 [{}]'.format(me, yinyang(me),gan5[me], '自己 天元'), 
     '{}{}{}5 [{}]'.format(gans.time, yinyang(gans.time), gan5[gans.time], ten_deities[me][gans.time]),
 ))
 
@@ -118,9 +118,9 @@ empty = empties[zhus[0]]
 print("{:^30s}{:^30s}{:^30s}{:^30s}".format(
     "{}{}{} [{}]".format(zhis.year, yinyang(zhis.year), 
                          ten_deities[me][zhis.year], ten_deities[gans.year][zhis.year]),
-    "{}{}{} [{}]".format(zhis.month, yinyang(zhis.month), 
+    "{}{}{} [{}]【命】地元".format(zhis.month, yinyang(zhis.month), 
                          ten_deities[me][zhis.month], ten_deities[gans.month][zhis.month]),  
-    "{}{}{}".format(zhis.day, yinyang(zhis.day), ten_deities[me][zhis.day]),   
+    "{}{}{} 地元".format(zhis.day, yinyang(zhis.day), ten_deities[me][zhis.day]),   
     "{}{}{} [{}]".format(zhis.time, yinyang(zhis.time), 
                          ten_deities[me][zhis.time], ten_deities[gans.time][zhis.time]),       
 ))
@@ -135,7 +135,22 @@ for seq, item in enumerate(zhis):
                                        ten_deities[me][gan])
     print("{:^26s}".format(out), end=' ')
 
-print()
+
+for seq, item in enumerate(zhis):
+  
+    output = ''
+    others = zhis[:seq] + zhis[seq+1:] 
+    for type_ in zhi_atts[item]:
+        flag = False
+        for zhi in zhi_atts[item][type_]:
+            if zhi in others:
+                if not flag:
+                    output = output + " " + type_ + ":"
+                    flag = True
+                output += zhi
+    print("{:^30s}".format(output), end=' ')         
+        
+
 for item in zhus:
     print("{:^30s}".format(nayins[item]), end=' ')    
 
@@ -145,7 +160,7 @@ for item in empty:
     if item in zhis:
         print("空亡", item)
         break
-
+print(zhi_3hes)
 print("-"*140)
 for item in gan_scores:  
     print("{}[{}]-{} ".format(
@@ -154,7 +169,32 @@ for item in gan_scores:
 print("\n")
 print("五行分数", scores, '\t\t八字强弱：', strong, "通常大于29分为强，还需要参考月份、坐支等")
 
+# 出身分析
+cai = ten_deities[me].inverse['财']
+guan = ten_deities[me].inverse['官']
+births = tuple(gans[:2])
+if cai in births and guan in births:
+    birth = '不错'
+#elif cai in births or guan in births:
+    #birth = '较好'
+else:
+    birth = '一般'
+    
+print("出身:", birth)    
 
+gan_shens = []
+for item in gans:
+    gan_shens.append(ten_deities[me][item])
+print(gan_shens)
+
+zhi_shens = []
+for item in zhis:
+    d = zhi5[item]
+    zhi_shens.append(ten_deities[me][max(d, key=d.get)])
+print(zhi_shens)
+
+if "伤" in gan_shens + zhi_shens:
+    print("伤官: 合神(三合、六合、双鸳合等等)重，男子犯之，耽迷酒色；女人逢之，不媒自嫁。")
 
 # 子女分析
 boy = ten_deities[me].inverse['食'] if options.n else ten_deities[me].inverse['杀']
