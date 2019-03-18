@@ -101,7 +101,7 @@ if not options.b:
     print("农历:", end='')
     print("\t{}年{}{}月{}日".format(day.Lyear0 + 1984, Lleap, ymc[day.Lmc], rmc[day.Ldi]))
 
-print("\n八字:   同义词：七杀|偏官 偏印|枭神  流岁取天干 解读：钉钉或微信pythontesting 以下未包含暗合、三合")
+print("\n八字:   同义词：七杀|偏官 偏印|枭神  流岁取天干 解读：钉钉或微信pythontesting 以下未包含拱合、三合")
 print("="*140)    
 print("{:^28s}{:^28s}{:^28s}{:^28s}".format('年【父-根】', "月【兄弟僚友-苗】", "日【自己配偶-花】", "时【子孙-实】"))
 print("-"*140)
@@ -135,7 +135,7 @@ for seq, item in enumerate(zhis):
                                        ten_deities[me][gan])
     print("{:^26s}".format(out), end=' ')
 
-
+print()
 for seq, item in enumerate(zhis):
   
     output = ''
@@ -150,7 +150,7 @@ for seq, item in enumerate(zhis):
                 output += zhi
     print("{:^30s}".format(output), end=' ')         
         
-
+print()
 for item in zhus:
     print("{:^30s}".format(nayins[item]), end=' ')    
 
@@ -502,8 +502,8 @@ if zhus[2] in tianyuans:
 
 print(list(gans).count('癸'))
 
-#short = min(scores, key=scores.get)
-#print("\n\n五行缺{}的建议".format(short))    
-#print("=========================")    
-#print("{}".format(gan_health[short]))
+short = min(scores, key=scores.get)
+print("\n\n五行缺{}的建议".format(short))    
+print("=========================")    
+print("{}".format(gan_health[short]))
 
