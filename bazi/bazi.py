@@ -161,14 +161,16 @@ for item in empty:
     if item in zhis:
         print("空亡", item)
         break
-print(zhi_3hes)
-print("-"*140)
+    
+print("-"*140)    
+
+print(kus)
 for item in gan_scores:  
     print("{}[{}]-{} ".format(
         item, ten_deities[me][item], gan_scores[item]),  end='  ')    
-
 print("\n")
 print("五行分数", scores, '\t\t八字强弱：', strong, "通常大于29分为强，还需要参考月份、坐支等")
+print(zhi_3hes)
 
 # 出身分析
 cai = ten_deities[me].inverse['财']
@@ -243,6 +245,7 @@ sister_state = "姐妹：{} -- {} [{}] {} {}".format(
 print("{:<25s}  {:<25s}  {:<25}  {:<25s}".format(
     father_state, mother_state, brother_state, sister_state))
 
+print("-"*140)    
 sum_index = ''.join([me, '日', *zhus[3]])
 if sum_index in summarys:
     print("\n\n命")    
