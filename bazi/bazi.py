@@ -285,7 +285,7 @@ def check_subset(gans, db, desc):
             print(item, db[item])  
     return flag
 
-check_subset(gans, gan_hes, '十干合')
+check_subset(gans, gan_hes, '十干合 https://www.jianshu.com/p/3d770f21c677')
 check_subset(gans, gan_chongs, '十干冲 https://www.jianshu.com/p/ac958d44835f')
 check_subset(zhis, zhi_6hes, '地支六合: 男子忌合绝，女人忌合贵。')		
 if not check_subset(zhis, zhi_3hes, '地支三合'):	 # 如果三合，没必要检查半合
@@ -507,7 +507,5 @@ if zhus[2] in tianyuans:
 print(list(gans).count('癸'))
 
 short = min(scores, key=scores.get)
-print("\n\n五行缺{}的建议".format(short))    
-print("=========================")    
-print("{}".format(gan_health[short]))
+print("\n\n五行缺{}的建议参见https://www.jianshu.com/p/0ed28f3a7f37".format(short))    
 
