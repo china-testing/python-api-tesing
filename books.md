@@ -873,6 +873,10 @@ Test-Driven Development with Python, 2nd Edition - 2017 qq群144081101共享
 
 ## 测试
 
+
+[书籍:ASTQB-BCS移动测试基础指南 Mobile Testing An ASTQB-BCS Foundation Guide - 2018.pdf](https://www.jianshu.com/p/a252732f8f1c)
+
+
 ### 试题
  [软件测试综合面试题(高级测试)-试题.pdf](https://itbooks.pipipan.com/fs/18113597-316083198)
 
@@ -1285,4 +1289,3 @@ Test-Driven Development with Python, 2nd Edition - 2017 qq群144081101共享
 
 * 道家技术-手相手诊看相中医等钉钉群21734177 qq群：391441566 184175668 338228106 看手相、面相、舌相、抽签、体质识别。服务费50元每人次起。请联系钉钉或者微信pythontesting
 
-![休息一下，领领红包，祝你中大奖](https://github.com/china-testing/python-api-tesing/blob/master/hongbao.png)
