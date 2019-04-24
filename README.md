@@ -943,6 +943,8 @@ Python实现的数据库。
 
 代码调试的库。
 
+  * PySnooper: 让你做print的事情，但不需要麻烦地添加很多语句，你只需要添加装饰器就可以得到运行日志，包括线运行，及对应变量的值。[链接](https://github.com/cool-RR/PySnooper/)  [介绍](https://www.jianshu.com/p/5e9b79673f39)
+
   * ipdb：IPython的 pdb。[链接](https://github.com/gotcha/ipdb) 
 
   * pudb：pdb的替代。[链接](https://bitbucket.org/antocuni/pdb/) -- 推荐
