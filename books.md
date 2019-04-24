@@ -348,6 +348,89 @@
 
 [2018最佳人工智能数据采集(爬虫)工具书下载](https://china-testing.github.io/scrap_books.html)
 
+[书籍:Python机器学习蓝图第2版 Python Machine Learning Blueprints 2nd - 2019.pdf](https://www.jianshu.com/p/22f6ec0e43b2)
+
+[书籍：树莓派家庭自动化 Home Automation(python) with Raspberry Pi - 2019.pdf](https://www.jianshu.com/p/980be6b0511c)
+
+[书籍:Python游戏开发 Game Development Using Python - 2019.pdf](https://www.jianshu.com/p/094faefbdf57)
+
+[书籍:机器学习和图像处理实战 Practical Machine Learning and Image Processing - 2019.pdf](https://www.jianshu.com/p/48ede9e1fd64)
+
+[书籍: PySpark SQL Recipes_ With HiveQL, Dataframe and Graphframes - 2019.pdf](https://www.jianshu.com/p/8e3132c4a92d)
+
+[书籍:Python金融大数据分析 Python for Finance_ Mastering Data-Driven Finance 2nd - 2019.pdf](https://www.jianshu.com/p/eab39b725d0b)
+
+[书籍:掌握Python脚本系统管理 Mastering Python Scripting for System Administrators - 2019.pdf](https://www.jianshu.com/p/b66997e8965c)
+
+[书籍:掌握Python的网络和安全 Mastering Python for Networking and Security - 2018.pdf](https://www.jianshu.com/p/d62b9b517f98)
+
+[书籍:Python渗透测试实战 Practical Security Automation and Testing(python）- 2019.pdf](https://www.jianshu.com/p/cbec5147d6be)
+
+[书籍:Python AI项目实战 Practical Python AI Projects - 2018.pdf](https://www.jianshu.com/p/bf88cee353a8)
+
+[书籍:Python深度学习项目 Python Deep Learning Projects - 2018.Pdf](https://www.jianshu.com/p/1e4d3390d553)
+
+[书籍:Python强化学习项目 Python Reinforcement Learning Projects - 2018.pdf](https://www.jianshu.com/p/09752b149d3d)
+
+[书籍:python人工智能项目入门 Python Artificial Intelligence Projects for Beginners - 2018.pdf](https://www.jianshu.com/p/2446d02b2f7a)
+
+[书籍:python人工智能项目 Intelligent Projects Using Python - 2019](https://www.jianshu.com/p/e88a7332a98e)
+
+[书籍:Data Cleaning数据清洗-基于shell和python - 2018.pdf](https://www.jianshu.com/p/f1642e4737ff)
+
+[书籍:Learning Python for Forensics 2nd Edition - 2019.pdf](https://www.jianshu.com/p/4f28484ebd04)
+
+[书籍:Learn Web Development with Python - 2018.pdf](https://www.jianshu.com/p/3c1c3d1c4c54)
+
+[书籍:Pro Python 3 3rd -2019: Features and Tools for Professional Development .pdf](https://www.jianshu.com/p/5200156c6294)
+
+[书籍:Pro Python 3 3rd -2019: Features and Tools for Professional Development .pdf](https://www.jianshu.com/p/5200156c6294)
+
+[书籍:Daniel Arbuckle's Mastering Python - 2017](https://www.jianshu.com/p/88a335e3a411)
+
+[书籍:Python Testing Cookbook, 2nd Edition - 2018.pdf python测试cookbook](https://www.jianshu.com/p/e03642383ea7)
+
+[书籍: Simple Machine Learning for Programmers - 2018.pdf 程序员简单机器学习](https://www.jianshu.com/p/5c6f5c5d56f2)
+
+[书籍:python物联网人工智能 Hands-On Artificial Intelligence for IoT - 2019](https://www.jianshu.com/p/956bfaf1eb1e)
+
+[书籍:python物联网编程项目 Internet of Things Programming Projects - 2018](https://www.jianshu.com/p/01a345f0a94c)
+
+[书籍:python网络编程 Python Network Programming - 2019](https://www.jianshu.com/p/a2de7e67edd2)
+
+[书籍：python机器学习集合Cookbook Ensemble Machine Learning Cookbook - 2019](https://www.jianshu.com/p/29ee7bebdd72)
+
+[书籍：python自然语言处理(PyTorch) Natural Language Processing with PyTorch - 2019](https://www.jianshu.com/p/001938f92fdb)
+
+[书籍：python游戏编码 Coding Games in Python - 2018](https://www.jianshu.com/p/e9fb0185e688)
+
+[书籍：python图像处理 Image Operators - Image Processing in Python - 2019](https://www.jianshu.com/p/baf6d12be2d3)
+
+[书籍：python科学工程介绍 Python for Science and Engineering - 2019](https://www.jianshu.com/p/4e4a1610f3b9)
+
+[书籍：python数据科学傻瓜书 Python for Data Science For Dummies 2nd Edition - 2019](https://www.jianshu.com/p/7fa864c89611)
+
+[python人工智能机器人工具书籍: Python Robotics Projects - 2018](https://www.jianshu.com/p/6e1796891fc7)
+
+[python人工智能机器人工具书籍: Learn Robotics Programming(python and Raspberry Pi 3) - 2018](https://www.jianshu.com/p/691e88389f90)
+
+[机器学习PyTorch菜谱 PyTorch Recipes_ A Problem-Solution Approach - 2019.Pdf](https://www.jianshu.com/p/dcd46acae5c8)
+
+[推荐系统实战 Practical Recommender Systems(python) - 2019](https://www.jianshu.com/p/9c2a1dc394d7)
+
+[Python 3 面向对象编程(第3版) 中英文Python 3 Object-Oriented Programming 3rd Edition - 2018.pdf](https://www.jianshu.com/p/bdc3384c8a9f)
+
+[深入理解Flask 中英文版-英文更新至2018第2版](https://www.jianshu.com/p/f3c5d2936dd4)
+
+[python人工智能入门 Python Beginner's Guide to Artificial Intelligence - 2018](https://www.jianshu.com/p/4fbc9de5e031)
+
+[人工智能新书下载: Machine Learning and AI for Healthcare - 2019.pdf](https://www.jianshu.com/p/b34eb5670790)
+
+[Python自动化测试新书下载: 使用Selenium工具和Python自动化浏览器](https://www.jianshu.com/p/8477aa2de10c)
+
+
+
+
 
 
 ### python基础
@@ -790,6 +873,10 @@ Test-Driven Development with Python, 2nd Edition - 2017 qq群144081101共享
 
 ## 测试
 
+
+[书籍:ASTQB-BCS移动测试基础指南 Mobile Testing An ASTQB-BCS Foundation Guide - 2018.pdf](https://www.jianshu.com/p/a252732f8f1c)
+
+
 ### 试题
  [软件测试综合面试题(高级测试)-试题.pdf](https://itbooks.pipipan.com/fs/18113597-316083198)
 
@@ -1202,4 +1289,3 @@ Test-Driven Development with Python, 2nd Edition - 2017 qq群144081101共享
 
 * 道家技术-手相手诊看相中医等钉钉群21734177 qq群：391441566 184175668 338228106 看手相、面相、舌相、抽签、体质识别。服务费50元每人次起。请联系钉钉或者微信pythontesting
 
-![休息一下，领领红包，祝你中大奖](https://github.com/china-testing/python-api-tesing/blob/master/hongbao.png)
