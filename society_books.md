@@ -26,6 +26,8 @@
 [PDF编辑器 Adobe_Acrobat_Pro9_160215.rar](https://home.pipipan.com/#item-files/action-index/folder_id-29785334)
 
 [secureCRT 7.2](https://itbooks.pipipan.com/fs/18113597-310081425)
+
+[风水书籍汇总](https://china-testing.github.io/fengshui_books.html)
      
 
 # 社科书籍	
@@ -35,6 +37,19 @@
 [书籍: 上海读客 知行合一王阳明大合集(1+2+3+传习录)](https://www.jianshu.com/p/678ac669c2d5)
 
 [书籍: 图解易经中的数学梅花易数 - 2007.pdf 故宫珍藏善本：梅花易数 - 2012.pdf](https://www.jianshu.com/p/11b741d90e28)
+
+[月亮与六便士(全本未删节插图珍藏版，毛姆经典代表作2017全新畅销译本)(作家榜推荐).pdf](https://itbooks.pipipan.com/fs/18113597-368444414)
+
+[原则(华尔街投资人、桥水公司创始人雷·达里奥白手起家40多年的生活与工作原则)-2018.pdf](https://itbooks.pipipan.com/fs/18113597-368444404)
+
+[三体全集-2012.pdf](https://itbooks.pipipan.com/fs/18113597-368444375)
+
+[债务危机 - 2019.pdf](https://itbooks.pipipan.com/fs/18113597-368444327)
+
+[人类简史：从动物到上帝 - 2014.pdf](https://itbooks.pipipan.com/fs/18113597-368444198)
+
+[见识城邦·童年的消逝 - 2015.pdf](https://itbooks.pipipan.com/fs/18113597-368444177)
+
 
 
 ## 保健
