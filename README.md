@@ -189,8 +189,10 @@ wechat： pythontesting
  * splinter - web UI测试工具，基于selnium封装。 [链接](https://github.com/cobrateam/splinter) 
 
  * selenium - web UI自动化测试。 [链接](https://github.com/SeleniumHQ/selenium/tree/master/py) --推荐 [文档参考](https://china-testing.github.io/selenium_example5.html)
-
+ 
  * mechanize- Python中有状态的程序化Web浏览。[链接](https://github.com/python-mechanize/mechanize) 
+
+ * pyppeteer- chrome/chromium自动化。[链接](https://github.com/miyakogi/pyppeteer) 
 
  * selene - 使用Python + Ajax支持+ PageObjects + Widgets进行简明UI测试 [链接](https://github.com/yashaka/selene/) 
 
