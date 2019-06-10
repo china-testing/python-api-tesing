@@ -993,6 +993,7 @@ Python实现的数据库。
 * [Theano](https://github.com/Theano/Theano) - 用于快速数值计算的库.  --推荐
 * [Shogun](https://github.com/shogun-toolbox/shogun/) C++实现，为包括Python在内的多种语言和平台提供统一的接口。 它侧重于可扩展的内核方法，以解决回归和分类问题。 Shogun关注生物信息学，可以扩展以处理超过1000万个数据样本，同时保持准确性。
 * [CNTK](https://github.com/Microsoft/CNTK/tree/master/bindings/python)  微软的深度学习框架。
+* [sqlflow](https://github.com/sql-machine-learning/sqlflow) SQLFlow是连接SQL引擎的桥梁，例如 MySQL，Hive，SparkSQL或SQL Server，带有TensorFlow和其他机器学习工具包。 SQLFlow扩展了SQL语言，以支持模型训练，预测和推理。 国内唯一的技术大公司 阿里巴巴出品！
 
 ## DevOps工具(DevOps Tools)
 
