@@ -312,6 +312,8 @@ autopy、WATSUP、winGuiAuto因为较长时间未更新未收录
  * pyccuracy- 行为驱动 web验收测试框架。 [链接](https://github.com/heynemann/pyccuracy) 
 
  * pytest-bdd- 基于pytest的行为驱动 测试框架。 [链接](https://github.com/pytest-dev/pytest-bdd) 
+ 
+ * pytest-html- pytest生成html插件。 [链接](https://github.com/pytest-dev/pytest-html/)  
 
  * ddt- 数据驱动测试。 [链接](https://github.com/txels/ddt) 
 
