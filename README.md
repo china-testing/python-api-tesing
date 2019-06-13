@@ -804,7 +804,7 @@ django-viewlet因为github星级太少而未收录
 
  * colander：验证并反序列化XML、JSON、HTML表单获取的数据。[链接](https://github.com/Pylons/colander/blob/master/docs/index.rst)
 
- * colander：json模式的实现。[链接](https://github.com/Julian/jsonschema)
+ * jsonschema：json模式的实现。[链接](https://github.com/Julian/jsonschema)
 
  * kmatch：一种用于匹配/验证/筛选 Python 字典的语言。[链接]()
 
