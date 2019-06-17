@@ -300,6 +300,8 @@ autopy、WATSUP、winGuiAuto因为较长时间未更新未收录
  * trial - Twisted的单元测试框架，基于unittest。[链接](http://twistedmatrix.com/trac/wiki/TwistedTrial) 
 
  * Robot Framework- 通用的python测试框架，易于上手，生成的报告比较好看，适合小型公司使用，支持关键字和数据等驱动，系业界内很出名的框架。不过因为写用例不能很灵活的应用python，需要大量的python封装，大公司通常使用pytest，django，flask之类的库自行开发。 [链接](https://github.com/robotframework/robotframework) 
+ 
+ * macaca - Macaca 是一套面向用户端软件的测试解决方案，提供了自动化驱动，环境配套，周边工具，集成方案，旨在解决终端上的测试、自动化、性能等方面的问题。 [链接](https://github.com/alibaba/macaca/blob/master/README.zh.md) 
 
  * green- 彩色(命令行能显示多种颜色)的单元测试框架。 [链接](https://github.com/CleanCut/green) 
 
