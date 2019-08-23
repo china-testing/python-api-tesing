@@ -10,6 +10,8 @@ book_scraper/requests_allitbooks.py 根据搜索词下载allitbooks的书籍，[
 
 wingide6 破解：other/wingide6_python3_crack.py
 
+
+ * [平安产险技术岗内部推荐-大数据测试开发工程师等-欢迎中年人和2020应届生](https://www.jianshu.com/p/e6255434be56)
  * [国学 中医 历史等社科类书籍下载](https://github.com/china-testing/python-api-tesing/blob/master/society_books.md)
  * [电影 视频 下载](https://github.com/china-testing/python-api-tesing/blob/master/videos.md)
  * [IT类书籍 下载](https://github.com/china-testing/python-api-tesing/blob/master/books.md)
