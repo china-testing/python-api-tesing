@@ -1358,6 +1358,7 @@ Python版本和环境管理
 *  [pagan](https://github.com/daboth/pagan) - 基于输入字符串和散列的复古identicon(阿凡达)生成。
 *  [opencv-python](https://github.com/skvark/opencv-python) 预编译的opencv-python, opencv-python-headless, opencv-contrib-python and opencv-contrib-python-headless。　--推荐
 *  [imutils](https://github.com/jrosebr1/imutils) 一系列便利函数，可以使用OpenCV和Python轻松进行基本图像处理操作，如平移，旋转，调整大小，骨架化和显示Matplotlib图像。　--推荐
+*  [word_cloud](https://github.com/amueller/word_cloud) 词云
 
 ## 实现(Implementations)
 
