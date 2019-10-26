@@ -285,6 +285,7 @@ autopy、WATSUP、winGuiAuto因为较长时间未更新未收录
  * [python库介绍-jpype：python到java桥](https://china-testing.github.io/python3_lib_jpype1.html)
  * [python库介绍-pyjnius：访问java类](https://china-testing.github.io/python3_lib_pyjniu.html)
  * [python3外部库boost介绍 用c++为python编写扩展](https://china-testing.github.io/python3_lib_boost.html) 
+ * [PyExecJS](https://github.com/doloopwhile/PyExecJS) 执行JavaScript代码。
  * [C++11和Python桥](https://github.com/pybind/pybind11) 
  
 
