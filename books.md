@@ -4,6 +4,8 @@
 
 今日头条极速版看新闻可以赚钱，邀请码DBG8ADUK
 
+下面书籍如果出现无法下载，可以加qq群：630011153 144081101 6089740下载
+
 
    * [书籍](#书籍)
       * [c_c  ](#c_c)
@@ -51,6 +53,8 @@
       * [人工智能机器学习](#人工智能机器学习)
          * [Scikit-learn](#scikit-learn)
       * [虚拟现实](#虚拟现实)
+      * [大数据](#大数据)     
+      * [架构](#架构)         
 
 
 # 书籍	
@@ -888,6 +892,10 @@ Test-Driven Development with Python, 2nd Edition - 2017 qq群144081101共享
 
 ### 软件测试
 
+  [Pro Apache JMeter Web Application Performance Testing - 2017.pdf](https://www.jianshu.com/p/56125b1c91c0) [下载](https://itbooks.pipipan.com/fs/18113597-384173739)
+
+  [Performance Testing with JMeter 3 - Third Edition - 2017.pdf](https://www.jianshu.com/p/4c4ce0b8ba45) [下载](https://itbooks.pipipan.com/fs/18113597-384173741)
+
   [优质代码：软件测试的原则、实践与模式 \- 2015.pdf](https://itbooks.pipipan.com/fs/18113597-316074102)
 
 
@@ -1282,7 +1290,16 @@ Test-Driven Development with Python, 2nd Edition - 2017 qq群144081101共享
 
 [Unity 2018 Augmented Reality Projects - 2018 - Jesse Glover.pdf](https://itbooks.pipipan.com/fs/18113597-316294855)
 
- 
+## 大数据
+
+[书籍：企业大数据处理：Spark、Druid、Flume与Kafka应用实践 (大数据技术丛书).pdf](https://www.jianshu.com/p/14db68f454df) [下载](https://itbooks.pipipan.com/fs/18113597-394413911)
+
+## 架构
+
+[书籍：企业IT架构转型之道：阿里巴巴中台战略思想与架构实战.pdf](https://www.jianshu.com/p/40ee76d984d0) [下载](https://itbooks.pipipan.com/fs/18113597-394414631)
+
+[书籍：流程的永恒之道](https://www.jianshu.com/p/435cf0fd9ce9)  [下载](https://itbooks.pipipan.com/fs/18113597-384173739)
+
 
 
 * 技术支持qq群： 144081101(后期会录制视频存在该群群文件) 591302926 567351477 钉钉免费群：21745728 
