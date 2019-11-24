@@ -2,7 +2,7 @@
  * [电影 视频 下载](https://github.com/china-testing/python-api-tesing/blob/master/videos.md)
  * [IT类书籍 下载](https://github.com/china-testing/python-api-tesing/blob/master/books.md)
 
-技术支持讨论qq群：630011153 144081101 6089740下载
+技术支持讨论qq群：630011153 144081101 6089740
 
 
  | 类别 | 名称 | 名称 | 名称 | 名称 | 名称 | 名称 
@@ -14,7 +14,7 @@
 |**Python** | [pypi](https://pypi.python.org/pypi) | [pymotw](https://pymotw.com) | [effbot](http://effbot.org/librarybook/) |[python库](https://github.com/china-testing/python-api-tesing)   | [awesome-python](https://github.com/vinta/awesome-python)  | [jobbole](http://python.jobbole.com/) |
 | Python | [memect](http://memect.com/) | [wiki](https://wiki.python.org/moin/Documentation) | [pythonjobs](http://pythonjobs.github.io/) | [标准库](https://docs.python.org/3/library/) | [python中文](https://docs.python.org/zh-cn/3/) | [自动化库汇总](https://github.com/atinfo/awesome-test-automation/blob/master/python-test-automation.md#rest-api-testing) |
 | |[realpython](https://realpython.com/) |[pbpython_pd](https://pbpython.com/) |[quizzes](https://realpython.com/quizzes/)
-| 本人博客 | [python中文库](https://bitbucket.org/xurongzhong/python-chinese-library/wiki/browse/) | [工作日志](https://bitbucket.org/xurongzhong/work_log/wiki/browse/) | [生活](https://bitbucket.org/xurongzhong/life/wiki/browse/) | [健康](https://bitbucket.org/xurongzhong/health/wiki/browse/) | [python小脚本](https://bitbucket.org/xurongzhong/small_python_daily_tools/wiki/browse/) | [软件测试博客](https://bitbucket.org/xurongzhong/testing/wiki/browse/) |
+| 本人博客 | [python中文库](https://bitbucket.org/xurongzhong/python-chinese-library/wiki/browse/) | [工作日志](https://bitbucket.org/xurongzhong/work_log/wiki/browse/) | [生活](https://bitbucket.org/xurongzhong/life/wiki/browse/) | [健康](https://bitbucket.org/xurongzhong/health/wiki/browse/) | [python小脚本](https://bitbucket.org/xurongzhong/small_python_daily_tools/wiki/browse/) | [软件测试](https://bitbucket.org/xurongzhong/testing/wiki/browse/) |
 | 每日新闻 | [美国之音](http://www.voachinese.com/) | [联合早报](http://www.zaobao.com/) | [天气预报](http://www.weather.com.cn/weather/101280601.shtml) | [ft中文](http://www.ftchinese.com/) | [华尔街](http://cn.wsj.com/gb/index.asp) | [路透社](http://cn.reuters.com) 
 | [mc.ai](https://mc.ai/) |   | [cnet](http://www.sznews.com/news/node_18235.htm)　 | 
 | 排名 | [编程流行度](http://pypl.github.io/PYPL.html) | [TIOBE](http://www.tiobe.com/tiobe-index/) | [数据库排名](http://db-engines.com/en/ranking) | [IEEE](http://spectrum.ieee.org/computing/software/the-2016-top-programming-languages) | [codeevalblog](http://blog.codeeval.com/codeevalblog) | [redmonk](http://redmonk.com/sogrady/category/programming-languages/) |   
@@ -23,7 +23,7 @@
 | 购物 | [亚马逊](https://www.amazon.cn/) | [天猫](https://www.tmall.com/) | [淘宝](https://china-testing.github.io/www.taobao.com) | [互动出版](http://www.china-pub.com/) |   | 
 | 博客 | [郑永年](http://www.caogen.com/blog/index.aspx?ID=66) | 
 | 书籍 | [allitebooks](http://www.allitebooks.com/) | [archive](https://archive.org/details/texts) | [DigiLibraries](http://digilibraries.com/)  | [smtebooks](https://smtebooks.com/) | 
-| 书籍 | [rufengso](http://www.rufengso.net/) | [finelybook](http://finelybook.com/) | [pansoso](http://www.pansoso.com/) | [wowebook](http://www.wowebook.org/) | [5kindle](https://5kindle.com/books/29452/) | [爱知客](http://www.izhike.cn/) |
+| 书籍 | [rufengso](http://www.rufengso.net/) | [finelybook](http://finelybook.com/) | [pansoso](http://www.pansoso.com/) | [wowebook](http://www.wowebook.org/) | [5kindle—68682019](https://5kindle.com/books/29452/) | [爱知客](http://www.izhike.cn/) |
 | 工具 | [Git-Cheat-Sheet](https://github.com/flyhigher139/Git-Cheat-Sheet)  | [web酷狗](http://web.kugou.com/) | [网站排行](http://top.chinaz.com/) |  |
 | 下载 | [youtube下载](https://china-testing.github.io/www.findyoutube.com) | [cnet下载](https://archive.org/details/texts) | [3322](http://www.3322.cc/sort/index.html) | [pc6](http://www.pc6.com/) | [西西软件](http://www.cr173.com/)
 | Linux | [rpmfind](http://fr2.rpmfind.net/) | [pkgs](https://pkgs.org/) | [RPM Search](http://rpm.pbone.net/) |   |  
@@ -33,7 +33,8 @@
 万年历 |[黄金易园](http://www.hjqing.com/find/2000/index.asp) | [360](http://hao.360.cn/rili/)  |
 
 **软件** 
-| 类别 | 名称 | 名称 | 名称 | 名称 | 名称 | 名称 
+
+| 类别 | 名称 | 名称 | 名称 | 名称 | 名称 | 名称 |
 | --- | --- | --- | --- | --- | --- | --- |
 **软件** | [pdf转word](https://china-testing.github.io/www.free-pdf-to-word-converter.com/downloads/pdf-to-word-converter.exe) | [在线作图](https://www.draw.io/) | [软件替代](https://china-testing.github.io/alternativeto.net/software/beyond-compare/) | [7zip](https://china-testing.github.io/www.so.com/s?ie=utf-8&shb=1&src=360sou_home&q=7zip) | [Universal-USB-Installer](http://soft.so.com/search?q=Universal-USB-Installer) | [emclient](http://www.emclient.com/download) | [sumatrapd](http://www.sumatrapdfreader.org/downloadafter.html)
 火狐插件 | oscobo |SwitchyOmega |RESTED |Video DownloadHelper 
