@@ -892,9 +892,9 @@ Test-Driven Development with Python, 2nd Edition - 2017 qq群144081101共享
 
 ### 软件测试
 
-  [Pro Apache JMeter Web Application Performance Testing - 2017.pdf](https://www.jianshu.com/p/56125b1c91c0) [下载](https://itbooks.pipipan.com/fs/18113597-384173739)
+  [Pro Apache JMeter Web Application Performance Testing - 2017.pdf](https://www.jianshu.com/p/56125b1c91c0) - [下载](https://itbooks.pipipan.com/fs/18113597-384173739)
 
-  [Performance Testing with JMeter 3 - Third Edition - 2017.pdf](https://www.jianshu.com/p/4c4ce0b8ba45) [下载](https://itbooks.pipipan.com/fs/18113597-384173741)
+  [Performance Testing with JMeter 3 - Third Edition - 2017.pdf](https://www.jianshu.com/p/4c4ce0b8ba45) - [下载](https://itbooks.pipipan.com/fs/18113597-384173741)
 
   [优质代码：软件测试的原则、实践与模式 \- 2015.pdf](https://itbooks.pipipan.com/fs/18113597-316074102)
 
@@ -1296,9 +1296,9 @@ Test-Driven Development with Python, 2nd Edition - 2017 qq群144081101共享
 
 ## 架构
 
-[书籍：企业IT架构转型之道：阿里巴巴中台战略思想与架构实战.pdf](https://www.jianshu.com/p/40ee76d984d0) [下载](https://itbooks.pipipan.com/fs/18113597-394414631)
+[书籍：企业IT架构转型之道：阿里巴巴中台战略思想与架构实战.pdf](https://www.jianshu.com/p/40ee76d984d0) - [下载](https://itbooks.pipipan.com/fs/18113597-394414631)
 
-[书籍：流程的永恒之道](https://www.jianshu.com/p/435cf0fd9ce9)  [下载](https://itbooks.pipipan.com/fs/18113597-384173739)
+[书籍：流程的永恒之道](https://www.jianshu.com/p/435cf0fd9ce9) -  [下载](https://itbooks.pipipan.com/fs/18113597-384173739)
 
 
 
