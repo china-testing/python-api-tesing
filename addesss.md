@@ -29,8 +29,20 @@
 | Linux | [rpmfind](http://fr2.rpmfind.net/) | [pkgs](https://pkgs.org/) | [RPM Search](http://rpm.pbone.net/) |   |  
  | [用药参考](http://drugs.medlive.cn/index.jsp) | [医案查询](http://www.gjmlzy.com:83/KBFmsSearch/Main/Index6) | [中药大全](http://zhongyao.m.supfree.net/) | [中医百科](https://zhongyibaike.com/wiki/%E5%9B%9B%E5%90%9B%E5%AD%90%E6%B1%A4) |
 | 中草药 | [植物图库](http://www.cses.tc.edu.tw/~tiwngien/picture%20datas/plant/oftensees.htm) | [福星花园](https://china-testing.github.io/bruce0342.blogspot.hk) | [认识植物](http://kplant.biodiv.tw/) | [中国植物志](http://frps.eflora.cn/) | [医学百科](http://www.a-hospital.com/w/%E7%99%BD%E8%83%8C%E5%8F%B6) | [中医书籍](http://www.zysj.com.cn/lilunshuji/index.html) 
-| **道家** |[元亨排盘](https://www.china95.net/paipan/bazi/) | [子易排盘](http://forecasting.hk/8words/) | [八字五行算命](http://www.chineseastrologyonline.com/CAGB.htm) | [星相命理](http://tiger168.com/luckytop/lucky03.html) 
-万年历 |[黄金易园](http://www.hjqing.com/find/2000/index.asp) | [360](http://hao.360.cn/rili/)  |
+
+**八字** 
+
+- 排盘
+[元亨排盘](https://www.china95.net/paipan/bazi/)  [子易排盘](http://forecasting.hk/8words/) [八字五行算命](http://www.chineseastrologyonline.com/CAGB.htm) [星相命理](http://tiger168.com/luckytop/lucky03.html) 
+
+- 反推
+
+[f中华预测网-1883-2031](http://www.zhycw.com/pp/index2.aspx)
+
+- 万年历
+
+[黄金易园](http://www.hjqing.com/find/2000/index.asp) [360](http://hao.360.cn/rili/) 
+
 
 **软件** 
 
@@ -42,18 +54,6 @@ chrome插件 |SwitchyOmega
 代码评审　| [reviewboard](https://github.com/reviewboard/reviewboard) [rietveld](https://github.com/rietveld-codereview/rietveld) | [Gerrit](https://www.gerritcodereview.com/) | reviewboard的github评分较高　| [更多参考](https://en.wikipedia.org/wiki/List_of_tools_for_code_review) | [更多参考](https://www.google.com.hk/?gws_rd=ssl#safe=strict&q=best+code+review+tool) |
 其他 |[wujie](https://github.com/wujieliulan/forum)
 
-
-## python知名库
-
-### web自动化
-
--   pyauto
-
-https://chromium.googlesource.com/chromium/src/chrome/test/pyautolib/+/8201b6f5806adfd6cc7d5ec99701f4a01bdb6d64/pyauto.py
-
-http://zqpythonic.qiniucdn.com/data/20120706150852/index.html
-
-### 运维
 
 https://github.com/yorkoliu/pyauto
 
