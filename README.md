@@ -1085,7 +1085,7 @@ Python实现的数据库。
 
  * s4cmd：超级 S3 命令行工具，性能更加强劲。[链接](https://github.com/bloomreach/s4cmd)
 
- * you-get：YouTube/Youku/Niconico 视频下载器，使用 Python3 编写。[链接](https://github.com/soimort/you-get) --推荐
+ * you-get：优酷、YouTube/Youku/Niconico 视频下载器，使用 Python3 编写。[链接](https://github.com/soimort/you-get) --强烈推荐
 
  * youtube-dl：一个小巧的命令行程序，用来下载 YouTube 视频。[链接](http://rg3.github.io/youtube-dl/)
 
