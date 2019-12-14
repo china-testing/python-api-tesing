@@ -37,7 +37,7 @@
 
 - 反推
 
-[f中华预测网-1883-2031](http://www.zhycw.com/pp/index2.aspx)
+[中华预测网-1883-2031](http://www.zhycw.com/pp/index2.aspx) [天机妙算](https://test.askluck.com/bazi/fantui/)
 
 - 万年历
 
