@@ -439,7 +439,7 @@ radar 因为github星级太少而未收录 最近版本参见原文：https://gi
 
 Python的算法和设计模式的实现。
 
- * algorithms - Python的算法模块。 [链接](https://github.com/nryoung/algorithms) 
+ * algorithms - Python的算法模块。 [链接](https://github.com/keon/algorithms)
  
  * PyPattyrn - 简单有效实现通用设计模式。 [链接](https://github.com/tylerlaberge/PyPattyrn) 
 
