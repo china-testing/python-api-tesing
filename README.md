@@ -11,7 +11,6 @@ book_scraper/requests_allitbooks.py 根据搜索词下载allitbooks的书籍，[
 wingide6 破解：other/wingide6_python3_crack.py
 
 
- * [平安产险技术岗内部推荐-大数据测试开发工程师等-欢迎中年人和2020应届生](https://www.jianshu.com/p/e6255434be56)
  * [国学 中医 历史等社科类书籍下载](https://github.com/china-testing/python-api-tesing/blob/master/society_books.md)
  * [电影 视频 下载](https://github.com/china-testing/python-api-tesing/blob/master/videos.md)
  * [IT类书籍 下载](https://github.com/china-testing/python-api-tesing/blob/master/books.md)
@@ -46,7 +45,7 @@ tools目录：
  * [python测试开发自动化测试数据分析人工智能自学每周一练](https://china-testing.github.io/python_weeks.html)
  * [软件自动化测试初学者忠告](https://china-testing.github.io/testing_automation_tips.html)
 
-* 今日头条极速版看新闻可以赚钱，邀请码DBG8ADUK
+* 今日头条极速版看新闻可以赚钱，邀请码DBG8ADUK 抖音极速版：889494501　火山极速版：277335131
 
 * 技术支持qq群： 144081101(后期会录制视频存在该群群文件) 591302926 567351477 钉钉免费群：21745728 
 
