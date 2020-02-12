@@ -435,6 +435,7 @@
 ## 励志
 
 [终身成长-2017](https://sn9.us/file/18113597-410667858) 
+[赋能：打造应对不确定性的敏捷团队.pdf](https://sn9.us/file/18113597-422109170)
 
 
  * [python3快速入门教程1 turtle绘图-1开始](https://china-testing.github.io/python3_crash1.html)
