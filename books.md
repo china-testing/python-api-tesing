@@ -1302,7 +1302,9 @@ Test-Driven Development with Python, 2nd Edition - 2017 qq群144081101共享
 
 [书籍：流程的永恒之道](https://www.jianshu.com/p/435cf0fd9ce9) -  [下载](https://itbooks.pipipan.com/fs/18113597-384173739)
 
+## 其他
 
+[管理外包IT服务 Managing Your Outsourced IT Services Provider How to Unleas.pdf](https://t00y.com/file/18113597-435268934)  
 
 * 技术支持qq群： 144081101(后期会录制视频存在该群群文件) 591302926 567351477 钉钉免费群：21745728 
 
