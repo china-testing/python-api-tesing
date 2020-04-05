@@ -536,6 +536,8 @@ Test-Driven Development with Python, 2nd Edition - 2017 qq群144081101共享
 
 ### 数据分析
 
+[数据科学家职业生涯 Build A Career in Data Science.pdf](https://t00y.com/file/18113597-435268927)
+
 #### pandas
 
 [Python数据挖掘入门与实践(中文完整版) - 2017.pdf](https://u18113597.pipipan.com/fs/18113597-304379622)
