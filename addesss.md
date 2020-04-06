@@ -7,7 +7,7 @@
 
  | 类别 | 名称 | 名称 | 名称 | 名称 | 名称 | 名称 
 | --- | --- | --- | --- | --- | --- | --- |
-**常用** | [oscobo](https://www.oscobo.com/) | [谷歌](https://www.google.com.hk/?gws_rd=ssl) |[谷歌翻译](http://translate.google.cn/?hl=zh-CN) |[360百科](https://baike.so.com/doc/1790119-1892991.html)  | [维基中文](https://zh.wikipedia.org/wiki/Python)
+**常用** | [oscobo](https://www.oscobo.com/) | [谷歌](https://www.google.com.hk/?gws_rd=ssl) |[谷歌翻译](http://translate.google.cn/?hl=zh-CN) |[360百科](https://baike.so.com/doc/1790119-1892991.html)  | [维基中文](https://zh.wikipedia.org/wiki/Python) | [deepl](https://www.deepl.com/translator)
 |-| [必应](https://cn.bing.com/search?q=site%3Achina-testing.github.io&qs=n&form=QBLH&sp=-1&pq=site%3Achina-testing.github.io&sc=0-26&sk=&cvid=CF01D3E7586D46EDA7A260FAD61344CD) | [代码搜索](https://searchcode.com/)| [有道词典](http://dict.youdao.com/) | [百度百科](https://baike.baidu.com/item/Python/407313) | [overflow](http://stackoverflow.com/) | 
 |- | [百度](https://www.baidu.com/) |[so](https://www.so.com/s?ie=utf-8&fr=none&src=360sou_newhome&q=site%3Achina-testing.github.io)|[bing翻译](https://cn.bing.com/Translator) |[知乎](https://www.zhihu.com/) | [维基英文](https://en.wikipedia.org/wiki/Python_(programming_language)) | [空气污染](http://aqicn.org/map/hk/#@g/24.0686/113.7764/7z) |
 |**技术**| [新浪科技](https://tech.sina.com.cn/) | [guru99](https://www.guru99.com/) |[vogella](https://www.vogella.com/tutorials/) |
