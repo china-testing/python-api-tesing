@@ -73,19 +73,19 @@
 
 [中医诊断学 中医药出版社 十版 大学教材.pdf](https://itbooks.pipipan.com/fs/18113597-309192907)
 
-[方剂学 中医药出版社 十版 大学教材.pdf](https://itbooks.pipipan.com/fs/18113597-308220076)
+方剂学 中医药出版社 十版 大学教材.pdf 暂停免费下载 购买联系微信 pythontesting
 
-[中医内科学-中医药出版社 十版 大学教材.pdf](https://itbooks.pipipan.com/fs/18113597-308196549)
+中医内科学-中医药出版社 十版 大学教材.pdf 暂停免费下载 购买联系微信 pythontesting
 
-[中药学-中医药出版社 十版 大学教材.pdf](https://itbooks.pipipan.com/fs/18113597-308188125)
+中药学-中医药出版社 十版 大学教材.pdf 暂停免费下载 购买联系微信 pythontesting
 
-[推拿学-中医药出版社 十版 大学教材.pdf](https://sn9.us/file/18113597-410967247)
+推拿学-中医药出版社 十版 大学教材.pdf 暂停免费下载 购买联系微信 pythontesting
 
 [中医基础理论-中医药出版社 十版 大学教材.pdf](https://sn9.us/file/18113597-410967245)
 
 [新编中医儿科学.epub](https://sn9.us/file/18113597-410971369)
 
-[中医气功学 第十版.pdf](https://sn9.us/file/18113597-425882095)
+中医气功学 第十版.pdf 暂停免费下载 购买联系微信 pythontesting
 
 ### 中医经典
 
