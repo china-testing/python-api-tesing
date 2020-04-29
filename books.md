@@ -450,6 +450,8 @@ Daniel Arbuckle's Mastering Python - 2017.pdf
 
 ### python performance
 
+[python高手的单行绝杀 Python One-Liners - Christian Mayer.pdf](https://t00y.com/file/18113597-440390309)
+
 [Learning Cython Programming(2nd).pdf](https://u18113597.pipipan.com/fs/18113597-304585876)
 
 
