@@ -406,6 +406,8 @@
 
 [书籍：python自然语言处理(PyTorch) Natural Language Processing with PyTorch - 2019](https://www.jianshu.com/p/001938f92fdb)
 
+[书籍：使用Python和spaCy进行自然语言处理 Natural Language Processing with Python and spaCy.pdf](https://t00y.com/file/18113597-441459686)
+
 [书籍：python游戏编码 Coding Games in Python - 2018](https://www.jianshu.com/p/e9fb0185e688)
 
 [书籍：python图像处理 Image Operators - Image Processing in Python - 2019](https://www.jianshu.com/p/baf6d12be2d3)
