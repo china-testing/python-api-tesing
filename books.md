@@ -519,6 +519,8 @@ Daniel Arbuckle's Mastering Python - 2017.pdf
 
 #### Django
 
+* [	Django单机应用 Django Standalone Apps - Ben Lopatin.pdf ](https://545c.com/file/18113597-451087719)
+
 * [Python测试驱动开发：使用Django、Selenium和JavaScript进行Web编程（第2版）- 2018.pdf](https://itbooks.pipipan.com/fs/18113597-315514896)
 * [Beginning Django-2017.pdf](http://file.allitebooks.com/20171030/Beginning%20Django.pdf)
 * [Beginning Django CMS-2015.pdf](http://file.allitebooks.com/20160130/Beginning%20Django%20CMS.pdf)
@@ -543,6 +545,9 @@ Test-Driven Development with Python, 2nd Edition - 2017 qq群144081101共享
 [数据科学家职业生涯 Build A Career in Data Science.pdf](https://t00y.com/file/18113597-435268927)
 
 #### pandas
+
+
+[思考pandas Thinking in Pandas.pdf](https://545c.com/file/18113597-451087733)
 
 [Python数据挖掘入门与实践(中文完整版) - 2017.pdf](https://u18113597.pipipan.com/fs/18113597-304379622)
 
