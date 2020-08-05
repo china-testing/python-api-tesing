@@ -1048,7 +1048,12 @@ Test-Driven Development with Python, 2nd Edition - 2017 qq群144081101共享
 	
 ## 数据库
 
+* [Sams Teach Yourself SQL in 10 Minutes a Day 5th - Ben Forta_.pdf](https://545c.com/file/18113597-456207575)
+
+* [	sql必知必会第4版_.pdf ](https://545c.com/file/18113597-456205729)
+
 ### PostgreSQL
+
 
 * [PostgreSQL Cookbook-2015.pdf](http://file.allitebooks.com/20150908/PostgreSQL%20Cookbook.pdf)
 * [Learning Heroku Postgres-2015.pdf](http://file.allitebooks.com/20151124/Learning%20Heroku%20Postgres.pdf)
