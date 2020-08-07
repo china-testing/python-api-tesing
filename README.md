@@ -1,5 +1,7 @@
 人脸测试的一些小脚本和教程。
 
+- [python测试开发练习](https://github.com/china-testing/python-testing-examples)
+
 bazi/bazi.py：使用python排八字 [文档地址](https://china-testing.github.io/bazi.html)
 
 flask/api_demo: 使用python3和flask构建RESTful API(接口测试服务) 的源码 [文档地址](http://t.cn/RQzD0uY)
@@ -38,12 +40,6 @@ tools目录：
 
  * split_raw.py 切分raw图为ir,depth图
 
-
-
- * [python3快速入门教程1 turtle绘图-1开始](https://china-testing.github.io/python3_crash1.html)
- * [接口自动化性能测试线上培训大纲](https://china-testing.github.io/testing_training.html)
- * [python测试开发自动化测试数据分析人工智能自学每周一练](https://china-testing.github.io/python_weeks.html)
- * [软件自动化测试初学者忠告](https://china-testing.github.io/testing_automation_tips.html)
 
 * 今日头条极速版看新闻可以赚钱，邀请码DBG78MUK 或 DBG8ADUK 抖音极速版：889494501　火山极速版：277335131
 
