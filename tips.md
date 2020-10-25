@@ -18,7 +18,7 @@ https://stackoverflow.com/questions/13716658/how-to-delete-all-commit-history-in
 
 https://github.com/ekalinin/github-markdown-toc
 
-/home/andrew/code/gh-md-toc   ~/code/python-api-tesing/books.md
+/home/andrew/code/github-markdown-toc  /home/andrew/code/python-testing-examples/README.md
  
 ## pelican.server
 

@@ -454,6 +454,13 @@
 
 [囚徒健身： 用失传的技艺练就强大的生存实力.pdf](https://t00y.com/file/18113597-428517687)
 
+## 记忆力
+
+[你不是记性差，只是没找对方法.pdf](https://545c.com/file/18113597-468112049) 
+
+[间谍学校：像间谍一样记忆.pdf](https://545c.com/file/18113597-468112047)
+
+[最强大脑：人人学得会的记忆力训练术.pdf](https://545c.com/file/18113597-468112027)
 
  * [python3快速入门教程1 turtle绘图-1开始](https://china-testing.github.io/python3_crash1.html)
  * [接口自动化性能测试线上培训大纲](https://china-testing.github.io/testing_training.html)
