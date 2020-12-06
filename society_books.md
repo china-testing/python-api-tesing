@@ -383,6 +383,13 @@
 
 [紫微斗数讲义-2013.pdf](https://545c.com/file/18113597-470814827)
 
+[万年历- 2013.pdf](https://itbooks.pipipan.com/fs/18113597-373452308)
+
+[中华万年历全书(超值版) (家庭珍藏经典畅销书系)-2012.pdf](https://itbooks.pipipan.com/fs/18113597-373454963)
+
+[中华民俗万年历-2007.pdf](https://itbooks.pipipan.com/fs/18113597-373452341)
+
+[新编实用万年历(1901-2100年)(第2版) - 2011.pdf](https://itbooks.pipipan.com/fs/18113597-373452337)
 
 ## 地理
 
