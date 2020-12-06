@@ -22,7 +22,8 @@
       * [地理](#地理)
       * [书法](#书法)
       * [励志](#励志)  
-      * [记忆力](#记忆力)          
+      * [记忆力](#记忆力)      
+      * [英语](#英语)            
       
 # 经典软件
 
@@ -473,6 +474,16 @@
 [间谍学校：像间谍一样记忆.pdf](https://545c.com/file/18113597-468112047)
 
 [最强大脑：人人学得会的记忆力训练术.pdf](https://545c.com/file/18113597-468112027)
+
+## 英语
+
+- [英语词根与单词的说文解字（修订版）.pdf](https://545c.com/file/18113597-474817876)
+- [把你的英语用起来.pdf](https://545c.com/file/18113597-474817868)
+- [Word Smart - Princeton Review.pdf](https://545c.com/file/18113597-474817846)
+- [On Writing Well, 30th Anniversary Edition_ - Zinsser, William.pdf]( https://545c.com/file/18113597-474817838)
+- [How to Speak and Write Correctly (Mian Fei - Devlin,Joseph.pdf](https://545c.com/file/18113597-474817836)
+- [1368个单词就够了.pdf](https://545c.com/file/18113597-474817833)
+- [Word Power Made Easy_ The Complete Handboo - Lewis, Norman.pdf]( https://545c.com/file/18113597-474817824)
 
  * [python3快速入门教程1 turtle绘图-1开始](https://china-testing.github.io/python3_crash1.html)
  * [接口自动化性能测试线上培训大纲](https://china-testing.github.io/testing_training.html)
