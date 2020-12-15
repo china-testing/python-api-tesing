@@ -23,8 +23,10 @@
       * [书法](#书法)
       * [励志](#励志)  
       * [记忆力](#记忆力)      
-      * [英语](#英语)            
-      
+      * [英语](#英语)     
+      * [管理](#管理)               
+      * [历史](#历史)    
+            
 # 经典软件
 
 [PDF编辑器 Adobe_Acrobat_Pro9_160215.rar](https://home.pipipan.com/#item-files/action-index/folder_id-29785334)
@@ -489,6 +491,18 @@
  * [接口自动化性能测试线上培训大纲](https://china-testing.github.io/testing_training.html)
  * [python测试开发自动化测试数据分析人工智能自学每周一练](https://china-testing.github.io/python_weeks.html)
  * [软件自动化测试初学者忠告](https://china-testing.github.io/testing_automation_tips.html)
+
+## 管理
+
+- [领导的方与圆.pdf]( https://545c.com/file/18113597-475804805)
+	
+- [结构思考力.pdf]( https://545c.com/file/18113597-475804774)
+
+- [领导力21法则.pdf](  https://545c.com/file/18113597-475804684)
+
+## 历史
+
+- [未来简史.pdf]( https://545c.com/file/18113597-475804735)
 
 
 * 技术支持qq群： 144081101(后期会录制视频存在该群群文件) 591302926 567351477 钉钉免费群：21745728 
