@@ -639,6 +639,8 @@ django-viewlet因为github星级太少而未收录
 
  * mypy ：静态类型检查。[链接](https://github.com/python/mypy) --推荐
 
+ * pytype ：google的静态类型检查工具，不依赖注解。[链接](https://github.com/google/pytype) --推荐 
+
  * pep8 ：python风格检查。[链接](https://github.com/PyCQA/pycodestyle) --推荐
 
  * prospector - 分析Python代码并输出有关错误，潜在问题，违反常规和复杂性的信息的工具。[prospector](https://github.com/PyCQA/prospector)
