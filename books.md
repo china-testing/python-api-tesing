@@ -60,8 +60,12 @@
 
 # 书籍	
 
+- [无人驾驶-2017 A4.4-33__ Driverless Intelligent Cars and the Road Ahead-2016 A4.5-35.pdf](https://545c.com/f/18113597-493950367-88dcc1)
+
 
 ## c_c++
+
+- [Effective C An Introduction to Professional C Programming 2020 a4.5-103--.pdf](https://545c.com/f/18113597-496523838-567abf)
 
 [A Tour of C++ 2nd - 2018.pdf](https://u18113597.pipipan.com/fs/18113597-303086103)
 
@@ -451,6 +455,8 @@ Python基础教程（第3版) - 2017.pdf
 Daniel Arbuckle's Mastering Python - 2017.pdf
 
 
+
+
 ### python performance
 
 [python高手的单行绝杀 Python One-Liners - Christian Mayer.pdf](https://t00y.com/file/18113597-440390309)
@@ -749,6 +755,10 @@ Test-Driven Development with Python, 2nd Edition - 2017 qq群144081101共享
 
 ### 数据结构
 
+- [python代码精炼 Cracking Codes with Python -2018 Ae4.8-260__.pdf](https://545c.com/f/18113597-493934644-bf86c4)
+- [算法图解-2017 A4.5-100__ Grokking Algorithms.pdf 	中文版，python及其他语言描述 ](https://545c.com/f/18113597-493323025-446c7c)
+- [40 Algorithms Every Programmer-2020 A4.3-102__.pdf 	英文版，python及其他语言描述，2020年新书](https://545c.com/f/18113597-493323022-ee888a)
+
 [算法图解 \- 2017.pdf](https://itbooks.pipipan.com/fs/18113597-321523035)
 
 [数据结构与算法__Python语言描述-2015.pdf](https://itbooks.pipipan.com/fs/18113597-321523014)
@@ -903,6 +913,17 @@ Test-Driven Development with Python, 2nd Edition - 2017 qq群144081101共享
   [自动化试卷.pdf](https://itbooks.pipipan.com/fs/18113597-316083192)
 
 ### 软件测试
+
+- [Doing Agile Right-2020](https://545c.com/f/18113597-492993454-0bc945)
+- [Agile Conversation-2020](ttps://545c.com/f/18113597-492993435-7c7cf0)
+
+
+- [自动化测试点滴 Software Testing Automation Tips-2017.pdf](https://545c.com/f/18113597-493119549-84944e)
+- [软件测试简介 A Friendly Introduction to Software Testing-2016 A4.3-38__.pdf](https://545c.com/f/18113597-493119547-c4b508)
+- [使用python进行selenium测试 Python Testing with Selenium-2021 A5-2——.pdf](https://545c.com/f/18113597-493951160-f3f156)
+- [python HTTP自动化测试： Python Requests Essentials -2015__.pdf](https://545c.com/f/18113597-493934407-38aec6)
+- [python自动化菜单 第2版 Python Automation Cookbook -2020 2nd Ae4.3-34__.pdf](https://545c.com/f/18113597-493950719-7b6f40)
+- [python测试：pytest Python Testing with pytest-2017 4.5 Ae4.5-92__.pdf](https://545c.com/f/18113597-493950522-3b3724)
 
   [Pro Apache JMeter Web Application Performance Testing - 2017.pdf](https://www.jianshu.com/p/56125b1c91c0) - [下载](https://itbooks.pipipan.com/fs/18113597-384173739)
 
