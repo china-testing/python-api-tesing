@@ -1466,6 +1466,7 @@ Python版本和环境管理
 
 ## 自然语言处理(Natural Language Processing)
 
+*   汉字转拼音(pypinyin) [连接](https://github.com/mozillazg/python-pinyin) - 推荐
 *   NLTK：构建Python程序以处理人类语言数据的领先平台。[连接](https://github.com/nltk/nltk) - 推荐
 *   jieba：中文分词工具。[官网](https://github.com/fxsjy/jieba) - 推荐
 *   langid.py：独立的语言识别系统。[官网](https://github.com/saffsd/langid.py)
@@ -1624,23 +1625,25 @@ Python版本和环境管理
 *用于开发RESTful API的库。*
 
 * Django
-    * [django-rest-framework](http://www.django-rest-framework.org/) - 功能强大且灵活的工具包，用于构建Web API。 --强烈推荐
-    * [django-tastypie](http://tastypieapi.org/) - 为Django应用程序创建美味的API。 --推荐
+  * [django-rest-framework](http://www.django-rest-framework.org/) - 功能强大且灵活的工具包，用于构建Web API。 --强烈推荐
+  * [django-tastypie](http://tastypieapi.org/) - 为Django应用程序创建美味的API。 --推荐
 * Flask
-    * [eve](https://github.com/pyeve/eve) - 由Flask，MongoDB提供支持的REST API框架和。  --推荐
-    * [flask-api-utils](https://github.com/marselester/flask-api-utils) - 负责Flask的API表示和身份验证。
-    * [flask-api](http://www.flaskapi.org/) - 适用于Flask的Browsable Web API。
-    * [flask-restful](https://github.com/flask-restful/flask-restful) - 快速构建适用于Flask的REST API。 --推荐
-    * [flask-restless](https://github.com/jfinkels/flask-restless) - 为使用SQLAlchemy定义的数据库模型生成RESTful API。
+  * [eve](https://github.com/pyeve/eve) - 由Flask，MongoDB提供支持的REST API框架和。  --推荐
+  * [flask-api-utils](https://github.com/marselester/flask-api-utils) - 负责Flask的API表示和身份验证。
+  * [flask-api](http://www.flaskapi.org/) - 适用于Flask的Browsable Web API。
+  * [flask-restful](https://github.com/flask-restful/flask-restful) - 快速构建适用于Flask的REST API。 --推荐
+  * [flask-restless](https://github.com/jfinkels/flask-restless) - 为使用SQLAlchemy定义的数据库模型生成RESTful API。
 *Pyramid 
-    * [cornice](https://github.com/Cornices/cornice) - Pyramid的RESTful框架。
+  * [cornice](https://github.com/Cornices/cornice) - Pyramid的RESTful框架。
 *其他
-    * [falcon](http://falconframework.org/) - 一个用于构建云API和Web应用后端的高性能框架。
-    * [hug](https://github.com/timothycrosley/hug) - 一个Python3框架，用于通过HTTP干净地公开API以及带有自动文档和验证的命令行。 --推荐
-    * [restless](https://github.com/toastdriven/restless) - 基于从Tastypie学到的经验教训的框架不可知的REST框架。
-    * [ripozo](https://github.com/vertical-knowledge/ripozo) - 快速创建REST / HATEOAS / Hypermedia API。
-    * [sandman](https://github.com/jeffknupp/sandman) - 现有数据库驱动系统的自动化REST API。
-    * [apistar](https://github.com/encode/apistar) - 为Python 3设计的智能Web API框架。--推荐
+  * [falcon](http://falconframework.org/) - 一个用于构建云API和Web应用后端的高性能框架。
+  * [hug](https://github.com/timothycrosley/hug) - 一个Python3框架，用于通过HTTP干净地公开API以及带有自动文档和验证的命令行。 --推荐
+  * [fastapi](https://github.com/tiangolo/fastapi) - 现代的、快速的、基于标准Python类型提示的Web框架，用于用Python 3.6+构建API。　-- 强烈推荐　[中文快速入门](https://www.jianshu.com/p/4d8120af7c4c) https://www.jianshu.com/p/4d8120af7c4c
+  * [ripozo](https://github.com/vertical-knowledge/ripozo) - 快速创建REST / HATEOAS / Hypermedia API。
+  * [sandman2](https://github.com/jeffknupp/sandman2) - 现有数据库驱动系统的自动化REST API。
+  * [apistar](https://github.com/encode/apistar) - 为Python 3设计的智能Web API框架。--推荐
+  * [vibora](https://github.com/vibora-io/vibora) - 快速、高效、异步的Web框架，灵感来自Flask。
+  * [sanic](https://github.com/sanic-org/sanic) - 异步Python 3.7+ web server/framework | 快速构建及执行。 　--推荐
 
 ## RPC服务器(RPC Servers)
 
