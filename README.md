@@ -7,7 +7,7 @@
  
  * [python八字排盘库](https://github.com/china-testing/bazi)
  * 技术支持：看八字风水请联系钉钉、抖音或微信pythontesting
- * 另有飞书、微信、钉钉、抖音等提供大量免费电子书共享。
+ * 另有飞书、微信、钉钉、抖音等提供大量免费电子书共享。 八字培训等
 
 
 tools目录：
@@ -32,8 +32,6 @@ tools目录：
 
  * split_raw.py 切分raw图为ir,depth图
 
-
-* 看八字风水请联系钉钉或者微信pythontesting
 
 Table of Contents
 =================
@@ -172,9 +170,6 @@ https://github.com/atinfo/awesome-test-automation
 
 https://westurner.github.io/wiki/awesome-python-testing
 
-交流QQ群：python 测试开发自动化测试 144081101  Python数据分析pandas Excel 630011153 中医草药自学自救大数据 391441566 南方中医草药鉴别学习 184175668 中医草药湿热湿疹胃病 291184506 python高级人工智能视觉 6089740 
-
-wechat： pythontesting
 
 # 测试开发
 
