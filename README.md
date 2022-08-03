@@ -1,21 +1,13 @@
-人脸测试的一些小脚本和教程。
-
-- [python测试开发练习](https://github.com/china-testing/python-testing-examples)
-
-bazi/bazi.py：使用python排八字 [文档地址](https://china-testing.github.io/bazi.html)
-
-flask/api_demo: 使用python3和flask构建RESTful API(接口测试服务) 的源码 [文档地址](http://t.cn/RQzD0uY)
-
-book_scraper：一些爬取书籍的脚本。如果你知道有更好的免费书籍下载站点或下载脚本，请联系xurongzhong#126.com，谢谢 [文档地址](http://t.cn/RQzD0uY)
-
-book_scraper/requests_allitbooks.py 根据搜索词下载allitbooks的书籍，[文档](http://blog.sciencenet.cn/blog-2604609-1104696.html)
-
-wingide6 破解：other/wingide6_python3_crack.py
 
 
  * [国学 中医 历史等社科类书籍下载](https://github.com/china-testing/python-api-tesing/blob/master/society_books.md)
  * [电影 视频 下载](https://github.com/china-testing/python-api-tesing/blob/master/videos.md)
  * [IT类书籍 下载](https://github.com/china-testing/python-api-tesing/blob/master/books.md)
+ 
+ 
+ * [python八字排盘库](https://github.com/china-testing/bazi)
+ * 技术支持：看八字风水请联系钉钉、抖音或微信pythontesting
+ * 另有飞书、微信、钉钉、抖音等提供大量免费电子书共享。
 
 
 tools目录：
@@ -41,11 +33,7 @@ tools目录：
  * split_raw.py 切分raw图为ir,depth图
 
 
-* 今日头条极速版看新闻可以赚钱，邀请码DBG78MUK 或 DBG8ADUK 抖音极速版：889494501　火山极速版：277335131
-
-* 技术支持qq群： 144081101(后期会录制视频存在该群群文件) 591302926 567351477 钉钉免费群：21745728 
-
-* 道家技术-手相手诊看相中医等钉钉群21734177 qq群：391441566 184175668 338228106 看手相、面相、舌相、抽签、体质识别。服务费50元每人次起。请联系钉钉或者微信pythontesting
+* 看八字风水请联系钉钉或者微信pythontesting
 
 Table of Contents
 =================
