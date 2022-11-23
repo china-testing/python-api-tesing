@@ -221,7 +221,9 @@ https://westurner.github.io/wiki/awesome-python-testing
 
  * pywinauto - Windows UI自动化。 [链接](https://github.com/pywinauto/pywinauto/) 
 
- * SikuliX - 基于OpenCV的GUI测试框架，使用图像识别来定位与之间的项目，来自python 2.7的脚本，跨平台。[链接](https://github.com/RaiMan/SikuliX-2014) 
+ * SikuliX - sikuli的稳定长期更新版本。[链接](https://github.com/RaiMan/SikuliX1) 
+ 
+ * Python-UIAutomation-for-Windows - uiautomation封装了微软UIAutomation API，支持自动化Win32，MFC，WPF，Modern UI(Metro UI), Qt, IE, Firefox等。[链接](https://github.com/yinkaisheng/Python-UIAutomation-for-Windows)  国产
 
 
 ## UI测试
