@@ -1,4 +1,5 @@
 
+python测试开发钉钉群：21745728，目前800多人，另有几千人的python测试开发微信群，可联系 钉钉或微信号 pythontesting 加群（备注：python）！
 
  * [国学 中医 历史等社科类书籍下载](https://github.com/china-testing/python-api-tesing/blob/master/society_books.md)
  * [电影 视频 下载](https://github.com/china-testing/python-api-tesing/blob/master/videos.md)
@@ -2077,10 +2078,6 @@ Where to discover new Python libraries.
 
 
 ### 持续更新
-
-[接口自动化性能测试线上培训大纲](https://china-testing.github.io/testing_training.html)
-
-交流QQ群：python 测试开发自动化测试 144081101 python高级人工智能视觉 6089740 
 
 wechat： pythontesting
 
