@@ -2,11 +2,10 @@
 # -*- coding: utf-8 -*-
 # https://china-testing.github.io/pil1.html
 # https://github.com/china-testing/python-api-tesing/blob/master/practices/pillow/rotate.py
-# 项目实战讨论QQ群630011153 144081101
 # CreateDate: 2018-12-26
 from PIL import Image
 
-im = Image.open("qun.jpg")
+im = Image.open("../../python3_libraries/pillow/demo.jpg")
 print(im.size)
 im.show()
 
