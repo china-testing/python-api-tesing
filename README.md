@@ -177,6 +177,9 @@ https://westurner.github.io/wiki/awesome-python-testing
 
 ## Web UI测试自动化
 
+ * [PyAutoGUI](https://github.com/asweigart/pyautogui) - 跨平台GUI自动化Python模块。
+ 
+ * [Schemathesis](https://github.com/kiwicom/schemathesis) - 用Open API / Swagger规范构建的Web应用程序进行基于属性的自动测试的工具。
 
  * splinter - web UI测试工具，基于selnium封装。 [链接](https://github.com/cobrateam/splinter) 
 
@@ -407,6 +410,7 @@ radar 因为github星级太少而未收录 最近版本参见原文：https://gi
 
  * django-xadmin -  方便的Django admin替代。 完全支持插件扩展，基于 Twitter Bootstrap，并有站内书签、支持 xls, csv, xml和json数据导入等不少增强。 [链接](https://github.com/sshwsfc/xadmin) 
 
+ * [jet-bridge](https://github.com/jet-admin/jet-bridge) - 管理面板框架，适用于任何具有良好用户界面的应用程序（例如Jet Django）
 
  * flask-admin - Flask的简单和可扩展的 web 管理界面框架。  [链接](https://github.com/flask-admin/flask-admin) 
 
@@ -616,32 +620,33 @@ django-viewlet因为github星级太少而未收录
     * Flake8：模块化源码检查工具: pycodestyle, pyflakes 以及 McCabe的封装。[链接](https://gitlab.com/pycqa/flake8) 
       * [awesome-flake8-extensions](https://github.com/DmytroLitvinov/awesome-flake8-extensions)
     * pylama：python和JavaScript代码审计。[链接](https://github.com/klen/pylama) 
+    * Pylint：完全可定制的源码分析器。[链接](https://github.com/PyCQA/pylint)     
+    * [wemake-python-styleguide](https://github.com/wemake-services/wemake-python-styleguide) - 有史以来最严格和最有主见的Python linter. 
+    
+  * 代码格式化    
+    * pep8 ：python风格检查。[链接](https://github.com/PyCQA/pycodestyle) --推荐  
+    * autopep8：自动格式化 Python 代码，以使其符合 PEP8 规范。[链接](https://github.com/hhatto/autopep8) --推荐  
+    * [black](https://github.com/python/black) - 不折不扣的Python代码格式化器。
+    * [isort](https://github.com/timothycrosley/isort) - 对import进行排序的Python工具/库。
+    * [yapf](https://github.com/google/yapf) - 来自Google的Python代码格式化器。    
+
+  * 静态类型检查 [awesome-python-typing](https://github.com/typeddjango/awesome-python-typing)
+  
+    * mypy ：静态类型检查。[链接](https://github.com/python/mypy) --推荐
+    * [pyre-check](https://github.com/facebook/pyre-check) - 执行类型检查
+    * [typeshed](https://github.com/python/typeshed) - 类型注释。
+    
+  * 静态类型注释生成器
+    * [MonkeyType](https://github.com/Instagram/MonkeyType) - 通过收集运行时类型生成静态类型注释。
+    * [pytype](https://github.com/google/pytype) - Pytype检查和推断Python代码的类型 - 不需要类型注释。    
  
-* [black](https://github.com/python/black) - The uncompromising Python code formatter. 
 
- * Pylint：一个完全可定制的源码分析器。[链接](https://github.com/PyCQA/pylint) 
-
-
-
- * YAPF: Google的Python代码格式化工具。[链接](https://github.com/google/yapf) --推荐
-
- * pylama：Python 和 JavaScript 的代码审查工具。[链接](https://github.com/klen/pylama/blob/develop/docs/index.rst) 
-
- * autopep8：自动格式化 Python 代码，以使其符合 PEP8 规范。[链接](https://github.com/hhatto/autopep8) --推荐
-
- * mypy ：静态类型检查。[链接](https://github.com/python/mypy) --推荐
-
- * pytype ：google的静态类型检查工具，不依赖注解。[链接](https://github.com/google/pytype) --推荐 
-
- * pep8 ：python风格检查。[链接](https://github.com/PyCQA/pycodestyle) --推荐
-
-
- 
- * [pyre-check](https://github.com/facebook/pyre-check) - Performant type checking.
 
 ## 命令行工具(Command-line Tools)
 
 ### 命令行程序开发( Command-line Application Development)
+
+ * [alive-progress](https://github.com/rsalmei/alive-progress) - 一种新的进度条，具有实时吞吐量、等值和非常酷的动画效果。
 
  * asciimatics：跨平台，全屏终端包(即鼠标/键盘输入和彩色，定位文本输出)，完整的复杂动画和特殊效果的高级API。[链接](https://github.com/peterbrittain/asciimatics) 
 
@@ -674,6 +679,8 @@ django-viewlet因为github星级太少而未收录
  * bashplotlib：在终端中进行基本绘图。[链接](https://github.com/glamp/bashplotlib) 
 
  * caniusepython3：判断是哪个项目妨碍你你移植到 Python 3。[链接](https://github.com/brettcannon/caniusepython3) 
+ 
+ * [copyer](https://github.com/pykong/copier) - 用于渲染项目模板的库和命令行工具。
 
  * cookiecutter：从 cookiecutters(项目模板)创建项目的一个命令行工具。[链接](https://github.com/brettcannon/caniusepython3) 
 
@@ -711,6 +718,7 @@ django-viewlet因为github星级太少而未收录
 
 计算机视觉库。
 
+ * [Kornia](https://github.com/arraiyopensource/kornia/) - Kornia是用于PyTorch的可微分计算机视觉库。
  * OpenCV：开源计算机视觉库。[链接](https://opencv.org/) 
  
  [2018最佳人工智能图像处理工具OpenCV书籍下载](https://www.jianshu.com/p/62a32f108341)
@@ -916,6 +924,8 @@ Python实现的数据库。
   * dataset：在数据库中存储 Python 字典
         pymssql：简单的 Microsoft SQL Server 数据库接口。[链接](https://github.com/pudo/dataset) 
 
+  * [SuperSQLite](https://github.com/plasticityai/supersqlite) - 一个建立在[apsw](https://github.com/rogerbinns/apsw)之上的超强SQLite库。
+ 
   * cassandra-python-driver：Cassandra 的 Python 驱动。[链接](https://github.com/datastax/python-driver) 
 
   * HappyBase：Apache HBase。[链接](https://github.com/wbolster/happybase) 
@@ -927,8 +937,6 @@ Python实现的数据库。
   * PyMongo：MongoDB 的官方 Python 客户端。[链接](https://github.com/mongodb/mongo-python-driver) -- 推荐
 
   * redis-py：Redis 的 Python 客户端。[链接](https://github.com/andymccurdy/redis-py) -- 推荐
-
-  * telephus：基于 Twisted 的 Cassandra 客户端。[链接](https://github.com/driftx/Telephus) 
 
   * txRedis：基于 Twisted 的 Redis 客户端。[链接](https://github.com/driftx/Telephus) 
 
@@ -1343,23 +1351,23 @@ Python版本和环境管理
 
 
 *   [pillow](http://hao.jobbole.com/pillow/)：Pillow 是一个更加易用版的 [PIL](http://www.pythonware.com/products/pil/)。[官网](http://pillow.readthedocs.org/en/latest/) -推荐 
-	[python库介绍-图像处理工具pillow中文文档-手册(2018 5.*)](https://china-testing.github.io/python3_lib_pil.html)
-	
+	[python库介绍-图像处理工具pillow中文文档-手册(2018 5.*)](https://china-testing.github.io/python3_lib_pil.html)	
 *   hmap：图像直方图映射。[官网](https://github.com/rossgoodwin/hmap)
 *   imgSeek：使用视觉相似性搜索一组图片集合的项目。[官网](https://sourceforge.net/projects/imgseek/) 较长时间没有更新
 *   nude.py：裸体检测。[官网](https://github.com/hhatto/nude.py)
 *   pyBarcode：不借助 PIL 库在 Python 程序中生成条形码。[官网](https://pythonhosted.org/pyBarcode/)
 *   pygram：类似 Instagram 的图像滤镜。[官网](https://github.com/ajkumar25/pygram)
 *   python-qrcode：纯 Python 实现的二维码生成器。[官网](https://github.com/lincolnloop/python-qrcode) --推荐
+*   [pyvips](https://github.com/libvips/pyvips) - 快速的图像处理库，内存需求低。
 *   Quads：基于四叉树的计算机艺术。[官网](https://github.com/fogleman/Quads)
 *   scikit-image：一个用于(科学)图像处理的 Python 库。[官网](http://scikit-image.org/) --推荐
 *   thumbor：小型图像服务，具有剪裁，尺寸重设和翻转功能。[官网](https://github.com/thumbor/thumbor) --推荐
 *   wand：[MagickWand](http://www.imagemagick.org/script/magick-wand.php)的 Python 绑定。MagickWand 是 ImageMagick 的 C API 。[官网](https://github.com/dahlia/wand)
 *   face_recognition：简单易用的 python 人脸识别库。[官网](https://github.com/ageitgey/face_recognition) --强烈推荐
-*  [pagan](https://github.com/daboth/pagan) - 基于输入字符串和散列的复古identicon(阿凡达)生成。
-*  [opencv-python](https://github.com/skvark/opencv-python) 预编译的opencv-python, opencv-python-headless, opencv-contrib-python and opencv-contrib-python-headless。　--推荐
-*  [imutils](https://github.com/jrosebr1/imutils) 一系列便利函数，可以使用OpenCV和Python轻松进行基本图像处理操作，如平移，旋转，调整大小，骨架化和显示Matplotlib图像。　--推荐
-*  [word_cloud](https://github.com/amueller/word_cloud) 词云
+*   [pagan](https://github.com/daboth/pagan) - 基于输入字符串和散列的复古identicon(阿凡达)生成。
+*   [opencv-python](https://github.com/skvark/opencv-python) 预编译的opencv-python, opencv-python-headless, opencv-contrib-python and opencv-contrib-python-headless。　--推荐
+*   [imutils](https://github.com/jrosebr1/imutils) 一系列便利函数，可以使用OpenCV和Python轻松进行基本图像处理操作，如平移，旋转，调整大小，骨架化和显示Matplotlib图像。　--推荐
+*   [word_cloud](https://github.com/amueller/word_cloud) 词云
 
 ## 实现(Implementations)
 
@@ -1452,7 +1460,7 @@ Python版本和环境管理
 * [Python(x，y)](http://python-xy.github.io/) - 基于Qt和Spyder的面向科学应用的Python发行版。 --推荐
 * [pythonlibs](http://www.lfd.uci.edu/~gohlke/pythonlibs/) - Python扩展包的非官方Windows二进制文件。 --推荐
 * [PythonNet](https://github.com/pythonnet/pythonnet) - .NET公共语言运行时(CLR)的Python集成。
-* [PyWin32](https://sourceforge.net/projects/pywin32/) - Python的Windows扩展。 --推荐
+* [PyWin32](https://github.com/mhammond/pywin32) - Python的Windows扩展。 --推荐
 * [WinPython](https://winpython.github.io/) - Windows 7/8的便携式开发环境。 --推荐
 
 ## 杂项
@@ -1521,14 +1529,21 @@ Python版本和环境管理
  * Django Models：Django 的一部分。[链接](https://docs.djangoproject.com/en/dev/topics/db/models/)
 
  * SQLAlchemy：Python SQL 工具以及对象关系映射工具。[链接](http://www.sqlalchemy.org/)
+   * [awesome-sqlalchemy](https://github.com/dahlia/awesome-sqlalchemy)
+   
+ * [dataset](https://github.com/pudo/dataset) - 在数据库中存储Python dicts - 适合SQLite、MySQL和PostgreSQL。
+ 
+ * [orator](https://github.com/sdispater/orator) - Orator ORM提供了简单而漂亮的ActiveRecord实现。
+ 
+ * [orm](https://github.com/encode/orm) - 异步ORM。
 
- * awesome-sqlalchemy系列 [链接](https://github.com/justquick/django-activity-stream)
+ * Peewee：小巧，富有表达力的 ORM, 支持postgresql, mysql and sqlite。[链接]https://github.com/coleifer/peewee)
 
- * Peewee：一个小巧，富有表达力的 ORM, 支持postgresql, mysql and sqlite。[链接]https://github.com/coleifer/peewee)
-
- * PonyORM：提供面向生成器的 SQL 接口的 ORM。[链接](https://github.com/ponyorm/pony/)
+ * pony：提供面向生成器的 SQL 接口的 ORM。[链接](https://github.com/ponyorm/pony/)
 
  * python-sql：编写 Python 风格的 SQL 查询。[链接](http://python-sql.tryton.org/)
+ 
+ * [pydal](https://github.com/web2py/pydal/) - 纯Python数据库抽象层。 
 
 ### NoSQL 数据库
 
@@ -1700,6 +1715,8 @@ Python版本和环境管理
 * [pysimdjson](https://github.com/TkTech/pysimdjson) - A Python bindings for [simdjson](https://github.com/lemire/simdjson).
 
 * [python-rapidjson](https://github.com/python-rapidjson/python-rapidjson) - A Python wrapper around [RapidJSON](https://github.com/Tencent/rapidjson).
+
+* [ultrajson](https://github.com/esnme/ultrajson) - 用C语言编写的快速JSON解码器和编码器。
 
 
 ## 无服务器框架(Serverless Frameworks
@@ -1981,8 +1998,11 @@ Archive
 全栈 Web 框架。
 
  * Django：Python 界最流行的 web 框架。[链接](https://github.com/django/django) wesome-django系列 [awesome-django](https://github.com/wsvincent/awesome-django) --强烈推荐
+   * [awesome-django](https://github.com/shahraizali/awesome-django)
+   * [awesome-django](https://github.com/wsvincent/awesome-django)
 
  * Flask：Python 微型框架。[链接](https://github.com/pallets/flask)  awesome-flask系列 [链接](https://github.com/humiaozuzu/awesome-flask) --强烈推荐 python web框架第一名
+   * [awesome-flask](https://github.com/humiaozuzu/awesome-flask)
 
  * pyramid：一个小巧，快速，接地气的开源Python web 框架。[链接](https://github.com/Pylons/pyramid/) 
         awesome-pyramid系列 [链接](https://github.com/uralbash/awesome-pyramid) 
@@ -1998,6 +2018,8 @@ Archive
  * TurboGears：易于扩展的全栈微框架。[链接](https://github.com/TurboGears/tg2) 
 
  * web2py：全栈 web 框架和平台，用于安全数据库访问的web用。[链接](https://github.com/web2py/web2py) 
+ 
+ * [Masonite](https://github.com/MasoniteFramework/masonite) - 现代和以开发者为中心的Python网络框架。
 
  * Tornado - web 框架和异步网络库. [链接](https://github.com/tornadoweb/tornado/blob/master/docs/index.rst)
 
@@ -2078,13 +2100,12 @@ Where to discover new Python libraries.
 * [Django Packages](https://djangopackages.org/)
 * [Full Stack Python](https://www.fullstackpython.com/)
 * [Python Cheatsheet](https://www.pythoncheatsheet.org/)
-* [Python Hackers](http://www.oss.io/open-source/)
-* [Python Hackers](http://www.oss.io/open-source/)
 * [Python ZEEF](https://python.zeef.com/alan.richmond)
 * [Python 开发社区](https://www.ctolib.com/python/)
 * [Real Python](https://realpython.com)
 * [Trending Python repositories on GitHub today](https://github.com/trending?l=python)
 * [Сообщество Python Программистов](https://python-scripts.com/)
+* [Pythonic News](https://news.python.sc/)
 
 ## Weekly
 
