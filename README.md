@@ -976,10 +976,16 @@ Python实现的数据库。
   * flask-debugtoolbar：django-debug-toolbar 的 flask 版。[链接]() 
 
   * 性能分析器
-        lineprofiler：逐行性能分析。[链接]() 
+  
+    * lineprofiler：逐行性能分析。[链接](https://github.com/rkern/line_profiler) 
 
-  * Memory Profiler：监控 Python 代码的内存使用。官网、内存
-        profiling：一个交互式 Python 性能分析工具。[链接]() 
+    * Memory Profiler：监控 Python 代码的内存使用。官网、内存 [链接](https://github.com/fabianp/memory_profiler) 
+        
+    * [py-spy](https://github.com/benfred/py-spy) - Python程序的采样分析器. Rust编写.
+    
+    * [pyflame](https://github.com/uber/pyflame) - Python的跟踪分析器    
+    
+    * [vprof](https://github.com/nvdv/vprof) - 可视化Python分析器.    
 
   * 其他
         pyelftools：解析和分析 ELF 文件以及 DWARF 调试信息。[链接]() 
