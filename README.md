@@ -611,7 +611,7 @@ django-viewlet因为github星级太少而未收录
 
  * Flake8：模块化源码检查工具: pep8, pyflakes 以及 co。[链接](https://gitlab.com/pycqa/flake8) 
  
-* [black](https://github.com/ambv/black) - The uncompromising Python code formatter. 
+* [black](https://github.com/python/black) - The uncompromising Python code formatter. 
 
  * Pylint：一个完全可定制的源码分析器。[链接](https://github.com/PyCQA/pylint) 
 
@@ -648,6 +648,8 @@ django-viewlet因为github星级太少而未收录
  * clint：Python 命令行程序工具。[链接](https://github.com/kennethreitz/clint) 
 
  * colorama：跨平台彩色终端文本。[链接](https://github.com/tartley/colorama) 
+ 
+ * [tqdm](https://github.com/tqdm/tqdm) - 用于循环和CLI的快速、可扩展的进度条。
 
  * docopt：Python 风格的命令行参数解析器。[链接](https://github.com/docopt/docopt) --推荐
 
@@ -826,8 +828,6 @@ django-viewlet因为github星级太少而未收录
  * matplotlib：Python 2D 绘图库。[链接](https://github.com/matplotlib/matplotlib) --推荐
 
  * bokeh：用Python进行交互式web绘图。[链接](https://github.com/bokeh/bokeh) --推荐 [英文快速入门](http://bokeh.pydata.org/en/latest/docs/user_guide/quickstart.html) [中文快速入门](https://github.com/DonaldDai/Bokeh-CN) 
-
- * ggplot：ggplot的 Python移植。[链接](https://github.com/yhat/ggpy) -荐
  
  * [plotnine](https://github.com/has2k1/plotnine) - ggplot的 Python移植  -荐
  
@@ -1178,6 +1178,8 @@ Python版本和环境管理
  * virtualenv：创建独立的Python 环境。[链接](https://github.com/pypa/virtualenv/) --强烈推荐
 
  * virtualenvwrapper：virtualenv 的扩展。[链接](https://bitbucket.org/virtualenvwrapper/virtualenvwrapper) --强烈推荐
+ 
+ * [poetry](https://github.com/sdispater/poetry) - 简化Python依赖性管理和打包  --强烈推荐
 
 ## 文件(Files)
 
@@ -2069,6 +2071,7 @@ Where to discover new Python libraries.
 * [Django Packages](https://djangopackages.org/)
 * [Full Stack Python](https://www.fullstackpython.com/)
 * [Python Cheatsheet](https://www.pythoncheatsheet.org/)
+* [Python Hackers](http://www.oss.io/open-source/)
 * [Python Hackers](http://www.oss.io/open-source/)
 * [Python ZEEF](https://python.zeef.com/alan.richmond)
 * [Python 开发社区](https://www.ctolib.com/python/)
