@@ -603,19 +603,25 @@ django-viewlet因为github星级太少而未收录
 
 ## 代码分析和lint(Code Analysis)
 
- * coala：语言独立和易于扩展的代码分析应用程序。[coala](https://github.com/coala/coala/)
+  * 代码分析
 
- * code2flow：把你的 Python 和 JavaScript 代码转换为流程图。暂时无法继续维护。[链接](https://github.com/scottrogowski/code2flow) 
-
- * pycallgraph：这个库可以把你的Python 应用的流程(调用图)进行可视化。[链接](https://github.com/gak/pycallgraph) 
-
- * Flake8：模块化源码检查工具: pep8, pyflakes 以及 co。[链接](https://gitlab.com/pycqa/flake8) 
+    * coala：语言独立和易于扩展的代码分析应用程序。[coala](https://github.com/coala/coala/)
+    * code2flow：把你的 Python 和 JavaScript 代码转换为流程图。暂时无法继续维护。[链接](https://github.com/scottrogowski/code2flow) 
+    * prospector - 分析Python代码并输出有关错误，潜在问题，违反常规和复杂性的信息的工具。[prospector](https://github.com/PyCQA/prospector) 
+    * pycallgraph：这个库可以把你的Python 应用的流程(调用图)进行可视化。[链接](https://github.com/gak/pycallgraph) 
+    * [vulture](https://github.com/jendrikseipp/vulture) - 死代码分析.
+ 
+  * 代码Linters
+      
+    * Flake8：模块化源码检查工具: pycodestyle, pyflakes 以及 McCabe的封装。[链接](https://gitlab.com/pycqa/flake8) 
+      * [awesome-flake8-extensions](https://github.com/DmytroLitvinov/awesome-flake8-extensions)
+    * pylama：python和JavaScript代码审计。[链接](https://github.com/klen/pylama) 
  
 * [black](https://github.com/python/black) - The uncompromising Python code formatter. 
 
  * Pylint：一个完全可定制的源码分析器。[链接](https://github.com/PyCQA/pylint) 
 
- * pylama：python代码审计。[链接](https://github.com/klen/pylama) 
+
 
  * YAPF: Google的Python代码格式化工具。[链接](https://github.com/google/yapf) --推荐
 
@@ -629,7 +635,7 @@ django-viewlet因为github星级太少而未收录
 
  * pep8 ：python风格检查。[链接](https://github.com/PyCQA/pycodestyle) --推荐
 
- * prospector - 分析Python代码并输出有关错误，潜在问题，违反常规和复杂性的信息的工具。[prospector](https://github.com/PyCQA/prospector)
+
  
  * [pyre-check](https://github.com/facebook/pyre-check) - Performant type checking.
 
@@ -1016,6 +1022,7 @@ Python实现的数据库。
 * DevOps的软件和库。*
 
 * [Ansible](https://github.com/ansible/ansible) - 极其简单的IT自动化平台。 --推荐
+* [prometheus](https://github.com/prometheus/client_python) - 普罗米修斯监控平台python官方客户端。 --推荐
 * [Cloud-Init](http://cloudinit.readthedocs.io/en/latest/) - 处理云实例的早期初始化的多分发包。
 * [cuisine](https://github.com/sebastien/cuisine) - 为 Fabric 提供一系列高级函数。
 * [Docker Compose](https://github.com/docker/compose) - 使用[Docker](https://www.docker.com/)的快速隔离开发环境。 --推荐
@@ -1627,9 +1634,9 @@ Python版本和环境管理
   * [flask-api](http://www.flaskapi.org/) - 适用于Flask的Browsable Web API。
   * [flask-restful](https://github.com/flask-restful/flask-restful) - 快速构建适用于Flask的REST API。 --推荐
   * [flask-restless](https://github.com/jfinkels/flask-restless) - 为使用SQLAlchemy定义的数据库模型生成RESTful API。
-*Pyramid 
+* Pyramid 
   * [cornice](https://github.com/Cornices/cornice) - Pyramid的RESTful框架。
-*其他
+* 其他
   * [falcon](http://falconframework.org/) - 一个用于构建云API和Web应用后端的高性能框架。
   * [hug](https://github.com/timothycrosley/hug) - 一个Python3框架，用于通过HTTP干净地公开API以及带有自动文档和验证的命令行。 --推荐
   * [fastapi](https://github.com/tiangolo/fastapi) - 现代的、快速的、基于标准Python类型提示的Web框架，用于用Python 3.6+构建API。　-- 强烈推荐　[中文快速入门](https://www.jianshu.com/p/4d8120af7c4c) https://www.jianshu.com/p/4d8120af7c4c
