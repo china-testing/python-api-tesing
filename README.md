@@ -119,6 +119,7 @@ Table of Contents
          * [其他](#其他)
       * [包管理(Package Management)](#包管理package-management)
       * [包仓库](#包仓库)
+      * [重构(Refactoring)](#Refactoring)      
       * [RESTful API](#restful-api)
       * [RPC服务器(RPC Servers)](#rpc服务器rpc-servers)
       * [科学(Science)](#科学science)
@@ -656,8 +657,6 @@ django-viewlet因为github星级太少而未收录
 
  * cliff：一个用于创建命令行程序的框架，可以创建具有多层命令的命令行程序。[链接](https://git.openstack.org/cgit/openstack/cliff) 
 
- * clint：Python 命令行程序工具。[链接](https://github.com/kennethreitz/clint) 
-
  * colorama：跨平台彩色终端文本。[链接](https://github.com/tartley/colorama) 
  
  * [tqdm](https://github.com/tqdm/tqdm) - 用于循环和CLI的快速、可扩展的进度条。
@@ -962,9 +961,8 @@ Python实现的数据库。
 
   * when.py：提供用户友好的函数来帮助用户进行常用的日期和时间操作。[链接](https://github.com/dirn/When.py) 
 
-  * when.py：人性化的datetime。[链接](https://github.com/dirn/When.py) 
-
-
+  * [maya](https://github.com/timofurrer/maya)：人性化的datetime。
+  
 ## 调试工具(Debugging Tools)
 
 代码调试的库。
@@ -1160,8 +1158,6 @@ python-currencies因为星级较少没有收录
 
  * imbox：人性化的Python IMAP 库[链接](https://github.com/martinrusev/imbox)
 
- * inbox.py：人性化的Python SMTP 服务器。[链接](https://github.com/kennethreitz/inbox.py)
-
  * inbox：具有时尚API的IMAP/SMTP同步系统。[链接](https://github.com/nylas/sync-engine) -- 推荐
 
  * lamson：Python 风格的 SMTP 应用服务器。[链接](https://github.com/zedshaw/lamson)
@@ -1250,6 +1246,8 @@ Python版本和环境管理
 
  * Toolz：一组用于迭代器，函数和字典的函数式编程工具。[链接](https://github.com/pytoolz/toolz) 
  
+ * [returns](https://github.com/dry-python/returns) - 一组类型安全的单体、tranformers和组合工具
+ 
 ##动态消息
 
 用来创建用户活动的库。
@@ -1322,7 +1320,7 @@ Python版本和环境管理
 使用 HTTP 的库。
 *   aiohttp：基于 asyncio 的异步 HTTP 网络库。[官网](https://github.com/aio-libs/aiohttp)
 *   requests：人性化的 HTTP 请求库。[官网](http://docs.python-requests.org/en/latest/) --强烈推荐
-*   grequests：requests 库 + gevent ，用于异步 HTTP 请求.[官网](https://github.com/kennethreitz/grequests)
+*   grequests：requests 库 + gevent ，用于异步 HTTP 请求.[官网](https://github.com/spyoungtech/grequests)
 *   httplib2：全面的 HTTP 客户端库。[官网](https://github.com/jcgregorio/httplib2)
 *   treq：类似 requests 的 Python API 构建于 Twisted HTTP 客户端之上。[官网](https://github.com/twisted/treq)
 *   urllib3：一个具有线程安全连接池，支持文件 post，清晰友好的 HTTP 库。[官网](https://github.com/shazow/urllib3)
@@ -1503,6 +1501,7 @@ Python版本和环境管理
 
 用于网络编程的库。
 
+*   [uvicorn](https://github.com/encode/uvicorn) - Uvicorn是一个快如闪电的ASGI服务器实现，使用uvloop和httptools。
 *   asyncio：(Python 标准库) 异步 I/O, 事件循环, 协程以及任务。[官网](https://docs.python.org/3/library/asyncio.html) -推荐
 *   [Twisted](https://github.com/twisted/twisted)：一个事件驱动的网络引擎。[官网](https://twistedmatrix.com/trac/) -推荐
 *   pulsar：事件驱动的并发框架。[官网](https://github.com/quantmind/pulsar)
@@ -1510,7 +1509,7 @@ Python版本和环境管理
 *   pyzmq：ZeroMQ 消息库的 Python 封装。[官网](http://zeromq.github.io/pyzmq/)
 *   Toapi：轻巧，简单，快速的 Flask 库，致力于为所有网站提供 API 服务。[官网](https://github.com/gaojiuli/toapi) -推荐
 *   txZMQ：基于 Twisted 的 ZeroMQ 消息库的 Python 封装。[官网](https://github.com/smira/txZMQ)
-* [NAPALM](https://github.com/napalm-automation/napalm) - 用于操纵网络设备的跨供应商API。
+*   [NAPALM](https://github.com/napalm-automation/napalm) - 用于操纵网络设备的跨供应商API。
 
 ### 动态消息
 
@@ -1636,6 +1635,14 @@ Python版本和环境管理
 * [surprise](http://surpriselib.com) - 用于构建和分析推荐系统的scikit。
 * [TensorRec](https://github.com/jfkirk/tensorrec) - TensorFlow中的推荐引擎框架 
  
+## 重构(Refactoring)
+
+*Python的重构工具和库*。
+
+ * [Bicycle Repair Man](http://bicyclerepair.sourceforge.net/) - Bicycle Repair Man，一个Python的重构工具。
+ * [Bowler](https://pybowler.io/) - 现代 Python 的安全代码重构。
+ * [Rope](https://github.com/python-rope/rope) - Rope是一个Python重构库。
+ 
 ## RESTful API
 
 *用于开发RESTful API的库。*
@@ -1732,7 +1739,7 @@ Python版本和环境管理
 
 ### 通用
         
- * tablib：处理 XLS, CSV, JSON, YAML表格数据的模块。[链接](https://github.com/kennethreitz/tablib)
+ * tablib：处理 XLS, CSV, JSON, YAML表格数据的模块。[链接](https://github.com/jazzband/tablib)
 
 ### Office
         
@@ -1960,6 +1967,8 @@ Archive
   * python-goose：HTML内容/文章提取器。[链接](https://github.com/grangier/python-goose) 
 
   * python-readability：arc90的易读性工具的移植。[链接](https://github.com/buriy/python-readability) 
+  
+  * [request-html](https://github.com/psf/requests-html) - Pythonic HTML解析。
 
   * sumy：一个为文本文件和 HTML 页面进行自动摘要的模块。[链接](https://github.com/miso-belica/sumy) 
 
