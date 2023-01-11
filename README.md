@@ -1576,7 +1576,7 @@ Python版本和环境管理
  
 
 
-##权限(Permissions)
+## 权限(Permissions)
 
 *允许或拒绝用户访问数据或功能的库。*
 
@@ -1584,7 +1584,7 @@ Python版本和环境管理
 * [django-guardian](https://github.com/django-guardian/django-guardian) - 为Django 1.2+权限管理
 * [django-rules](https://github.com/dfunckt/django-rules) - 小巧但功能强大的应用程序，它为Django提供对象级权限，而不需要数据库。
 
-##进程(Processes)
+## 进程(Processes)
 
 *用于启动和与OS进程进行通信的库。*
 
@@ -1592,7 +1592,7 @@ Python版本和环境管理
 * [sarge](http://sarge.readthedocs.io/en/latest/) - Subprocesses的另一个封装。
 * [sh](https://github.com/amoffat/sh) - 一个全面的Python子程序替代品。  --推荐
 
-##队列(Queue)
+## 队列(Queue)
 
 *用于处理事件和任务队列的库。*
 
@@ -1602,7 +1602,7 @@ Python版本和环境管理
 * [rq](http://python-rq.org/) - 简单的Python作业队列。 --推荐
 * [simpleq](https://github.com/rdegges/simpleq) - 一个简单的，无限可扩展的基于Amazon SQS的队列。
 
-##推荐系统(Recommender Systems)
+## 推荐系统(Recommender Systems)
 
 *用于构建推荐系统的库。*
 
