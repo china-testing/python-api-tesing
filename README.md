@@ -46,6 +46,7 @@ Table of Contents
       * [Windows UI测试自动化](#windows-ui测试自动化)
       * [UI测试](#ui测试)
       * [性能测试](#性能测试)
+      * [渗透测试](#渗透测试)
       * [跨语言调用](#跨语言调用)
       * [测试框架](#测试框架)
       * [Mock](#mock)
@@ -264,7 +265,12 @@ autopy、WATSUP、winGuiAuto因为较长时间未更新未收录
 
  * boom - 类似ab(ApacheBench)的性能测试工具。 [链接](https://github.com/tarekziade/boom) 
  
+## 渗透测试
  
+* [fsociety](https://github.com/Manisso/fsociety) - 一个渗透测试框架。
+* [setoolkit](https://github.com/trustedsec/social-engineer-toolkit) - 用于社会工程的工具箱。
+* [sqlmap](https://github.com/sqlmapproject/sqlmap) - 自动SQL注入和数据库接管的工具。
+
 ## 跨语言调用
 
  * [python库介绍-jpype：python到java桥](https://china-testing.github.io/python3_lib_jpype1.html)
@@ -719,6 +725,9 @@ django-viewlet因为github星级太少而未收录
 
 计算机视觉库。
 
+
+ * [EasyOCR](https://github.com/JaidedAI/EasyOCR) - 即用型OCR，支持40多种语言。
+ * [Face Recognition](https://github.com/ageitgey/face_recognition) - 简单的面部识别库。
  * [Kornia](https://github.com/arraiyopensource/kornia/) - Kornia是用于PyTorch的可微分计算机视觉库。
  * OpenCV：开源计算机视觉库。[链接](https://opencv.org/) 
  
@@ -729,6 +738,8 @@ django-viewlet因为github星级太少而未收录
  * pytesseract：Google Tesseract OCR 的另一包装库。[链接](https://github.com/madmaze/pytesseract) [文档](https://china-testing.github.io/python3_lib_pytesseract.html)
 
  * SimpleCV：一个用来创建计算机视觉应用的开源框架。[链接](https://github.com/sightmachine/SimpleCV) 
+ 
+ * [tesserocr](https://github.com/sirfz/tesserocr) - 另一个简单的、对Pillow友好的、围绕OCR的`tesseract-ocr` API的包装器。 
 
 ## 并发和并行及异步与网络(Concurrency and Parallelism)
 
@@ -869,6 +880,8 @@ django-viewlet因为github星级太少而未收录
  * Altair - 用于Python的声明式统计可视化库。[链接](https://github.com/altair-viz/altair)
 
  * bqplot - Jupyter Notebook的互动绘图库。[链接](https://github.com/bloomberg/bqplot)
+ 
+ * [Cartopy](https://github.com/SciTools/cartopy) - 支持matplotlib的地图学python库。
 
  * Seaborn - 使用Matplotlib进行统计数据可视化。[链接](https://github.com/mwaskom/seaborn) -荐
 
@@ -924,6 +937,8 @@ Python实现的数据库。
 
   * dataset：在数据库中存储 Python 字典
         pymssql：简单的 Microsoft SQL Server 数据库接口。[链接](https://github.com/pudo/dataset) 
+        
+ * [sqlite3](https://docs.python.org/3/library/sqlite3.html) - (Python标准库)SQlite接口与DB-API 2.0兼容。        
 
   * [SuperSQLite](https://github.com/plasticityai/supersqlite) - 一个建立在[apsw](https://github.com/rogerbinns/apsw)之上的超强SQLite库。
  
@@ -1073,8 +1088,6 @@ Python实现的数据库。
  * Sphinx：Python 文档生成器。[链接](https://github.com/sphinx-doc/sphinx/)
 
  * awesome-sphinxdoc：[链接](https://github.com/yoloseem/awesome-sphinxdoc)
-    
- * MkDocs：对 Markdown 友好的文档生成器。[链接](https://github.com/mkdocs/mkdocs/) -- 推荐
     
  * pdoc：替换Epydoc 的库，可以自动生成 Python 库的 API 文档。[链接](https://github.com/BurntSushi/pdoc )
     
@@ -1268,19 +1281,20 @@ Python版本和环境管理
  * enaml：使用类似 QML 的 Declaratic 语法来创建美观的用户界面。[链接](https://github.com/nucleic/enaml)
  * kivy：创建NUI应用程序的库，可以运行在 Windows, Linux, Mac OS X, Android 以及 iOS 平台上。[链接](https://github.com/kivy/kivy) -推荐
  * pyglet：Python 的跨平台窗口及多媒体库。[链接](https://bitbucket.org/pyglet/)
- * PyQt：跨平台用户界面框架 Qt 的 Python 绑定 ，支持 Qt v4 和 Qt v5。[链接](https://riverbankcomputing.com/software/pyqt/intro)
+ * PyQt：跨平台用户界面框架 Qt 的 Python 绑定 ，支持 Qt v4 和 Qt v5。[链接](https://doc.qt.io/qtforpython/)
  * PySide：跨平台用户界面框架 Qt 的 Python 绑定 ，支持 Qt v4。[链接](https://wiki.qt.io/PySide)
  * Tkinter：Python GUI 标准库。[链接](https://wiki.python.org/moin/TkInter)
  * [PySimpleGUI](https://github.com/PySimpleGUI/PySimpleGUI) - Wrapper for tkinter, Qt, WxPython and Remi that creates a unified, easy to understand & more Python-like interface for beginner and intermediate level custom GUIs. 
  * Toga：Python 原生的, 操作系统原生的 GUI 工具包。[链接](https://github.com/pybee/toga)
  * urwid：创建终端 GUI 应用的库，支持组件，事件和丰富的色彩等。[链接](https://github.com/urwid/urwid)
  * wxPython：wxPython 是 wxWidgets C++ 类库和 Python 语言混合的产物。[链接](https://github.com/wxWidgets/Phoenix/)
+ * [DearPyGui](https://github.com/RaylockLLC/DearPyGui/) - 一个简单的GPU加速的Python GUI框架
  * PyGObject：GLib/GObject/GIO/GTK+ (GTK+3) 的 Python 绑定。[链接](https://wiki.gnome.org/Projects/PyGObject)
  * Flexx：纯 Python编写的用来创建 GUI 程序的工具集，它使用 web 技术进行界面的展示。[链接](https://github.com/flexxui/flexx) 
 
 ## 游戏开发(Game Development)
 
-
+* [Arcade](https://api.arcade.academy/en/latest/) - Arcade是一个现代Python框架，用于制作具有引人注目的图形和声音的游戏。
 * [Cocos2d](https://github.com/los-cocos/cocos) - cocos2d是用于构建2D游戏，演示和其他图形/交互式应用程序的框架。它基于pyglet。
 * [Panda3D](https://www.panda3d.org/) - 由迪士尼开发并由卡内基梅隆娱乐技术中心维护的3D游戏引擎。用C ++编写，完全用Python包装。 -推荐
 * [Pygame](http://www.pygame.org/news.html) - Pygame是一套用于编写游戏的Python模块。  -推荐
@@ -1342,7 +1356,6 @@ Python版本和环境管理
 * [scapy](https://github.com/secdev/scapy) - 出色的数据包操作库。
 * [thrift-tools](https://github.com/pinterest/thrift-tools) thrift抓包工具。
 * mitmproxy：HTTP和抓包库。[官网](https://github.com/mitmproxy/mitmproxy)
-* [wifi](https://github.com/rockymeza/wifi) - 用于在Linux上使用WiFi的Python库和命令行工具。
 *   Pyro：Python 机器人编程库。[官网](http://pyrorobotics.com/)
 *   PyUserInput：跨平台的，控制鼠标和键盘的模块。[官网](https://github.com/SavinaRoja/PyUserInput)
 
@@ -1360,6 +1373,7 @@ Python版本和环境管理
 *   pyBarcode：不借助 PIL 库在 Python 程序中生成条形码。[官网](https://pythonhosted.org/pyBarcode/)
 *   pygram：类似 Instagram 的图像滤镜。[官网](https://github.com/ajkumar25/pygram)
 *   python-qrcode：纯 Python 实现的二维码生成器。[官网](https://github.com/lincolnloop/python-qrcode) --推荐
+*   [pywal](https://github.com/dylanaraps/pywal) - 从图像生成色彩方案的工具。
 *   [pyvips](https://github.com/libvips/pyvips) - 快速的图像处理库，内存需求低。
 *   Quads：基于四叉树的计算机艺术。[官网](https://github.com/fogleman/Quads)
 *   scikit-image：一个用于(科学)图像处理的 Python 库。[官网](http://scikit-image.org/) --推荐
@@ -1414,6 +1428,7 @@ Python版本和环境管理
 * [gunnery](https://github.com/gunnery/gunnery) - 具有基于Web界面的分布式系统的多用途任务执行工具。
 * [Joblib](http://pythonhosted.org/joblib/index.html) - 一组用Python提供轻量级流水线的工具。
 * [plan](https://github.com/fengsp/plan) - 用Python编写crontab文件就像一个魅力一样。
+* [Prefect](https://github.com/PrefectHQ/prefect) - 现代工作流协调框架，使其能够轻松构建、安排和监控强大的数据管道。
 * [schedule](https://github.com/dbader/schedule) - 人性化的 Python 任务调度库。 --推荐
 * [Spiff](https://github.com/knipknap/SpiffWorkflow) - 以纯Python实现的强大的工作流引擎。
 * [TaskFlow](https://github.com/openstack/taskflow) - 可以让你方便执行任务的 Python 库，一致并且可靠。
@@ -1424,9 +1439,11 @@ Python版本和环境管理
 *用于生成和处理日志的库。*
 
 * [Eliot](https://github.com/ScatterHQ/eliot) - 复杂和分布式系统日志。
-* [logbook](https://github.com/getlogbook/logbook) - 记录Python的替代品。
+* [logbook](https://github.com/getlogbook/logbook) - Python logging的替代。
 * [logging](https://docs.python.org/2/library/logging.html) - (Python标准库)Python的日志工具。 --推荐
-* [raven](https://github.com/getsentry/raven-python) - Sentry的Python客户端，用于Web应用程序的日志/错误跟踪，崩溃报告和聚合平台。
+* [loguru](https://github.com/Delgan/loguru) - 旨在为Python带来愉快的日志记录的库。
+* [sentry-python](https://github.com/getsentry/sentry-python) - Python的Sentry SDK。
+* [structlog](https://www.structlog.org/en/stable/) - 结构化的日志记录变得简单。
 
 ## 机器学习
 
@@ -1622,7 +1639,8 @@ Python版本和环境管理
 *用于处理事件和任务队列的库。*
 
 * [celery](http://www.celeryproject.org/) - 基于分布式消息传递的异步任务队列/作业队列。 --推荐
-* [huey](https://github.com/coleifer/huey) - 小多线程任务队列。
+* [daramatiq](https://github.com/Bogdanp/dramatiq) - Python 3的快速、可靠的后台任务处理库。
+* [huey](https://github.com/coleifer/huey) - 小任务队列。
 * [mrq](https://github.com/pricingassistant/mrq) - Queue先生 - 使用Redis＆gevent的Python中的分布式工作者任务队列。
 * [rq](http://python-rq.org/) - 简单的Python作业队列。 --推荐
 * [simpleq](https://github.com/rdegges/simpleq) - 一个简单的，无限可扩展的基于Amazon SQS的队列。
@@ -1703,7 +1721,7 @@ Python版本和环境管理
 * [statsmodels](https://github.com/statsmodels/statsmodels) - Python中的统计建模和计量经济学。 --推荐
 * [SymPy](https://github.com/sympy/sympy) - 符号数学的Python库。
 * [Zipline](https://github.com/quantopian/zipline) - Pythonic算法交易库。 --推荐
-* [SimPy](https://bitbucket.org/simpy/simpy) - 基于流程的离散事件仿真框架。 --推荐
+* [SimPy](https://gitlab.com/team-simpy/simpy) - 基于流程的离散事件仿真框架。 --推荐
 
 ## 搜索
 
@@ -1805,12 +1823,11 @@ Archive
  
 ## 静态网站生成器(Static Site Generator)
 
-* [Cactus(https://github.com/eudicots/Cactus) - 为设计师设计的静态网站生成器。
-* [Hyde](http://hyde.github.io/) - 基于Jinja2的静态网站生成器。
+* MkDocs：对 Markdown 友好的文档生成器。[链接](https://github.com/mkdocs/mkdocs/) -- 推荐
+* [makesite](https://github.com/sunainapai/makesite) - 简单、轻量级、无魔法的静态网站/博客生成器（< 130行）。
 * [Lektor](https://www.getlektor.com/) - 易于使用的静态CMS和博客引擎。
 * [Nikola](https://www.getnikola.com/) - 静态网站和博客生成器。
 * [Pelican](https://blog.getpelican.com/) - 将Markdown或ReST用于内容，Jinja 2用于主题。 支持DVCS，Disqus。AGPL。 --强烈推荐
-* [Tinkerer](http://tinkerer.me/) - 博客引擎和静态网站生成器，由Sphinx提供支持。 
  
 ## 标签(Tagging)
 
@@ -2113,6 +2130,9 @@ Where to discover new Python libraries.
 * [Django Packages](https://djangopackages.org/)
 * [Full Stack Python](https://www.fullstackpython.com/)
 * [Python Cheatsheet](https://www.pythoncheatsheet.org/)
+* [Real Python](https://realpython.com)
+* [The Hitchhiker’s Guide to Python](https://docs.python-guide.org/)
+* [Ultimate Python study guide](https://github.com/huangsam/ultimate-python)
 * [Python ZEEF](https://python.zeef.com/alan.richmond)
 * [Python 开发社区](https://www.ctolib.com/python/)
 * [Real Python](https://realpython.com)
