@@ -1449,12 +1449,16 @@ Python版本和环境管理
 
 *机器学习库。请参阅：[awesome-machine-learning](https://github.com/josephmisiti/awesome-machine-learning#python)。*
 
+
+* [gym](https://github.com/openai/gym) - 一个开发和比较强化学习算法的工具包。
+* [H2O](https://github.com/h2oai/h2o-3) - 开源快速可扩展机器学习平台。
 * [Metrics](https://github.com/benhamner/Metrics) - 机器学习评估指标。
 * [NuPIC](https://github.com/numenta/nupic) - 用于智能计算的Numenta平台。 --推荐
 * [scikit-learn](http://scikit-learn.org/) - 流行的机器学习Python库。 --推荐
 * [Spark ML](http://spark.apache.org/docs/latest/ml-guide.html) - [Apache Spark](http://spark.apache.org/)的可扩展机器学习库。--推荐
 * [vowpal_porpoise](https://github.com/josephreisinger/vowpal_porpoise) - 用于[Vowpal Wabbit]的轻量级Python包装器(https://github.com/JohnLangford/vowpal_wabbit/)。
 * [xgboost](https://github.com/dmlc/xgboost) - 可扩展，可移植且分布式的渐变增强库。 --推荐
+* [MindsDB](https://github.com/mindsdb/mindsdb) - MindsDB是现有数据库的一个开源人工智能层，允许你毫不费力地使用标准查询来开发、训练和部署最先进的机器学习模型。
 
 ## MapReduce
 
