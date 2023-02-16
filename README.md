@@ -95,6 +95,7 @@ Table of Contents
       * [表单(Forms)](#表单forms)
       * [函数式编程(Functional Programming)](#函数式编程functional-programming)
       * [图形用户界面(GUI)](#图形用户界面gui)
+      * [Game Development](#game-development)      
       * [游戏开发(Game Development)](#游戏开发game-development)
       * [地理位置(Geolocation)](#地理位置geolocation)
       * [HTML操作(HTML Manipulation)](#html操作html-manipulation)
@@ -622,7 +623,8 @@ django-viewlet因为github星级太少而未收录
     * pycallgraph：这个库可以把你的Python 应用的流程(调用图)进行可视化。[链接](https://github.com/gak/pycallgraph) 
     * [vulture](https://github.com/jendrikseipp/vulture) - 死代码分析.
     * [gprof2dot](https://github.com/jrfonseca/gprof2dot) - 转换profiling为图形.    
-    * [objgraph](https://github.com/mgedmin/objgraph) - python对象图.      
+    * [objgraph](https://github.com/mgedmin/objgraph) - python对象图.     
+    * [mccabe](https://github.com/pycqa/mccabe) - McCabe复杂度检查.         
  
   * 代码Linters
       
@@ -1008,6 +1010,8 @@ Python实现的数据库。
 
   * 性能分析器
   
+    * pympler：运行时内存分析工具。[链接](https://github.com/pympler/pympler)   
+  
     * lineprofiler：逐行性能分析。[链接](https://github.com/rkern/line_profiler) 
 
     * Memory Profiler：监控 Python 代码的内存使用。官网、内存 [链接](https://github.com/fabianp/memory_profiler) 
@@ -1291,6 +1295,17 @@ Python版本和环境管理
  * [DearPyGui](https://github.com/RaylockLLC/DearPyGui/) - 一个简单的GPU加速的Python GUI框架
  * PyGObject：GLib/GObject/GIO/GTK+ (GTK+3) 的 Python 绑定。[链接](https://wiki.gnome.org/Projects/PyGObject)
  * Flexx：纯 Python编写的用来创建 GUI 程序的工具集，它使用 web 技术进行界面的展示。[链接](https://github.com/flexxui/flexx) 
+ 
+ 
+## GraphQL
+
+*用于处理GraphQL的库。
+
+* [graphene](https://github.com/graphql-python/graphene/) - Python的GraphQL框架。
+* [tartiflette-aiohttp](https://github.com/tartiflette/tartiflette-aiohttp/) - Tartiflette的一个基于aiohttp的包装器，通过HTTP暴露GraphQL APIs。
+* [tartiflette-asgi](https://github.com/tartiflette/tartiflette-asgi/) - Tartiflette GraphQL引擎的ASGI支持。
+* [tartiflette](https://tartiflette.io) - 适用于Python 3.6+和asyncio的SDL-first GraphQL引擎实现。
+
 
 ## 游戏开发(Game Development)
 
