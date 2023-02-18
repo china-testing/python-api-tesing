@@ -1,4 +1,7 @@
 
+逐步迁移到新仓库：  [python_cn_resouce](https://github.com/china-testing/python_cn_resouce)
+
+
 python测试开发钉钉群：21745728，目前800多人，另有几千人的python测试开发微信群，可联系 钉钉或微信号 pythontesting 加群（备注：python）！
 
  * [国学 中医 历史等社科类书籍下载](https://github.com/china-testing/python-api-tesing/blob/master/society_books.md)
